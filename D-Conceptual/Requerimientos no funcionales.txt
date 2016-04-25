@@ -1,0 +1,39 @@
+Requerimmientos no funcionales:
+-Validaciones o restricciones:
+* La compra de un producto online tiene una cantidad maxima 
+en el que puede ser comprado por un mismo cliente y puede variar por pais.
+*La edad del cliente debe ser igual o superior a la edad recomendada 
+para usar el producto.
+* Las lineas de produccion se les reasigna un nuevo 
+producto cuando llega un producto nuevo a la fabrica.
+*La compañia tiene como lineamiento no puede tardar mas de 5 
+dias en enviar un pedido despues 
+de que este es recibido en la fabrica.
+*La compañia solo envia pedidos completos.
+*Las tiendas pagan el 10% de descuento del precio de los catalogos.
+*Las tiendas tienen que vender al precio del catalogo, no puede ser mayor.
+*Para que la compañia responda a los pedidos se debe contar con la informacion
+de la eficiencia.
+
+Reportes:
+*Para cada tienda se debe tener direccion, horarios y foto.
+*Generar la factura de compra con los datos respectivos.
+*Generar las tiendas con mas ventas por año(en euros).
+*Generar l distribucion de temas por pais.
+*Generar temas preferidos por genero.
+*Generar catalogo de los productos lego clasificado en temas, categorias y
+al rango de edades al que va destinado.
+*Consultar detalle de articulo segun los parametros de busqueda de los 
+articulos asociados.
+*Generar top 2 de los temas preferidos por pais y de producto preferido por edades.
+    
+Requerimientos funcionles:
+-Productos:
+*
+*
+-Lego store:
+*
+*
+-Produccion:
+*
+*
