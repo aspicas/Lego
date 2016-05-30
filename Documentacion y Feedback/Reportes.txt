@@ -8,11 +8,12 @@ David
 07.Generar estadística de las valoraciones del producto
 08.Mostrar valoraciones posteriores a la entrega del producto.
 Jessi
-09.Mostrar la tienda buscada
+09.Mostrar la tienda buscada PREGUNTAR
 10.El usuario registrara en el sistema la eficiencia de las fabricas para la administración de los pedido 
-11.El sistema permitirá que se responda a los pedidos si se cuenta con la información de la eficiencia.
+11.El sistema permitirá que se responda a los pedidos si se cuenta con la 
+información de la eficiencia. IGUAL A LA 10
 12.Generar para cada tienda se debe tener dirección, horarios y foto.
 13.Generar la factura de compra con los datos respectivos.
 14.Generar catalogo de los productos lego clasificado en temas, categorías y al rango de edades al que va destinado
 15.Generar factura de compra o pedido
-16.Generar cronograma del inside tour.
+16.Generar cronograma del inside tour. LISTO
