@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="874mm" xmlns="http://www.w3.org/2000/svg" height="359mm" version="1.1" viewBox="0 0 3305 1360" xmlns:xlink="http://www.w3.org/1999/xlink">
-   <text x="3292" y="561" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">.</text>
+<svg width="699mm" xmlns="http://www.w3.org/2000/svg" height="359mm" version="1.1" viewBox="0 0 2644 1360" xmlns:xlink="http://www.w3.org/1999/xlink">
    <path d="M1213,857 A64,171 0 0,0 1277,686" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="575,611 575,334" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="575,334 575,57" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="585,43 575,70 566,43 585,43" stroke="#000000" stroke-width="1"/>
-   <text x="514" y="591" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">esta disponible</text>
+   <text x="518" y="591" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">esta disponible</text>
    <path d="M637,18 L1157,18 A8,8 0 0,1 1165,26 L1165,36" fill="none" stroke="#000000" stroke-width="1"/>
    <path d="M1165,36 L1165,45 A8,8 0 0,0 1173,53 L1725,53" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="623,9 650,18 623,28 623,9" stroke="#000000" stroke-width="1"/>
@@ -14,8 +13,8 @@
    <path d="M1703,1113 L1551,1113 A8,8 0 0,1 1543,1105 L1543,1084" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1543,1084 L1543,1064 A8,8 0 0,0 1535,1056 L1319,1056" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1306,1046 1333,1056 1306,1065 1306,1046" stroke="#000000" stroke-width="1"/>
-   <text x="1660" y="1127" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">emite</text>
-   <text x="1379" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es emitida</text>
+   <text x="1664" y="1127" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">emite</text>
+   <text x="1376" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es emitida</text>
    <path d="M1479,993 L1391,993 A8,8 0 0,0 1383,1001 L1383,1009" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1383,1009 L1383,1017 A8,8 0 0,1 1375,1025 L1319,1025" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1306,1016 1333,1025 1306,1034 1306,1016" stroke="#000000" stroke-width="1"/>
@@ -24,44 +23,44 @@
    <path d="M971,953 L971,1037 A4,4 0 0,0 975,1041 L980,1041" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="980,1041 1106,1041" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="980,939 971,966 962,939 980,939" stroke="#000000" stroke-width="1"/>
-   <text x="1021" y="983" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es detallada</text>
-   <text x="1049" y="1055" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">se detalla</text>
+   <text x="1017" y="983" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es detallada</text>
+   <text x="1053" y="1055" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">se detalla</text>
    <path d="M1693,793 L1693,715 A8,8 0 0,1 1701,707 L1912,707 A5,5 0 0,1 1917,712 L1917,717" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1917,717 L1917,838 A8,8 0 0,1 1909,846 L1757,846" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1743,837 1770,846 1743,855 1743,837" stroke="#000000" stroke-width="1"/>
    <text x="1835" y="841" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es representante</text>
-   <polyline fill="none" points="1756,1003 1884,1003" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="1756,1003 1884,1003" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1884,1003 2013,1003" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="2026,1012 1999,1003 2026,994 2026,1012" stroke="#000000" stroke-width="1"/>
-   <text x="1802" y="998" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">realiza</text>
+   <text x="1799" y="998" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">realiza</text>
    <path d="M2087,1006 L2213,1006 A4,4 0 0,0 2217,1002 L2217,997" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="2217,997 2217,867" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="2074,997 2101,1006 2074,1015 2074,997" stroke="#000000" stroke-width="1"/>
-   <text x="2267" y="898" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es realizado</text>
+   <text x="2157" y="898" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es realizado</text>
    <path d="M1725,151 L1614,151 A4,4 0 0,0 1610,155 L1610,160" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1610,160 1610,793" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1601,806 1610,779 1619,806 1601,806" stroke="#000000" stroke-width="1"/>
-   <text x="1628" y="165" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">están nacionalizadas</text>
+   <text x="1631" y="165" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">están nacionalizadas</text>
    <text x="1557" y="760" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">posee nacionalidad</text>
-   <path d="M2066,1290 L1538,1290 A5,5 0 0,1 1533,1285 L1533,1279" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <path d="M2205,1290 L1538,1290 A5,5 0 0,1 1533,1285 L1533,1279" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1533,1279 L1533,1273 A5,5 0 0,0 1528,1268 L1415,1268" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1402,1259 1429,1268 1402,1277 1402,1259" stroke="#000000" stroke-width="1"/>
-   <text x="2020" y="1305" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">atiende</text>
+   <text x="2158" y="1304" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">atiende</text>
    <text x="1476" y="1263" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es atendido</text>
    <path d="M1415,1212 L1482,1212 A8,8 0 0,0 1490,1204 L1490,1185" fill="none" stroke="#000000" stroke-width="1"/>
    <path d="M1490,1185 L1490,1166 A8,8 0 0,1 1498,1158 L1703,1158" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1402,1202 1429,1212 1402,1221 1402,1202" stroke="#000000" stroke-width="1"/>
    <text x="1467" y="1207" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es hecho</text>
    <text x="1666" y="1173" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">hace</text>
-   <polyline fill="none" points="2066,1329 1581,1329" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="1581,1329 1095,1329" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="1082,1320 1109,1329 1082,1338 1082,1320" stroke="#000000" stroke-width="1"/>
-   <text x="2034" y="1343" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">usa</text>
-   <text x="1147" y="1324" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es usada</text>
+   <path d="M2205,1327 L1650,1327 L1650,1329" fill="none" stroke="#000000" stroke-width="1"/>
+   <path d="M1650,1329 L1650,1332 L1095,1332" fill="none" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="1082,1323 1109,1332 1082,1341 1082,1323" stroke="#000000" stroke-width="1"/>
+   <text x="2172" y="1341" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">usa</text>
+   <text x="1147" y="1327" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es usada</text>
    <path d="M489,846 L489,1030 A8,8 0 0,1 481,1038 L408,1038" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M408,1038 L335,1038 A8,8 0 0,0 327,1046 L327,1262" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="318,1275 327,1249 337,1275 318,1275" stroke="#000000" stroke-width="1"/>
-   <text x="540" y="876" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es fabricado</text>
+   <text x="537" y="876" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">es fabricado</text>
    <polyline fill="none" points="434,1309 631,1309" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="631,1309 829,1309" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="421,1300 447,1309 421,1318 421,1300" stroke="#000000" stroke-width="1"/>
@@ -77,18 +76,18 @@
    <text x="1841" y="204" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">se divide en</text>
    <text x="1796" y="323" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">se localiza</text>
    <path d="M2041,291 L2041,235 A8,8 0 0,1 2049,227 L2114,227 A5,5 0 0,1 2119,232 L2119,237" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <path d="M2119,237 L2119,326 A8,8 0 0,1 2111,334 L2087,334" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="2074,325 2101,334 2074,343 2074,325" stroke="#000000" stroke-width="1"/>
-   <text x="2103" y="339" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">está dividido</text>
-   <polyline fill="none" points="2068,377 2068,457" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="2068,457 2068,537" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="2059,550 2068,523 2078,550 2059,550" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="890,228 890,206" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="890,206 890,185" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="899,171 890,198 881,171 899,171" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="919,228 919,206" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="919,206 919,185" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="929,171 919,198 910,171 929,171" stroke="#000000" stroke-width="1"/>
+   <path d="M2119,237 L2119,305 A8,8 0 0,1 2111,313 L2087,313" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="2074,303 2101,313 2074,322 2074,303" stroke="#000000" stroke-width="1"/>
+   <text x="2103" y="317" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">está dividido</text>
+   <polyline fill="none" points="2068,377 2068,451" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="2068,451 2068,526" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="2059,539 2068,513 2078,539 2059,539" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="890,228 890,190" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="890,190 890,153" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="899,139 890,166 881,139 899,139" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="919,228 919,190" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="919,190 919,153" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="929,139 919,166 910,139 929,139" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="690,611 690,547" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="690,547 690,483" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="699,470 690,497 681,470 699,470" stroke="#000000" stroke-width="1"/>
@@ -105,20 +104,11 @@
    <polyline fill="none" points="1272,798 1213,798" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1199,788 1226,798 1199,807 1199,788" stroke="#000000" stroke-width="1"/>
    <path d="M199,897 L150,897 A5,5 0 0,0 145,902 L145,907" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="145,907 145,1070" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="136,1083 145,1057 154,1083 136,1083" stroke="#000000" stroke-width="1"/>
-   <path d="M144,1145 L139,1145 A5,5 0 0,1 134,1140 L134,1123" fill="none" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="487,1145 333,1145" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="322,1145 144,1145" stroke="#000000" stroke-width="1"/>
-   <path d="M333,1145 A5,5 0 0,0 327,1139" fill="none" stroke="#000000" stroke-width="1"/>
-   <line x1="327" x2="327" y1="1139" y2="1139" stroke="#000000" stroke-width="1"/>
-   <path d="M327,1139 A5,5 0 0,0 322,1145" fill="none" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="144,1110 134,1137 125,1110 144,1110" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="145,907 145,995" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="136,1009 145,982 154,1009 136,1009" stroke="#000000" stroke-width="1"/>
    <path d="M199,867 L105,867 A4,4 0 0,1 101,863 L101,858" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="101,858 101,782" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="110,769 101,795 91,769 110,769" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="1415,1241 1591,1241" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="1591,1241 1767,1241" stroke="#000000" stroke-width="1"/>
    <path d="M1092,57 L1092,52 A4,4 0 0,0 1088,48 L637,48" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1092,494 1092,57" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1082,507 1092,481 1101,507 1082,507" stroke="#000000" stroke-width="1"/>
@@ -148,7 +138,7 @@
    <path d="M1255,553 L1255,547 L1191,547" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1178,538 1205,547 1178,557 1178,538" stroke="#000000" stroke-width="1"/>
    <path d="M1853,345 L1646,345 A4,4 0 0,0 1642,349 L1642,354" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="1642,354 1642,793" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="1642,354 1642,793" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1633,806 1642,779 1652,806 1633,806" stroke="#000000" stroke-width="1"/>
    <path d="M1207,915 L1207,915 L1042,915" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1479,916 1287,916" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
@@ -177,6 +167,18 @@
    <path d="M861,953 L861,1125 A5,5 0 0,1 856,1130 L851,1130" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="851,1130 754,1130" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="870,939 861,966 851,939 870,939" stroke="#000000" stroke-width="1"/>
+   <path d="M2087,355 L2317,355 A5,5 0 0,1 2322,360 L2322,365" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="2322,365 2322,1262" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="2312,1275 2321,1249 2331,1275 2312,1275" stroke="#000000" stroke-width="1"/>
+   <path d="M167,1103 L167,1108 A5,5 0 0,0 172,1113 L322,1113" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="333,1113 487,1113" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <path d="M333,1113 A5,5 0 0,0 327,1107" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <line x1="327" x2="327" y1="1107" y2="1107" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <path d="M327,1107 A5,5 0 0,0 322,1113" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="167,1049 167,1103" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="177,1035 167,1062 158,1035 177,1035" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="1415,1235 1597,1235" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="1597,1235 1778,1235" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <defs>
       <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -210,14 +212,14 @@
    <text x="592" y="648" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
    <text x="592" y="667" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (50)</text>
    <text x="592" y="686" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (300)</text>
-   <text x="592" y="705" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">RANGO</text>
+   <text x="592" y="705" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fila(RANGO)</text>
    <text x="592" y="724" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (10,2)</text>
    <text x="592" y="743" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (5)</text>
    <text x="592" y="762" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">RESUMEN</text>
    <text x="592" y="781" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Image</text>
    <text x="592" y="800" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Date</text>
    <text x="592" y="819" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Binary (999)</text>
-   <text x="592" y="838" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">conj(Characters (20))</text>
+   <text x="592" y="838" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">conj(Char)</text>
    <defs>
       <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -349,10 +351,10 @@
    <text x="1116" y="1070" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
    <text x="1133" y="1032" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ft_codigo</text>
    <text x="1133" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ft_fecha</text>
-   <text x="1133" y="1070" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ft_monto_us</text>
-   <text x="1226" y="1032" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
-   <text x="1226" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Date &amp; Time</text>
-   <text x="1226" y="1070" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (10,2)</text>
+   <text x="1133" y="1070" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ft_monto_usd</text>
+   <text x="1235" y="1032" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
+   <text x="1235" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Date &amp; Time</text>
+   <text x="1235" y="1070" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (10,2)</text>
    <defs>
       <linearGradient id="Gradient8" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -424,17 +426,17 @@
          <stop offset="95%" stop-color="#62b0ff"/>
       </linearGradient>
    </defs>
-   <rect x="2066" y="1262" rx="10" ry="10" fill="url(#Gradient12)" width="256" height="85" stroke="#0080ff" stroke-width="1"/>
-   <text x="2194" y="1279" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">FABRICA</text>
-   <text x="2076" y="1299" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
-   <text x="2076" y="1318" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="2076" y="1337" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="2093" y="1299" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fa_id</text>
-   <text x="2093" y="1318" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fa_nombre</text>
-   <text x="2093" y="1337" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fa_direccion</text>
-   <text x="2187" y="1299" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
-   <text x="2187" y="1318" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (100)</text>
-   <text x="2187" y="1337" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">DIRECCION</text>
+   <rect x="2205" y="1262" rx="10" ry="10" fill="url(#Gradient12)" width="256" height="85" stroke="#0080ff" stroke-width="1"/>
+   <text x="2332" y="1279" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">FABRICA</text>
+   <text x="2215" y="1299" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
+   <text x="2215" y="1318" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="2215" y="1337" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="2232" y="1299" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fa_id</text>
+   <text x="2232" y="1318" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fa_nombre</text>
+   <text x="2232" y="1337" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fa_direccion</text>
+   <text x="2326" y="1299" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
+   <text x="2326" y="1318" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (100)</text>
+   <text x="2326" y="1337" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">DIRECCION</text>
    <defs>
       <linearGradient id="Gradient13" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -497,12 +499,15 @@
    <text x="497" y="1139" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
    <text x="497" y="1158" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
    <text x="497" y="1177" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="497" y="1196" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
    <text x="514" y="1139" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dp_id</text>
-   <text x="514" y="1158" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dp_cantidad</text>
-   <text x="514" y="1177" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dp_subtotal</text>
+   <text x="514" y="1158" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dp_fk_pais</text>
+   <text x="514" y="1177" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dp_cantidad</text>
+   <text x="514" y="1196" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dp_subtotal</text>
    <text x="609" y="1139" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
-   <text x="609" y="1158" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (10)</text>
-   <text x="609" y="1177" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (20,2)</text>
+   <text x="609" y="1158" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
+   <text x="609" y="1177" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (10)</text>
+   <text x="609" y="1196" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (20,2)</text>
    <defs>
       <linearGradient id="Gradient17" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -634,45 +639,48 @@
          <stop offset="95%" stop-color="#00ff00"/>
       </linearGradient>
    </defs>
-   <rect x="1767" y="1187" rx="10" ry="10" fill="url(#Gradient24)" width="182" height="86" stroke="#0080ff" stroke-width="1"/>
-   <text x="1858" y="1204" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">FACTURA PEDIDO</text>
-   <text x="1777" y="1224" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
-   <text x="1777" y="1243" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="1777" y="1262" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="1794" y="1224" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fp_numero</text>
-   <text x="1794" y="1243" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fp_fecha</text>
-   <text x="1794" y="1262" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fp_total</text>
-   <text x="1876" y="1224" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
-   <text x="1876" y="1243" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Date</text>
-   <text x="1876" y="1262" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
+   <rect x="1778" y="1187" rx="10" ry="10" fill="url(#Gradient24)" width="181" height="86" stroke="#0080ff" stroke-width="1"/>
+   <text x="1868" y="1204" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">FACTURA PEDIDO</text>
+   <text x="1788" y="1224" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
+   <text x="1788" y="1243" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="1788" y="1262" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="1805" y="1224" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fp_numero</text>
+   <text x="1805" y="1243" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fp_fecha</text>
+   <text x="1805" y="1262" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">fp_total</text>
+   <text x="1887" y="1224" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
+   <text x="1887" y="1243" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Date</text>
+   <text x="1887" y="1262" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
    <defs>
       <linearGradient id="Gradient25" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#00ff00"/>
       </linearGradient>
    </defs>
-   <rect x="2002" y="537" rx="13" ry="13" fill="url(#Gradient25)" width="256" height="106" stroke="#0080ff" stroke-width="1"/>
-   <text x="2130" y="554" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">INSTALACION</text>
-   <text x="2013" y="574" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
-   <text x="2013" y="593" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="2013" y="612" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="2013" y="631" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="2030" y="574" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_id</text>
-   <text x="2030" y="593" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_nombre</text>
-   <text x="2030" y="612" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_tipo</text>
-   <text x="2030" y="631" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_direccion</text>
-   <text x="2131" y="574" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
-   <text x="2131" y="593" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (10)</text>
-   <text x="2131" y="612" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (50)</text>
-   <text x="2131" y="631" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">DIRECCION</text>
+   <rect x="2002" y="526" rx="16" ry="16" fill="url(#Gradient25)" width="256" height="128" stroke="#0080ff" stroke-width="1"/>
+   <text x="2130" y="543" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">INSTALACION</text>
+   <text x="2015" y="563" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
+   <text x="2015" y="582" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="2015" y="601" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="2015" y="620" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="2015" y="639" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
+   <text x="2032" y="563" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_id</text>
+   <text x="2032" y="582" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ec_id</text>
+   <text x="2032" y="601" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_nombre</text>
+   <text x="2032" y="620" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_tipo</text>
+   <text x="2032" y="639" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">ins_direccion</text>
+   <text x="2133" y="563" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
+   <text x="2133" y="582" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
+   <text x="2133" y="601" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (10)</text>
+   <text x="2133" y="620" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (50)</text>
+   <text x="2133" y="639" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">DIRECCION</text>
    <defs>
       <linearGradient id="Gradient26" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#00ff40"/>
       </linearGradient>
    </defs>
-   <rect x="861" y="131" rx="6" ry="6" fill="url(#Gradient26)" width="117" height="54" stroke="#0080ff" stroke-width="1"/>
-   <text x="919" y="148" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">CLAS_CLAS</text>
+   <rect x="861" y="99" rx="6" ry="6" fill="url(#Gradient26)" width="117" height="54" stroke="#0080ff" stroke-width="1"/>
+   <text x="919" y="116" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">CLAS_CLAS</text>
    <defs>
       <linearGradient id="Gradient27" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -690,19 +698,25 @@
    <rect x="1042" y="494" rx="8" ry="8" fill="url(#Gradient28)" width="149" height="64" stroke="#0080ff" stroke-width="1"/>
    <text x="1116" y="511" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">DETALLE</text>
    <text x="1051" y="531" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
+   <text x="1051" y="550" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
    <text x="1068" y="531" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">det_id</text>
-   <text x="1120" y="531" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
+   <text x="1068" y="550" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">det_fk_pais</text>
+   <text x="1158" y="531" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
+   <text x="1158" y="550" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
    <defs>
       <linearGradient id="Gradient29" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#62b0ff"/>
       </linearGradient>
    </defs>
-   <rect x="61" y="1070" rx="6" ry="6" fill="url(#Gradient29)" width="181" height="53" stroke="#0080ff" stroke-width="1"/>
-   <text x="151" y="1087" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">DET_LOTE</text>
-   <text x="69" y="1107" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">*</text>
-   <text x="83" y="1107" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dl_cantidad</text>
-   <text x="172" y="1107" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
+   <rect x="61" y="995" rx="6" ry="6" fill="url(#Gradient29)" width="181" height="54" stroke="#0080ff" stroke-width="1"/>
+   <text x="151" y="1012" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'" font-weight="bold" text-anchor="middle">DET_LOTE</text>
+   <text x="69" y="1032" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
+   <text x="69" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">#</text>
+   <text x="86" y="1032" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dl_fk_pedido</text>
+   <text x="86" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">dl_fk_det_pedido</text>
+   <text x="216" y="1032" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
+   <text x="216" y="1051" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number (7)</text>
    <defs>
       <linearGradient id="Gradient30" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -773,7 +787,7 @@
    <text x="2493" y="91" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
    <text x="2493" y="110" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Number</text>
    <text x="2493" y="129" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Conj(char)</text>
-   <text x="2493" y="148" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (100)</text>
+   <text x="2493" y="148" fill="#000000" font-size="16" font-family="'Arial Unicode MS','Arial'">Characters (200)</text>
    <defs>
       <linearGradient id="Gradient34" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
