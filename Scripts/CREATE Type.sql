@@ -83,13 +83,13 @@ create or replace type RANGO as object
 /*==============================================================*/
 /* VARRAY: TELEFONO                                             */
 /*==============================================================*/
-create or replace type telefonos_va as varray(10) of telefono;
+create or replace type telefonos_va as varray(3) of telefono;
 /
 
 /*==============================================================*/
 /* NESTED: DIA                                             */
 /*==============================================================*/
-create or replace type dias_va as varray(10) of dia;
+create or replace type dias_va as varray(2) of dia;
 /
 
 /*==============================================================*/
