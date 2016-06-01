@@ -8,11 +8,11 @@ create or replace type idiomas as varray(10) of VARCHAR2(20);
 /*==============================================================*/
 create or replace type RESUMEN as object
 (
-   RE_ALTO              NUMBER(5,2)          not null,
-   RE_ANCHO             NUMBER(5,2)          not null,
-   RE_PROFUNDO          NUMBER(5,2)          not null,
-   RE_IDIOMAS           idiomas           not null,
-   RE_DESCRIPCION       VARCHAR2(200)            not null
+   RE_ALTO              NUMBER(5,2),
+   RE_ANCHO             NUMBER(5,2),
+   RE_PROFUNDO          NUMBER(5,2),
+   RE_IDIOMAS           idiomas,
+   RE_DESCRIPCION       VARCHAR2(200)
 );
 
 /*==============================================================*/
@@ -20,8 +20,8 @@ create or replace type RESUMEN as object
 /*==============================================================*/
 create or replace type DIA as object
 (
-   DIA_HORA             DATE                 not null,
-   DIA_DESCRIPCION      VARCHAR2(500)            not null
+   DIA_HORA             DATE,
+   DIA_DESCRIPCION      VARCHAR2(500)
 );
 
 /*==============================================================*/
@@ -29,8 +29,8 @@ create or replace type DIA as object
 /*==============================================================*/
 create or replace type MONEDA as object
 (
-   MO_NOMBRE            VARCHAR2(3)              not null,
-   MO_CAMBIO            NUMBER(12,4)         not null
+   MO_NOMBRE            VARCHAR2(3),
+   MO_CAMBIO            NUMBER(12,4)
 );
 
 /*==============================================================*/
@@ -38,9 +38,9 @@ create or replace type MONEDA as object
 /*==============================================================*/
 create or replace type HORARIO as object
 (
-   HR_DIA               VARCHAR2(30)             not null,
-   HR_INICIO            DATE                 not null,
-   HR_FIN               DATE                 not null
+   HR_DIA               VARCHAR2(30),
+   HR_INICIO            DATE,
+   HR_FIN               DATE       
 );
 
 /*==============================================================*/
@@ -48,10 +48,10 @@ create or replace type HORARIO as object
 /*==============================================================*/
 create or replace type TELEFONO as object
 (
-   TELE_COD_INT         NUMBER(2)            not null,
-   TELE_COD_AREA        NUMBER(4)            not null,
-   TELE_NUMERO          NUMBER(7)            not null,
-   TELE_TIPO            VARCHAR2(10)             not null
+   TELE_COD_INT         NUMBER(2),
+   TELE_COD_AREA        NUMBER(4),
+   TELE_NUMERO          NUMBER(7),
+   TELE_TIPO            VARCHAR2(10)
 );
 
 /*==============================================================*/
@@ -59,8 +59,8 @@ create or replace type TELEFONO as object
 /*==============================================================*/
 create or replace type COSTO as object
 (
-   CO_MONTO             NUMBER(5,2)          not null,
-   CO_INCLUIDO          NUMBER(5,2)          not null
+   CO_MONTO             NUMBER(5,2),
+   CO_INCLUIDO          NUMBER(5,2)
 );
 
 /*==============================================================*/
@@ -68,8 +68,8 @@ create or replace type COSTO as object
 /*==============================================================*/
 create or replace type RANGO as object
 (
-   RA_VALORI            NUMBER(3)            not null,
-   RA_VALORF            NUMBER(3)            not null
+   RA_VALORI            NUMBER(3),
+   RA_VALORF            NUMBER(3)  
 );
 
 /*==============================================================*/
@@ -87,11 +87,11 @@ create or replace type dias as table of dia;
 /*==============================================================*/
 create or replace type DIRECCION as object
 (
-   DI_CALLE             VARCHAR2(50)             not null,
-   DI_NUMERO_EDIF       VARCHAR2(50)             not null,
-   DI_ZONA_POSTAL       NUMBER(7)            not null,
-   DI_LOCAL             VARCHAR2(5)              not null,
-   DI_TELEFONOS         telefonos      not null
+   DI_CALLE             VARCHAR2(50),
+   DI_NUMERO_EDIF       VARCHAR2(50),
+   DI_ZONA_POSTAL       NUMBER(7),
+   DI_LOCAL             VARCHAR2(5),
+   DI_TELEFONOS         telefonos
 );
 
 /*==============================================================*/
@@ -99,7 +99,7 @@ create or replace type DIRECCION as object
 /*==============================================================*/
 create or replace type TOUR_DIAS as object
 (
-   TD_DIA1              dias            not null,
-   TD_DIA2              dias            not null,
-   TD_DIA3              dias            not null
+   TD_DIA1              dias,
+   TD_DIA2              dias,
+   TD_DIA3              dias  
 );
