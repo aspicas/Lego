@@ -29,4 +29,3 @@ drop type idiomas_va force;
 drop type imagenes_nt force;
 
 drop type rangos_nt force;
-
