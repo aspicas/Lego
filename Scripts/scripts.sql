@@ -353,15 +353,6 @@ create index FK_CIUDAD_CV_FK on CLIENTE_VISITANTE (
 );
 
 /*==============================================================*/
-/* Table: COSTO                                                 */
-/*==============================================================*/
-create table COSTO 
-(
-   CO_MONTO             NUMBER(5,2)          not null,
-   CO_INCLUIDO          NUMBER(5,2)          not null
-);
-
-/*==============================================================*/
 /* Table: DESCUENTO                                             */
 /*==============================================================*/
 create table DESCUENTO 
@@ -512,15 +503,6 @@ create index FK_PRODLOTE_DL_FK on DET_LOTE (
 create index FK_DETPEDIDO_DL_FK on DET_LOTE (
    DL_FK_PEDIDO ASC,
    DL_FK_DET_PEDIDO ASC
-);
-
-/*==============================================================*/
-/* Table: DIA                                                   */
-/*==============================================================*/
-create table DIA 
-(
-   DIA_HORA             DATE                 not null,
-   DIA_DESCRIPCION      VARCHAR2(500)            not null
 );
 
 /*==============================================================*/
@@ -688,16 +670,6 @@ create index FK_LINEA_HP_FK on HISTORICO_PRODUCTO (
 );
 
 /*==============================================================*/
-/* Table: HORARIO                                               */
-/*==============================================================*/
-create table HORARIO 
-(
-   HR_DIA               VARCHAR2(30)             not null,
-   HR_INICIO            DATE                 not null,
-   HR_FIN               DATE                 not null
-);
-
-/*==============================================================*/
 /* Table: INSTALACION                                           */
 /*==============================================================*/
 create table INSTALACION 
@@ -733,15 +705,6 @@ create table LINEA_PROD
 /*==============================================================*/
 create index FK_FABRICA_LP_FK on LINEA_PROD (
    LP_FK_FABRICA ASC
-);
-
-/*==============================================================*/
-/* Table: MONEDA                                                */
-/*==============================================================*/
-create table MONEDA 
-(
-   MO_NOMBRE            VARCHAR2(3)              not null,
-   MO_CAMBIO            NUMBER(12,4)         not null
 );
 
 /*==============================================================*/
@@ -858,26 +821,6 @@ create index FK_PRODUCTO_PREP_FK on PROD_REL (
 );
 
 /*==============================================================*/
-/* Table: RANGO                                                 */
-/*==============================================================*/
-create table RANGO 
-(
-   RA_VALORI            NUMBER(3)            not null,
-   RA_VALORF            NUMBER(3)            not null
-);
-
-/*==============================================================*/
-/* Table: TELEFONO                                              */
-/*==============================================================*/
-create table TELEFONO 
-(
-   TELE_COD_INT         NUMBER(2)            not null,
-   TELE_COD_AREA        NUMBER(4)            not null,
-   TELE_NUMERO          NUMBER(7)            not null,
-   TELE_TIPO            VARCHAR2(10)             not null
-);
-
-/*==============================================================*/
 /* Table: TIENDA                                                */
 /*==============================================================*/
 create table TIENDA 
@@ -912,16 +855,6 @@ create table TOPE
 /*==============================================================*/
 create index FK_CLIENTE_TOPE_FK on TOPE (
    TOPE_CLIENTE ASC
-);
-
-/*==============================================================*/
-/* Table: TOUR_DIAS                                             */
-/*==============================================================*/
-create table TOUR_DIAS 
-(
-   TD_DIA1              fila(DIA)            not null,
-   TD_DIA2              fila(DIA)            not null,
-   TD_DIA3              fila(DIA)            not null
 );
 
 /*==============================================================*/
