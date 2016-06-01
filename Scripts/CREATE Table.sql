@@ -13,9 +13,9 @@ create table CLASIFICACION
    CL_DESCRIPCION       VARCHAR2(1000)           not null,
    CL_LICENCIA          VARCHAR2(1)              not null,
    CL_TIPO              VARCHAR2(7)              not null,
-   CL_IMAGENES          BLOB                 not null,
+   CL_IMAGENES          imagenes_nt,
    constraint PK_CLASIFICACION primary key (CL_ID)
-);
+)NESTED TABLE CL_IMAGENES STORE AS NT_IMAGENES_CLAS;
 
 /*==============================================================*/
 /* Table: CLAS_CLAS                                             */
@@ -44,7 +44,7 @@ create table CLIENTE_VISITANTE
    CV_GENERO            VARCHAR2(1)              not null,
    CV_EXPERIENCIA       VARCHAR2(10)             not null,
    CV_TIPOCLIENTE       VARCHAR2(20)             not null,
-   CV_DIRECCION         DIRECCION            not null,
+   CV_DIRECCION         DIRECCION,
    constraint PK_CLIENTE_VISITANTE primary key (CV_ID)
 );
 
@@ -145,7 +145,7 @@ create table FABRICA
    FA_ID                NUMBER(7)            not null,
    FA_FK_CIUDAD         NUMBER(7)            not null,
    FA_NOMBRE            VARCHAR2(100)            not null,
-   FA_DIRECCION         DIRECCION            not null,
+   FA_DIRECCION         DIRECCION,
    constraint PK_FABRICA primary key (FA_ID)
 );
 
@@ -187,6 +187,17 @@ create table FACTURA_TIENDA
 );
 
 /*==============================================================*/
+/* Table: FECHAS                                                */
+/*==============================================================*/
+create table FECHAS 
+(
+   FE_FECHA             DATE                 not null,
+   FE_TOUR              TOUR_DIAS,
+   FE_COSTO             NUMBER(5,2)          not null,
+   constraint PK_FECHAS primary key (FE_FECHA)
+);
+
+/*==============================================================*/
 /* Table: HISTORICO_PRODUCTO                                    */
 /*==============================================================*/
 create table HISTORICO_PRODUCTO 
@@ -208,7 +219,7 @@ create table INSTALACION
    INS_FK_CIUDAD        NUMBER(7)            not null,
    INS_NOMBRE           VARCHAR2(10)             not null,
    INS_TIPO             VARCHAR2(50)             not null,
-   INS_DIRECCION        DIRECCION            not null,
+   INS_DIRECCION        DIRECCION,
    constraint PK_INSTALACION primary key (INS_ID)
 );
 
@@ -232,7 +243,7 @@ create table PAIS
    PA_NOMBRE            VARCHAR2(50)             not null,
    PA_NACIONALIDAD      VARCHAR2(50)             not null,
    PA_CONTINENTE        VARCHAR2(7)              not null,
-   PA_MONEDA            Moneda               not null,
+   PA_MONEDA            MONEDA,
    constraint PK_PAIS primary key (PA_ID)
 );
 
@@ -273,16 +284,17 @@ create table PRODUCTO
    PR_FK_CLASIFICACION  NUMBER(7)            not null,
    PR_NOMBRE            VARCHAR2(50)             not null,
    PR_DESC              VARCHAR2(300)            not null,
-   PR_RGO_EDAD          fila(RANGO)          not null,
+   PR_RGO_EDAD          rangos_nt,
    PR_PRECIO_USD        NUMBER(10,2)         not null,
    PR_CANT_PIEZAS       NUMBER(5)            not null,
-   PR_RESUMEN           RESUMEN              not null,
-   PR_FOTOS             BLOB                 not null,
+   PR_RESUMEN           RESUMEN,
+   PR_FOTOS             imagenes_nt,
    PR_FEC_LANZAM        DATE                 not null,
-   PR_INSTRUCCIONES     BFILE                not null,
-   PR_CATEGORIAS        conj(Char)           not null,
+   PR_INSTRUCCIONES     BLOB,
+   PR_CATEGORIAS        categorias_va,
    constraint PK_PRODUCTO primary key (PR_CODIGO)
-);
+) NESTED TABLE PR_RGO_EDAD STORE AS NT_EDADES_PROD
+  NESTED TABLE PR_FOTOS STORE AS NT_IMAGENES_PROD;
 
 /*==============================================================*/
 /* Table: PROD_REL                                              */
@@ -301,11 +313,12 @@ create table TIENDA
 (
    TI_ID                NUMBER(7)            not null,
    TI_FK_CIUDAD         NUMBER(7)            not null,
-   TI_HORARIO           Fila(Horario)        not null,
-   TI_FOTOS             BLOB                 not null,
-   TI_DIRECCION         DIRECCION            not null,
+   TI_HORARIO           horarios_nt,
+   TI_FOTOS             imagenes_nt,
+   TI_DIRECCION         DIRECCION,
    constraint PK_TIENDA primary key (TI_ID)
-);
+)NESTED TABLE TI_HORARIO STORE AS NT_HORARIO_TIENDA
+ NESTED TABLE TI_FOTOS STORE AS NT_IMAGENES_TIENDA;
 
 /*==============================================================*/
 /* Table: TOPE                                                  */

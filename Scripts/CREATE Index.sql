@@ -1,4 +1,3 @@
-
 /*==============================================================*/
 /* Index: FK_CLASIFICADO_CCP_FK                                 */
 /*==============================================================*/
@@ -158,16 +157,16 @@ create index FK_CIUDAD_FA_FK on FABRICA (
 );
 
 /*==============================================================*/
-/* Index: FK_CLIENTE_FO_FK                                      */
+/* Index: FK_CLIENTE_FON_FK                                     */
 /*==============================================================*/
-create index FK_CLIENTE_FO_FK on FACTURA_ONLINE (
+create index FK_CLIENTE_FON_FK on FACTURA_ONLINE (
    FO_FK_CLIENTE ASC
 );
 
 /*==============================================================*/
-/* Index: FK_FACTPEDIDO_PD2_FK                                  */
+/* Index: FK_FACTPEDIDO_PEDIDO2_FK                              */
 /*==============================================================*/
-create index FK_FACTPEDIDO_PD2_FK on FACTURA_PEDIDO (
+create index FK_FACTPEDIDO_PEDIDO2_FK on FACTURA_PEDIDO (
    PD_ORDEN ASC
 );
 
@@ -179,9 +178,9 @@ create index FK_TIENDA_FT_FK on FACTURA_TIENDA (
 );
 
 /*==============================================================*/
-/* Index: FK_CLIENTE_FT_FK                                      */
+/* Index: FK_CLIENTE_FTIE_FK                                    */
 /*==============================================================*/
-create index FK_CLIENTE_FT_FK on FACTURA_TIENDA (
+create index FK_CLIENTE_FTIE_FK on FACTURA_TIENDA (
    FT_FK_CLIENTE ASC
 );
 
@@ -229,13 +228,6 @@ create index FK_TIENDA_PD_FK on PEDIDO (
 );
 
 /*==============================================================*/
-/* Index: FK_FACTPEDIDO_PD_FK                                   */
-/*==============================================================*/
-create index FK_FACTPEDIDO_PD_FK on PEDIDO (
-   FP_NUMERO ASC
-);
-
-/*==============================================================*/
 /* Index: FK_CLASIFICACION_PR_FK                                */
 /*==============================================================*/
 create index FK_CLASIFICACION_PR_FK on PRODUCTO (
@@ -268,6 +260,13 @@ create index FK_CIUDAD_TIE_FK on TIENDA (
 /*==============================================================*/
 create index FK_CLIENTE_TOPE_FK on TOPE (
    TOPE_CLIENTE ASC
+);
+
+/*==============================================================*/
+/* Index: FK_FECHAS_TOPE_FK                                     */
+/*==============================================================*/
+create index FK_FECHAS_TOPE_FK on TOPE (
+   TOPE_FECHA ASC
 );
 
 /*==============================================================*/

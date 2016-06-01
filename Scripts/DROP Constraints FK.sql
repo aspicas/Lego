@@ -1,9 +1,8 @@
+alter table CLAS_CLAS
+   drop constraint FK_CLAS_CLA_FK_CLASIF_CLASIFI2;
 
 alter table CLAS_CLAS
-   drop constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC;
-
-alter table CLAS_CLAS
-   drop constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC;
+   drop constraint FK_CLAS_CLA_FK_CLASIF_CLASIFI1;
 
 alter table CLIENTE_VISITANTE
    drop constraint FK_CLIENTE__FK_CIUDAD_ESTADO_C;
@@ -66,13 +65,13 @@ alter table FABRICA
    drop constraint FK_FABRICA_FK_CIUDAD_ESTADO_C;
 
 alter table FACTURA_ONLINE
-   drop constraint FK_FACTURA__FK_CLIENT_CLIENTE_;
+   drop constraint FK_FACTURAO_FK_CLIENT_CLIENTE;
 
 alter table FACTURA_PEDIDO
    drop constraint FK_FACTURA__FK_FACTPE_PEDIDO;
 
 alter table FACTURA_TIENDA
-   drop constraint FK_FACTURA__FK_CLIENT_CLIENTE_;
+   drop constraint FK_FACTURAT_FK_CLIENT_CLIENTE;
 
 alter table FACTURA_TIENDA
    drop constraint FK_FACTURA__FK_TIENDA_TIENDA;
@@ -93,25 +92,25 @@ alter table PEDIDO
    drop constraint FK_PEDIDO_FK_FABRIC_FABRICA;
 
 alter table PEDIDO
-   drop constraint FK_PEDIDO_FK_FACTPE_FACTURA_;
-
-alter table PEDIDO
    drop constraint FK_PEDIDO_FK_TIENDA_TIENDA;
 
 alter table PRODUCTO
    drop constraint FK_PRODUCTO_FK_CLASIF_CLASIFIC;
 
 alter table PROD_REL
-   drop constraint FK_PROD_REL_FK_PRODUC_PRODUCTO;
+   drop constraint FK_PROD_REL_FK_PRODUC_PRODUCT1;
 
 alter table PROD_REL
-   drop constraint FK_PROD_REL_FK_PRODUC_PRODUCTO;
+   drop constraint FK_PROD_REL_FK_PRODUC_PRODUCT2;
 
 alter table TIENDA
    drop constraint FK_TIENDA_FK_CIUDAD_ESTADO_C;
 
 alter table TOPE
    drop constraint FK_TOPE_FK_CLIENT_CLIENTE_;
+
+alter table TOPE
+   drop constraint FK_TOPE_FK_FECHAS_FECHAS;
 
 alter table VALORACION
    drop constraint FK_VALORACI_FK_FACTIE_FACTURA_;

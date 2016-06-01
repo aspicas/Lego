@@ -26,6 +26,8 @@ drop table FACTURA_PEDIDO cascade constraints;
 
 drop table FACTURA_TIENDA cascade constraints;
 
+drop table FECHAS cascade constraints;
+
 drop table HISTORICO_PRODUCTO cascade constraints;
 
 drop table INSTALACION cascade constraints;

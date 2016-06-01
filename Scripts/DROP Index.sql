@@ -42,11 +42,11 @@ drop index FK_PAIS_EC_FK;
 
 drop index FK_CIUDAD_FA_FK;
 
-drop index FK_CLIENTE_FO_FK;
+drop index FK_CLIENTE_FON_FK;
 
-drop index FK_FACTPEDIDO_PD2_FK;
+drop index FK_FACTPEDIDO_PEDIDO2_FK;
 
-drop index FK_CLIENTE_FT_FK;
+drop index FK_CLIENTE_FTIE_FK;
 
 drop index FK_TIENDA_FT_FK;
 
@@ -57,8 +57,6 @@ drop index FK_PRODUCTO_HP_FK;
 drop index FK_CIUDAD_INS_FK;
 
 drop index FK_FABRICA_LP_FK;
-
-drop index FK_FACTPEDIDO_PD_FK;
 
 drop index FK_TIENDA_PD_FK;
 
@@ -71,6 +69,8 @@ drop index FK_PRODUCTO_PREP_FK;
 drop index FK_PRODUCTO_PREH_FK;
 
 drop index FK_CIUDAD_TIE_FK;
+
+drop index FK_FECHAS_TOPE_FK;
 
 drop index FK_CLIENTE_TOPE_FK;
 

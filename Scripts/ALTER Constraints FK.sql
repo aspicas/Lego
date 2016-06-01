@@ -1,9 +1,9 @@
 alter table CLAS_CLAS
-   add constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC foreign key (CC_HIJO)
+   add constraint FK_CLAS_CLA_FK_CLASIF_CLASIFI2 foreign key (CC_HIJO)
       references CLASIFICACION (CL_ID);
 
 alter table CLAS_CLAS
-   add constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC foreign key (CC_PADRE)
+   add constraint FK_CLAS_CLA_FK_CLASIF_CLASIFI1 foreign key (CC_PADRE)
       references CLASIFICACION (CL_ID);
 
 alter table CLIENTE_VISITANTE
@@ -87,7 +87,7 @@ alter table FABRICA
       references ESTADO_CIUDAD (EC_ID);
 
 alter table FACTURA_ONLINE
-   add constraint FK_FACTURA__FK_CLIENT_CLIENTE_ foreign key (FO_FK_CLIENTE)
+   add constraint FK_FACTURAO_FK_CLIENT_CLIENTE foreign key (FO_FK_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
 
 alter table FACTURA_PEDIDO
@@ -95,7 +95,7 @@ alter table FACTURA_PEDIDO
       references PEDIDO (PD_ORDEN);
 
 alter table FACTURA_TIENDA
-   add constraint FK_FACTURA__FK_CLIENT_CLIENTE_ foreign key (FT_FK_CLIENTE)
+   add constraint FK_FACTURAT_FK_CLIENT_CLIENTE foreign key (FT_FK_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
 
 alter table FACTURA_TIENDA
@@ -123,10 +123,6 @@ alter table PEDIDO
       references FABRICA (FA_ID);
 
 alter table PEDIDO
-   add constraint FK_PEDIDO_FK_FACTPE_FACTURA_ foreign key (FP_NUMERO)
-      references FACTURA_PEDIDO (FP_NUMERO);
-
-alter table PEDIDO
    add constraint FK_PEDIDO_FK_TIENDA_TIENDA foreign key (PD_FK_TIENDA)
       references TIENDA (TI_ID);
 
@@ -135,11 +131,11 @@ alter table PRODUCTO
       references CLASIFICACION (CL_ID);
 
 alter table PROD_REL
-   add constraint FK_PROD_REL_FK_PRODUC_PRODUCTO foreign key (PRE_PADRE)
+   add constraint FK_PROD_REL_FK_PRODUC_PRODUCT1 foreign key (PRE_PADRE)
       references PRODUCTO (PR_CODIGO);
 
 alter table PROD_REL
-   add constraint FK_PROD_REL_FK_PRODUC_PRODUCTO foreign key (PRE_HIJO)
+   add constraint FK_PROD_REL_FK_PRODUC_PRODUCT2 foreign key (PRE_HIJO)
       references PRODUCTO (PR_CODIGO);
 
 alter table TIENDA
@@ -149,6 +145,10 @@ alter table TIENDA
 alter table TOPE
    add constraint FK_TOPE_FK_CLIENT_CLIENTE_ foreign key (TOPE_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
+
+alter table TOPE
+   add constraint FK_TOPE_FK_FECHAS_FECHAS foreign key (TOPE_FECHA)
+      references FECHAS (FE_FECHA);
 
 alter table VALORACION
    add constraint FK_VALORACI_FK_FACTIE_FACTURA_ foreign key (VA_FK_FAC_TIENDA)
