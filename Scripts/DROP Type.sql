@@ -1,23 +1,23 @@
-drop type idiomas cascade;
+drop type idiomas force;
 
-drop type COSTO cascade;
+drop type COSTO force;
 
-drop type DIA cascade;
+drop type DIA force;
 
-drop type DIRECCION cascade;
+drop type DIRECCION force;
 
-drop type HORARIO cascade;
+drop type HORARIO force;
 
-drop type MONEDA cascade;
+drop type MONEDA force;
 
-drop type RANGO cascade;
+drop type RANGO force;
 
-drop type RESUMEN cascade;
+drop type RESUMEN force;
 
-drop type TELEFONO cascade;
+drop type TELEFONO force;
 
-drop type TOUR_DIAS cascade;
+drop type TOUR_DIAS force;
 
-drop type telefonos cascade;
+drop type telefonos force;
 
-drop type dias cascade;
+drop type dias force;
