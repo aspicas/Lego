@@ -1,175 +1,178 @@
 /*==============================================================*/
 /* DBMS name:      ORACLE Version 11g                           */
-/* Created on:     31/5/2016 1:19:40 a. m.                      */
+/* Created on:     5/31/2016 10:03:29 PM                        */
 /*==============================================================*/
 
 
 alter table CLAS_CLAS
-   drop constraint FK_CLAS_CLAS2_TO_CLASIFIC;
+   drop constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC;
 
 alter table CLAS_CLAS
-   drop constraint FK_CLAS_CLAS1_TO_CLASIFIC;
+   drop constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC;
 
 alter table CLIENTE_VISITANTE
-   drop constraint FK_CLIENTE__RELATIONS_CLIENTE_;
+   drop constraint FK_CLIENTE__FK_CIUDAD_ESTADO_C;
 
 alter table CLIENTE_VISITANTE
-   drop constraint FK_CLIENTE__RELATIONS_PAIS;
+   drop constraint FK_CLIENTE__FK_CLIENT_CLIENTE_;
 
 alter table CLIENTE_VISITANTE
-   drop constraint FK_CLIENTE__RELATIONS_ESTADO_C;
+   drop constraint FK_CLIENTE__FK_PAIS_C_PAIS;
 
 alter table DESCUENTO
-   drop constraint FK_DESCUENT_RELATIONS_PRODUCCI;
+   drop constraint FK_DESCUENT_FK_PRODLO_PRODUCCI;
 
 alter table DETALLE
-   drop constraint FK_DETALLE_RELATIONS_DISP_PRO;
+   drop constraint FK_DETALLE_FK_CLIENT_CLIENTE_;
 
 alter table DETALLE
-   drop constraint FK_DETALLE_RELATIONS_PRODUCCI;
+   drop constraint FK_DETALLE_FK_DISPRO_DISP_PRO;
 
 alter table DETALLE
-   drop constraint FK_DETALLE_RELATIONS_CLIENTE_;
+   drop constraint FK_DETALLE_FK_FACTON_FACTURA_;
 
 alter table DETALLE
-   drop constraint FK_DETALLE_RELATIONS_FACTURA_;
+   drop constraint FK_DETALLE_FK_PRODLO_PRODUCCI;
 
 alter table DETALLE_FACTURA
-   drop constraint FK_DETALLE__RELATIONS_FACTURA_;
+   drop constraint FK_DETALLE__FK_CLIENT_CLIENTE_;
 
 alter table DETALLE_FACTURA
-   drop constraint FK_DETALLE__RELATIONS_CLIENTE_;
+   drop constraint FK_DETALLE__FK_DETPED_DETALLE_;
 
 alter table DETALLE_FACTURA
-   drop constraint FK_DETALLE__RELATIONS_DETALLE_;
+   drop constraint FK_DETALLE__FK_FACTIE_FACTURA_;
 
 alter table DETALLE_PEDIDO
-   drop constraint FK_DETALLE__RELATIONS_PEDIDO;
+   drop constraint FK_DETALLE__FK_DISPRO_DISP_PRO;
 
 alter table DETALLE_PEDIDO
-   drop constraint FK_DETALLE__RELATIONS_DISP_PRO;
+   drop constraint FK_DETALLE__FK_PEDIDO_PEDIDO;
 
 alter table DET_LOTE
-   drop constraint FK_DET_LOTE_RELATIONS_PRODUCCI;
+   drop constraint FK_DET_LOTE_FK_DETPED_DETALLE_;
 
 alter table DET_LOTE
-   drop constraint FK_DET_LOTE_RELATIONS_DETALLE_;
+   drop constraint FK_DET_LOTE_FK_PRODLO_PRODUCCI;
 
 alter table DISP_PROD
-   drop constraint FK_DISP_PRO_RELATIONS_PRODUCTO;
+   drop constraint FK_DISP_PRO_FK_PAIS_D_PAIS;
 
 alter table DISP_PROD
-   drop constraint FK_DISP_PRO_RELATIONS_PAIS;
+   drop constraint FK_DISP_PRO_FK_PRODUC_PRODUCTO;
 
 alter table ESTADO_CIUDAD
-   drop constraint FK_ESTADO_C_RELATIONS_PAIS;
+   drop constraint FK_ESTADO_C_FK_ESTADO_ESTADO_C;
 
 alter table ESTADO_CIUDAD
-   drop constraint FK_ESTADO_C_RELATIONS_ESTADO_C;
+   drop constraint FK_ESTADO_C_FK_PAIS_E_PAIS;
 
 alter table FABRICA
-   drop constraint FK_FABRICA_RELATIONS_ESTADO_C;
+   drop constraint FK_FABRICA_FK_CIUDAD_ESTADO_C;
 
 alter table FACTURA_ONLINE
-   drop constraint FK_FACTURAO_RELATIONS_CLIENTE_;
+   drop constraint FK_FACTURA__FK_CLIENT_CLIENTE_;
 
 alter table FACTURA_PEDIDO
-   drop constraint FK_FACTURA__RELATIONS_PEDIDO;
+   drop constraint FK_FACTURA__FK_FACTPE_PEDIDO;
 
 alter table FACTURA_TIENDA
-   drop constraint FK_FACTURA__RELATIONS_TIENDA;
+   drop constraint FK_FACTURA__FK_CLIENT_CLIENTE_;
 
 alter table FACTURA_TIENDA
-   drop constraint FK_FACTURAT_RELATIONS_CLIENTE_;
+   drop constraint FK_FACTURA__FK_TIENDA_TIENDA;
 
 alter table HISTORICO_PRODUCTO
-   drop constraint FK_HISTORIC_RELATIONS_PRODUCTO;
+   drop constraint FK_HISTORIC_FK_LINEA__LINEA_PR;
 
 alter table HISTORICO_PRODUCTO
-   drop constraint FK_HISTORIC_RELATIONS_LINEA_PR;
+   drop constraint FK_HISTORIC_FK_PRODUC_PRODUCTO;
 
 alter table INSTALACION
-   drop constraint FK_INSTALAC_RELATIONS_ESTADO_C;
+   drop constraint FK_INSTALAC_FK_CIUDAD_ESTADO_C;
 
 alter table LINEA_PROD
-   drop constraint FK_LINEA_PR_RELATIONS_FABRICA;
+   drop constraint FK_LINEA_PR_FK_FABRIC_FABRICA;
 
 alter table PEDIDO
-   drop constraint FK_PEDIDO_RELATIONS_FABRICA;
+   drop constraint FK_PEDIDO_FK_FABRIC_FABRICA;
 
 alter table PEDIDO
-   drop constraint FK_PEDIDO_RELATIONS_TIENDA;
+   drop constraint FK_PEDIDO_FK_FACTPE_FACTURA_;
+
+alter table PEDIDO
+   drop constraint FK_PEDIDO_FK_TIENDA_TIENDA;
 
 alter table PRODUCTO
-   drop constraint FK_PRODUCTO_RELATIONS_CLASIFIC;
+   drop constraint FK_PRODUCTO_FK_CLASIF_CLASIFIC;
 
 alter table PROD_REL
-   drop constraint FK_PROD_REL2_TO_PRODUCTO;
+   drop constraint FK_PROD_REL_FK_PRODUC_PRODUCTO;
 
 alter table PROD_REL
-   drop constraint FK_PROD_REL1_TO_PRODUCTO;
+   drop constraint FK_PROD_REL_FK_PRODUC_PRODUCTO;
 
 alter table TIENDA
-   drop constraint FK_TIENDA_RELATIONS_ESTADO_C;
+   drop constraint FK_TIENDA_FK_CIUDAD_ESTADO_C;
 
-alter table TO_PE
-   drop constraint FK_TO_PE_RELATIONS_CLIENTE_;
-
-alter table VALORACION
-   drop constraint FK_VALORACI_TO_FACTURAO;
+alter table TOPE
+   drop constraint FK_TOPE_FK_CLIENT_CLIENTE_;
 
 alter table VALORACION
-   drop constraint FK_VALORACI_TO_FACTURAT;
+   drop constraint FK_VALORACI_FK_FACTIE_FACTURA_;
+
+alter table VALORACION
+   drop constraint FK_VALORACI_FK_FACTON_FACTURA_;
 
 drop table CLASIFICACION cascade constraints;
 
-drop index RELATIONSHIP_40_FK;
+drop index FK_CLASIFICADO_CCH_FK;
 
-drop index RELATIONSHIP_39_FK;
+drop index FK_CLASIFICADO_CCP_FK;
 
 drop table CLAS_CLAS cascade constraints;
 
-drop index RELATIONSHIP_53_FK;
+drop index FK_CIUDAD_CV_FK;
 
-drop index RELATIONSHIP_25_FK;
+drop index FK_PAIS_CV_FK;
 
-drop index RELATIONSHIP_18_FK;
+drop index FK_CLIENTE_VISITANTE_FK;
 
 drop table CLIENTE_VISITANTE cascade constraints;
 
 drop table COSTO cascade constraints;
 
-drop index RELATIONSHIP_46_FK;
+drop index FK_PRODLOTE_DES_FK;
 
 drop table DESCUENTO cascade constraints;
 
-drop index RELATIONSHIP_52_FK;
+drop index FK_FACTONLINE_DET_FK;
 
-drop index RELATIONSHIP_51_FK;
+drop index FK_CLIENTE_DET_FK;
 
-drop index RELATIONSHIP_50_FK;
+drop index FK_PRODLOTE_DET_FK;
 
-drop index RELATIONSHIP_49_FK;
+drop index FK_DISPROD_DET_FK;
 
 drop table DETALLE cascade constraints;
 
-drop index RELATIONSHIP_58_FK;
+drop index FK_DETPEDIDO_DF_FK;
 
-drop index RELATIONSHIP_54_FK;
+drop index FK_CLIENTE_DF_FK;
 
-drop index RELATIONSHIP_17_FK;
+drop index FK_FACTIENDA_DF_FK;
 
 drop table DETALLE_FACTURA cascade constraints;
 
-drop index RELATIONSHIP_55_FK;
+drop index FK_DISPROD_DP_FK;
 
-drop index RELATIONSHIP_34_FK;
+drop index FK_PEDIDO_DP_FK;
 
 drop table DETALLE_PEDIDO cascade constraints;
 
-drop index RELATIONSHIP_45_FK;
+drop index FK_DETPEDIDO_DL_FK;
 
-drop index RELATIONSHIP_44_FK;
+drop index FK_PRODLOTE_DL_FK;
 
 drop table DET_LOTE cascade constraints;
 
@@ -177,49 +180,49 @@ drop table DIA cascade constraints;
 
 drop table DIRECCION cascade constraints;
 
-drop index RELATIONSHIP_12_FK;
+drop index FK_PAIS_DP_FK;
 
-drop index RELATIONSHIP_11_FK;
+drop index FK_PRODUCTO_DP_FK;
 
 drop table DISP_PROD cascade constraints;
 
-drop index RELATIONSHIP_37_FK;
+drop index FK_ESTADO_CIUDAD_FK;
 
-drop index RELATIONSHIP_36_FK;
+drop index FK_PAIS_EC_FK;
 
 drop table ESTADO_CIUDAD cascade constraints;
 
-drop index RELATIONSHIP_59_FK;
+drop index FK_CIUDAD_FA_FK;
 
 drop table FABRICA cascade constraints;
 
-drop index RELATIONSHIP_56_FK;
+drop index FK_CLIENTE_FO_FK;
 
 drop table FACTURA_ONLINE cascade constraints;
 
-drop index RELATIONSHIP_48_FK;
+drop index FK_FACTPEDIDO_PD2_FK;
 
 drop table FACTURA_PEDIDO cascade constraints;
 
-drop index RELATIONSHIP_14_FK;
+drop index FK_CLIENTE_FT_FK;
 
-drop index RELATIONSHIP_13_FK;
+drop index FK_TIENDA_FT_FK;
 
 drop table FACTURA_TIENDA cascade constraints;
 
-drop index RELATIONSHIP_32_FK;
+drop index FK_LINEA_HP_FK;
 
-drop index RELATIONSHIP_31_FK;
+drop index FK_PRODUCTO_HP_FK;
 
 drop table HISTORICO_PRODUCTO cascade constraints;
 
 drop table HORARIO cascade constraints;
 
-drop index RELATIONSHIP_38_FK;
+drop index FK_CIUDAD_INS_FK;
 
 drop table INSTALACION cascade constraints;
 
-drop index RELATIONSHIP_26_FK;
+drop index FK_FABRICA_LP_FK;
 
 drop table LINEA_PROD cascade constraints;
 
@@ -227,21 +230,23 @@ drop table MONEDA cascade constraints;
 
 drop table PAIS cascade constraints;
 
-drop index RELATIONSHIP_28_FK;
+drop index FK_FACTPEDIDO_PD_FK;
 
-drop index RELATIONSHIP_27_FK;
+drop index FK_TIENDA_PD_FK;
+
+drop index FK_FABRICA_PD_FK;
 
 drop table PEDIDO cascade constraints;
 
 drop table PRODUCCION_LOTE cascade constraints;
 
-drop index RELATIONSHIP_43_FK;
+drop index FK_CLASIFICACION_PR_FK;
 
 drop table PRODUCTO cascade constraints;
 
-drop index RELATIONSHIP_33_FK;
+drop index FK_PRODUCTO_PREP_FK;
 
-drop index RELATIONSHIP_30_FK;
+drop index FK_PRODUCTO_PREH_FK;
 
 drop table PROD_REL cascade constraints;
 
@@ -251,19 +256,19 @@ drop table RESUMEN cascade constraints;
 
 drop table TELEFONO cascade constraints;
 
-drop index RELATIONSHIP_57_FK;
+drop index FK_CIUDAD_TIE_FK;
 
 drop table TIENDA cascade constraints;
 
+drop index FK_CLIENTE_TOPE_FK;
+
+drop table TOPE cascade constraints;
+
 drop table TOUR_DIAS cascade constraints;
 
-drop index RELATIONSHIP_22_FK;
+drop index FK_FACTIENDA_VA_FK;
 
-drop table TO_PE cascade constraints;
-
-drop index RELATIONSHIP_42_FK;
-
-drop index RELATIONSHIP_41_FK;
+drop index FK_FACTONLINE_VA_FK;
 
 drop table VALORACION cascade constraints;
 
@@ -286,23 +291,23 @@ create table CLASIFICACION
 /*==============================================================*/
 create table CLAS_CLAS 
 (
-   CL_PADRE             NUMBER(7)            not null,
-   CL_HIJO              NUMBER(7)            not null,
-   constraint PK_CLAS_CLAS primary key (CL_PADRE, CL_HIJO)
+   CC_PADRE             NUMBER(7)            not null,
+   CC_HIJO              NUMBER(7)            not null,
+   constraint PK_CLAS_CLAS primary key (CC_PADRE, CC_HIJO)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_39_FK                                    */
+/* Index: FK_CLASIFICADO_CCP_FK                                 */
 /*==============================================================*/
-create index RELATIONSHIP_39_FK on CLAS_CLAS (
-   CL_PADRE ASC
+create index FK_CLASIFICADO_CCP_FK on CLAS_CLAS (
+   CC_PADRE ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_40_FK                                    */
+/* Index: FK_CLASIFICADO_CCH_FK                                 */
 /*==============================================================*/
-create index RELATIONSHIP_40_FK on CLAS_CLAS (
-   CL_HIJO ASC
+create index FK_CLASIFICADO_CCH_FK on CLAS_CLAS (
+   CC_HIJO ASC
 );
 
 /*==============================================================*/
@@ -311,8 +316,8 @@ create index RELATIONSHIP_40_FK on CLAS_CLAS (
 create table CLIENTE_VISITANTE 
 (
    CV_ID                NUMBER(7)            not null,
-   CV_FK_REPRES         NUMBER(7),
-   CV_FK_DIRECCION      NUMBER(7)            not null,
+   CV_FK_REPRESEN       NUMBER(7),
+   CV_FK_CIUDAD         NUMBER(7)            not null,
    CV_FK_NACIONALIDAD   NUMBER(7)            not null,
    CV_NOMBRE            CHAR(20)             not null,
    CV_NOMBRE_S          CHAR(20),
@@ -327,24 +332,24 @@ create table CLIENTE_VISITANTE
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_18_FK                                    */
+/* Index: FK_CLIENTE_VISITANTE_FK                               */
 /*==============================================================*/
-create index RELATIONSHIP_18_FK on CLIENTE_VISITANTE (
-   CV_FK_REPRES ASC
+create index FK_CLIENTE_VISITANTE_FK on CLIENTE_VISITANTE (
+   CV_FK_REPRESEN ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_25_FK                                    */
+/* Index: FK_PAIS_CV_FK                                         */
 /*==============================================================*/
-create index RELATIONSHIP_25_FK on CLIENTE_VISITANTE (
+create index FK_PAIS_CV_FK on CLIENTE_VISITANTE (
    CV_FK_NACIONALIDAD ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_53_FK                                    */
+/* Index: FK_CIUDAD_CV_FK                                       */
 /*==============================================================*/
-create index RELATIONSHIP_53_FK on CLIENTE_VISITANTE (
-   CV_FK_DIRECCION ASC
+create index FK_CIUDAD_CV_FK on CLIENTE_VISITANTE (
+   CV_FK_CIUDAD ASC
 );
 
 /*==============================================================*/
@@ -352,8 +357,8 @@ create index RELATIONSHIP_53_FK on CLIENTE_VISITANTE (
 /*==============================================================*/
 create table COSTO 
 (
-   CO_MONTO             NUMBER(1000,2)       not null,
-   CO_INCLUIDO          NUMBER               not null
+   CO_MONTO             NUMBER(5,2)          not null,
+   CO_INCLUIDO          NUMBER(5,2)          not null
 );
 
 /*==============================================================*/
@@ -361,17 +366,17 @@ create table COSTO
 /*==============================================================*/
 create table DESCUENTO 
 (
-   DES_ID               NUMBER               not null,
-   DES_FK_PROD_LOTE     NUMBER               not null,
+   DES_ID               NUMBER(7)            not null,
+   DES_FK_PROD_LOTE     NUMBER(7)            not null,
    DES_FECHA            DATE                 not null,
-   DES_CANTIDAD         NUMBER               not null,
+   DES_CANTIDAD         NUMBER(5)            not null,
    constraint PK_DESCUENTO primary key (DES_ID, DES_FK_PROD_LOTE)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_46_FK                                    */
+/* Index: FK_PRODLOTE_DES_FK                                    */
 /*==============================================================*/
-create index RELATIONSHIP_46_FK on DESCUENTO (
+create index FK_PRODLOTE_DES_FK on DESCUENTO (
    DES_FK_PROD_LOTE ASC
 );
 
@@ -383,38 +388,38 @@ create table DETALLE
    DET_ID               NUMBER(7)            not null,
    DET_FK_PAIS          NUMBER(7)            not null,
    DET_FK_PRODUCTO      NUMBER(7)            not null,
-   DET_FK_PROD_LOTE     NUMBER               not null,
+   DET_FK_PROD_LOTE     NUMBER(7)            not null,
    DET_FK_CLIENTE       NUMBER(7),
-   DET_FK_FACT_ONLI     NUMBER               not null,
+   DET_FK_FACT_ONLI     NUMBER(7)            not null,
    constraint PK_DETALLE primary key (DET_ID, DET_FK_FACT_ONLI)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_49_FK                                    */
+/* Index: FK_DISPROD_DET_FK                                     */
 /*==============================================================*/
-create index RELATIONSHIP_49_FK on DETALLE (
+create index FK_DISPROD_DET_FK on DETALLE (
    DET_FK_PAIS ASC,
    DET_FK_PRODUCTO ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_50_FK                                    */
+/* Index: FK_PRODLOTE_DET_FK                                    */
 /*==============================================================*/
-create index RELATIONSHIP_50_FK on DETALLE (
+create index FK_PRODLOTE_DET_FK on DETALLE (
    DET_FK_PROD_LOTE ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_51_FK                                    */
+/* Index: FK_CLIENTE_DET_FK                                     */
 /*==============================================================*/
-create index RELATIONSHIP_51_FK on DETALLE (
+create index FK_CLIENTE_DET_FK on DETALLE (
    DET_FK_CLIENTE ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_52_FK                                    */
+/* Index: FK_FACTONLINE_DET_FK                                  */
 /*==============================================================*/
-create index RELATIONSHIP_52_FK on DETALLE (
+create index FK_FACTONLINE_DET_FK on DETALLE (
    DET_FK_FACT_ONLI ASC
 );
 
@@ -424,31 +429,31 @@ create index RELATIONSHIP_52_FK on DETALLE (
 create table DETALLE_FACTURA 
 (
    DF_ID                NUMBER(7)            not null,
-   DF_FK_COD_VENTA      NUMBER(7)            not null,
-   DF_FK_USUARIO_FINAL  NUMBER(7),
-   DF_FK_PEDIDO         NUMBER(7),
+   DF_FK_FACT_T         NUMBER(7)            not null,
+   DF_FK_CLIENTE        NUMBER(7),
+   DF_FK_PEDIDO         NUMBER(7)            not null,
    DF_FK_DETPED         NUMBER(7)            not null,
-   constraint PK_DETALLE_FACTURA primary key (DF_ID, DF_FK_COD_VENTA)
+   constraint PK_DETALLE_FACTURA primary key (DF_ID, DF_FK_FACT_T)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_17_FK                                    */
+/* Index: FK_FACTIENDA_DF_FK                                    */
 /*==============================================================*/
-create index RELATIONSHIP_17_FK on DETALLE_FACTURA (
-   DF_FK_COD_VENTA ASC
+create index FK_FACTIENDA_DF_FK on DETALLE_FACTURA (
+   DF_FK_FACT_T ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_54_FK                                    */
+/* Index: FK_CLIENTE_DF_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_54_FK on DETALLE_FACTURA (
-   DF_FK_USUARIO_FINAL ASC
+create index FK_CLIENTE_DF_FK on DETALLE_FACTURA (
+   DF_FK_CLIENTE ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_58_FK                                    */
+/* Index: FK_DETPEDIDO_DF_FK                                    */
 /*==============================================================*/
-create index RELATIONSHIP_58_FK on DETALLE_FACTURA (
+create index FK_DETPEDIDO_DF_FK on DETALLE_FACTURA (
    DF_FK_PEDIDO ASC,
    DF_FK_DETPED ASC
 );
@@ -460,26 +465,26 @@ create table DETALLE_PEDIDO
 (
    DP_ID                NUMBER(7)            not null,
    DP_FK_PEDIDO         NUMBER(7)            not null,
-   DP_FK_PAIS           NUMBER(7)            not null,
-   DP_FK_PRODUCTO       NUMBER(7)            not null,
+   DIP_FK_PAIS          NUMBER(7)            not null,
+   DIP_FK_PRODUCTO      NUMBER(7)            not null,
    DP_CANTIDAD          NUMBER(10)           not null,
    DP_SUBTOTAL          NUMBER(20,2)         not null,
    constraint PK_DETALLE_PEDIDO primary key (DP_FK_PEDIDO, DP_ID)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_34_FK                                    */
+/* Index: FK_PEDIDO_DP_FK                                       */
 /*==============================================================*/
-create index RELATIONSHIP_34_FK on DETALLE_PEDIDO (
+create index FK_PEDIDO_DP_FK on DETALLE_PEDIDO (
    DP_FK_PEDIDO ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_55_FK                                    */
+/* Index: FK_DISPROD_DP_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_55_FK on DETALLE_PEDIDO (
-   DP_FK_PAIS ASC,
-   DP_FK_PRODUCTO ASC
+create index FK_DISPROD_DP_FK on DETALLE_PEDIDO (
+   DIP_FK_PAIS ASC,
+   DIP_FK_PRODUCTO ASC
 );
 
 /*==============================================================*/
@@ -487,24 +492,24 @@ create index RELATIONSHIP_55_FK on DETALLE_PEDIDO (
 /*==============================================================*/
 create table DET_LOTE 
 (
-   DL_FK_PROD_LOTE      NUMBER               not null,
+   DL_FK_PROD_LOTE      NUMBER(7)            not null,
    DL_FK_PEDIDO         NUMBER(7)            not null,
    DL_FK_DET_PEDIDO     NUMBER(7)            not null,
-   DL_CANTIDAD          NUMBER               not null,
+   DL_CANTIDAD          NUMBER(7)            not null,
    constraint PK_DET_LOTE primary key (DL_FK_PROD_LOTE, DL_FK_PEDIDO, DL_FK_DET_PEDIDO)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_44_FK                                    */
+/* Index: FK_PRODLOTE_DL_FK                                     */
 /*==============================================================*/
-create index RELATIONSHIP_44_FK on DET_LOTE (
+create index FK_PRODLOTE_DL_FK on DET_LOTE (
    DL_FK_PROD_LOTE ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_45_FK                                    */
+/* Index: FK_DETPEDIDO_DL_FK                                    */
 /*==============================================================*/
-create index RELATIONSHIP_45_FK on DET_LOTE (
+create index FK_DETPEDIDO_DL_FK on DET_LOTE (
    DL_FK_PEDIDO ASC,
    DL_FK_DET_PEDIDO ASC
 );
@@ -535,24 +540,24 @@ create table DIRECCION
 /*==============================================================*/
 create table DISP_PROD 
 (
-   DP_FK_PAIS           NUMBER(7)            not null,
-   DP_FK_PRODUCTO       NUMBER(7)            not null,
-   DP_LIMITE            NUMBER(3),
-   constraint PK_DISP_PROD primary key (DP_FK_PAIS, DP_FK_PRODUCTO)
+   DIP_FK_PAIS          NUMBER(7)            not null,
+   DIP_FK_PRODUCTO      NUMBER(7)            not null,
+   DIP_LIMITE           NUMBER(3),
+   constraint PK_DISP_PROD primary key (DIP_FK_PAIS, DIP_FK_PRODUCTO)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_11_FK                                    */
+/* Index: FK_PRODUCTO_DP_FK                                     */
 /*==============================================================*/
-create index RELATIONSHIP_11_FK on DISP_PROD (
-   DP_FK_PRODUCTO ASC
+create index FK_PRODUCTO_DP_FK on DISP_PROD (
+   DIP_FK_PRODUCTO ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_12_FK                                    */
+/* Index: FK_PAIS_DP_FK                                         */
 /*==============================================================*/
-create index RELATIONSHIP_12_FK on DISP_PROD (
-   DP_FK_PAIS ASC
+create index FK_PAIS_DP_FK on DISP_PROD (
+   DIP_FK_PAIS ASC
 );
 
 /*==============================================================*/
@@ -569,16 +574,16 @@ create table ESTADO_CIUDAD
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_36_FK                                    */
+/* Index: FK_PAIS_EC_FK                                         */
 /*==============================================================*/
-create index RELATIONSHIP_36_FK on ESTADO_CIUDAD (
+create index FK_PAIS_EC_FK on ESTADO_CIUDAD (
    EC_FK_PAIS ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_37_FK                                    */
+/* Index: FK_ESTADO_CIUDAD_FK                                   */
 /*==============================================================*/
-create index RELATIONSHIP_37_FK on ESTADO_CIUDAD (
+create index FK_ESTADO_CIUDAD_FK on ESTADO_CIUDAD (
    EC_FK_ESTADO ASC
 );
 
@@ -595,9 +600,9 @@ create table FABRICA
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_59_FK                                    */
+/* Index: FK_CIUDAD_FA_FK                                       */
 /*==============================================================*/
-create index RELATIONSHIP_59_FK on FABRICA (
+create index FK_CIUDAD_FA_FK on FABRICA (
    FA_FK_CIUDAD ASC
 );
 
@@ -606,17 +611,17 @@ create index RELATIONSHIP_59_FK on FABRICA (
 /*==============================================================*/
 create table FACTURA_ONLINE 
 (
-   FO_NUMERO            NUMBER               not null,
+   FO_NUMERO            NUMBER(7)            not null,
    FO_FK_CLIENTE        NUMBER(7)            not null,
    FO_FECHA             DATE                 not null,
-   FO_TOTAL             NUMBER               not null,
+   FO_TOTAL             NUMBER(5,2)          not null,
    constraint PK_FACTURA_ONLINE primary key (FO_NUMERO)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_56_FK                                    */
+/* Index: FK_CLIENTE_FO_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_56_FK on FACTURA_ONLINE (
+create index FK_CLIENTE_FO_FK on FACTURA_ONLINE (
    FO_FK_CLIENTE ASC
 );
 
@@ -625,17 +630,17 @@ create index RELATIONSHIP_56_FK on FACTURA_ONLINE (
 /*==============================================================*/
 create table FACTURA_PEDIDO 
 (
-   FP_NUMERO            NUMBER               not null,
+   FP_NUMERO            NUMBER(7)            not null,
    PD_ORDEN             NUMBER(7)            not null,
    FP_FECHA             DATE                 not null,
-   FP_TOTAL             NUMBER               not null,
+   FP_TOTAL             NUMBER(5,2)          not null,
    constraint PK_FACTURA_PEDIDO primary key (FP_NUMERO)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_48_FK                                    */
+/* Index: FK_FACTPEDIDO_PD2_FK                                  */
 /*==============================================================*/
-create index RELATIONSHIP_48_FK on FACTURA_PEDIDO (
+create index FK_FACTPEDIDO_PD2_FK on FACTURA_PEDIDO (
    PD_ORDEN ASC
 );
 
@@ -645,7 +650,7 @@ create index RELATIONSHIP_48_FK on FACTURA_PEDIDO (
 create table FACTURA_TIENDA 
 (
    FT_FK_TIENDA         NUMBER(7)            not null,
-   FT_FK_PERSONA        NUMBER(7)            not null,
+   FT_FK_CLIENTE        NUMBER(7)            not null,
    FT_CODIGO            NUMBER(7)            not null,
    FT_FECHA             DATE                 not null,
    FT_MONTO_USD         NUMBER(10,2)         not null,
@@ -653,17 +658,17 @@ create table FACTURA_TIENDA
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_13_FK                                    */
+/* Index: FK_TIENDA_FT_FK                                       */
 /*==============================================================*/
-create index RELATIONSHIP_13_FK on FACTURA_TIENDA (
+create index FK_TIENDA_FT_FK on FACTURA_TIENDA (
    FT_FK_TIENDA ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_14_FK                                    */
+/* Index: FK_CLIENTE_FT_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_14_FK on FACTURA_TIENDA (
-   FT_FK_PERSONA ASC
+create index FK_CLIENTE_FT_FK on FACTURA_TIENDA (
+   FT_FK_CLIENTE ASC
 );
 
 /*==============================================================*/
@@ -680,16 +685,16 @@ create table HISTORICO_PRODUCTO
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_31_FK                                    */
+/* Index: FK_PRODUCTO_HP_FK                                     */
 /*==============================================================*/
-create index RELATIONSHIP_31_FK on HISTORICO_PRODUCTO (
+create index FK_PRODUCTO_HP_FK on HISTORICO_PRODUCTO (
    HP_FK_PRODUCTO ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_32_FK                                    */
+/* Index: FK_LINEA_HP_FK                                        */
 /*==============================================================*/
-create index RELATIONSHIP_32_FK on HISTORICO_PRODUCTO (
+create index FK_LINEA_HP_FK on HISTORICO_PRODUCTO (
    HP_FK_FABRICA ASC,
    HP_FK_LINEAPROD ASC
 );
@@ -709,8 +714,8 @@ create table HORARIO
 /*==============================================================*/
 create table INSTALACION 
 (
-   INS_ID               NUMBER               not null,
-   EC_ID                NUMBER(7)            not null,
+   INS_ID               NUMBER(7)            not null,
+   INS_FK_CIUDAD        NUMBER(7)            not null,
    INS_NOMBRE           CHAR(10)             not null,
    INS_TIPO             CHAR(50)             not null,
    INS_DIRECCION        DIRECCION            not null,
@@ -718,10 +723,10 @@ create table INSTALACION
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_38_FK                                    */
+/* Index: FK_CIUDAD_INS_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_38_FK on INSTALACION (
-   EC_ID ASC
+create index FK_CIUDAD_INS_FK on INSTALACION (
+   INS_FK_CIUDAD ASC
 );
 
 /*==============================================================*/
@@ -736,9 +741,9 @@ create table LINEA_PROD
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_26_FK                                    */
+/* Index: FK_FABRICA_LP_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_26_FK on LINEA_PROD (
+create index FK_FABRICA_LP_FK on LINEA_PROD (
    LP_FK_FABRICA ASC
 );
 
@@ -772,6 +777,7 @@ create table PEDIDO
    PD_FK_TIENDA         NUMBER(7)            not null,
    PD_FK_FABRICA        NUMBER(7)            not null,
    PD_ORDEN             NUMBER(7)            not null,
+   FP_NUMERO            NUMBER(7)            not null,
    PD_FEC_PEDIDO        DATE                 not null,
    PD_FEC_OBJETIVO      DATE                 not null,
    PD_FEC_ENVIO         DATE,
@@ -780,17 +786,24 @@ create table PEDIDO
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_27_FK                                    */
+/* Index: FK_FABRICA_PD_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_27_FK on PEDIDO (
+create index FK_FABRICA_PD_FK on PEDIDO (
    PD_FK_FABRICA ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_28_FK                                    */
+/* Index: FK_TIENDA_PD_FK                                       */
 /*==============================================================*/
-create index RELATIONSHIP_28_FK on PEDIDO (
+create index FK_TIENDA_PD_FK on PEDIDO (
    PD_FK_TIENDA ASC
+);
+
+/*==============================================================*/
+/* Index: FK_FACTPEDIDO_PD_FK                                   */
+/*==============================================================*/
+create index FK_FACTPEDIDO_PD_FK on PEDIDO (
+   FP_NUMERO ASC
 );
 
 /*==============================================================*/
@@ -798,10 +811,10 @@ create index RELATIONSHIP_28_FK on PEDIDO (
 /*==============================================================*/
 create table PRODUCCION_LOTE 
 (
-   PL_ID_LOTE           NUMBER               not null,
+   PL_ID_LOTE           NUMBER(7)            not null,
    PL_FEHA              DATE                 not null,
-   PL_CANTIDAD          NUMBER               not null,
-   PL_TIPO              CLOB                 not null,
+   PL_CANTIDAD          NUMBER(5)            not null,
+   PL_TIPO              CHAR(6)              not null,
    constraint PK_PRODUCCION_LOTE primary key (PL_ID_LOTE)
 );
 
@@ -811,7 +824,7 @@ create table PRODUCCION_LOTE
 create table PRODUCTO 
 (
    PR_CODIGO            NUMBER(7)            not null,
-   PR_FK_TEMA           NUMBER(7)            not null,
+   PR_FK_CLASIFICACION  NUMBER(7)            not null,
    PR_NOMBRE            CHAR(50)             not null,
    PR_DESC              CHAR(300)            not null,
    PR_RGO_EDAD          fila(RANGO)          not null,
@@ -820,16 +833,16 @@ create table PRODUCTO
    PR_RESUMEN           RESUMEN              not null,
    PR_FOTOS             BLOB                 not null,
    PR_FEC_LANZAM        DATE                 not null,
-   PR_INSTRUCCIONES     RAW(999)             not null,
+   PR_INSTRUCCIONES     BFILE                not null,
    PR_CATEGORIAS        conj(Char)           not null,
    constraint PK_PRODUCTO primary key (PR_CODIGO)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_43_FK                                    */
+/* Index: FK_CLASIFICACION_PR_FK                                */
 /*==============================================================*/
-create index RELATIONSHIP_43_FK on PRODUCTO (
-   PR_FK_TEMA ASC
+create index FK_CLASIFICACION_PR_FK on PRODUCTO (
+   PR_FK_CLASIFICACION ASC
 );
 
 /*==============================================================*/
@@ -837,23 +850,23 @@ create index RELATIONSHIP_43_FK on PRODUCTO (
 /*==============================================================*/
 create table PROD_REL 
 (
-   PR_PADRE             NUMBER(7)            not null,
-   PR_HIJO              NUMBER(7)            not null,
-   constraint PK_PROD_REL primary key (PR_PADRE, PR_HIJO)
+   PRE_PADRE            NUMBER(7)            not null,
+   PRE_HIJO             NUMBER(7)            not null,
+   constraint PK_PROD_REL primary key (PRE_PADRE, PRE_HIJO)
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_30_FK                                    */
+/* Index: FK_PRODUCTO_PREH_FK                                   */
 /*==============================================================*/
-create index RELATIONSHIP_30_FK on PROD_REL (
-   PR_PADRE ASC
+create index FK_PRODUCTO_PREH_FK on PROD_REL (
+   PRE_PADRE ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_33_FK                                    */
+/* Index: FK_PRODUCTO_PREP_FK                                   */
 /*==============================================================*/
-create index RELATIONSHIP_33_FK on PROD_REL (
-   PR_HIJO ASC
+create index FK_PRODUCTO_PREP_FK on PROD_REL (
+   PRE_HIJO ASC
 );
 
 /*==============================================================*/
@@ -861,8 +874,8 @@ create index RELATIONSHIP_33_FK on PROD_REL (
 /*==============================================================*/
 create table RANGO 
 (
-   RA_VALORI            NUMBER               not null,
-   RA_VALORF            NUMBER               not null
+   RA_VALORI            NUMBER(3)            not null,
+   RA_VALORF            NUMBER(3)            not null
 );
 
 /*==============================================================*/
@@ -870,9 +883,9 @@ create table RANGO
 /*==============================================================*/
 create table RESUMEN 
 (
-   RE_ALTO              NUMBER               not null,
-   RE_ANCHO             NUMBER               not null,
-   RE_PROFUNDO          NUMBER               not null,
+   RE_ALTO              NUMBER(5,2)          not null,
+   RE_ANCHO             NUMBER(5,2)          not null,
+   RE_PROFUNDO          NUMBER(5,2)          not null,
    RE_IDIOMAS           Conj(char)           not null,
    RE_DESCRIPCION       CHAR(200)            not null
 );
@@ -882,9 +895,9 @@ create table RESUMEN
 /*==============================================================*/
 create table TELEFONO 
 (
-   TELE_COD_INT         NUMBER               not null,
-   TELE_COD_AREA        NUMBER               not null,
-   TELE_NUMERO          NUMBER               not null,
+   TELE_COD_INT         NUMBER(2)            not null,
+   TELE_COD_AREA        NUMBER(4)            not null,
+   TELE_NUMERO          NUMBER(7)            not null,
    TELE_TIPO            CHAR(10)             not null
 );
 
@@ -902,10 +915,27 @@ create table TIENDA
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_57_FK                                    */
+/* Index: FK_CIUDAD_TIE_FK                                      */
 /*==============================================================*/
-create index RELATIONSHIP_57_FK on TIENDA (
+create index FK_CIUDAD_TIE_FK on TIENDA (
    TI_FK_CIUDAD ASC
+);
+
+/*==============================================================*/
+/* Table: TOPE                                                  */
+/*==============================================================*/
+create table TOPE 
+(
+   TOPE_FECHA           DATE                 not null,
+   TOPE_CLIENTE         NUMBER(7)            not null,
+   constraint PK_TOPE primary key (TOPE_FECHA, TOPE_CLIENTE)
+);
+
+/*==============================================================*/
+/* Index: FK_CLIENTE_TOPE_FK                                    */
+/*==============================================================*/
+create index FK_CLIENTE_TOPE_FK on TOPE (
+   TOPE_CLIENTE ASC
 );
 
 /*==============================================================*/
@@ -913,26 +943,9 @@ create index RELATIONSHIP_57_FK on TIENDA (
 /*==============================================================*/
 create table TOUR_DIAS 
 (
-   TD_DIA1              fila(DIA),
-   TD_DIA2              fila(DIA),
-   TD_DIA3              fila(DIA)
-);
-
-/*==============================================================*/
-/* Table: TO_PE                                                 */
-/*==============================================================*/
-create table TO_PE 
-(
-   TOPE_FECHA           DATE                 not null,
-   TOPE_PERSONA         NUMBER(7)            not null,
-   constraint PK_TO_PE primary key (TOPE_FECHA, TOPE_PERSONA)
-);
-
-/*==============================================================*/
-/* Index: RELATIONSHIP_22_FK                                    */
-/*==============================================================*/
-create index RELATIONSHIP_22_FK on TO_PE (
-   TOPE_PERSONA ASC
+   TD_DIA1              fila(DIA)            not null,
+   TD_DIA2              fila(DIA)            not null,
+   TD_DIA3              fila(DIA)            not null
 );
 
 /*==============================================================*/
@@ -941,7 +954,7 @@ create index RELATIONSHIP_22_FK on TO_PE (
 create table VALORACION 
 (
    VA_ID                NUMBER(7)            not null,
-   VA_FK_FAC_ONLI       NUMBER,
+   VA_FK_FAC_ONLI       NUMBER(7),
    VA_FK_FAC_TIENDA     NUMBER(7),
    VA_FECHA             DATE                 not null,
    VA_EXPERIENCIA       NUMBER(1)            not null,
@@ -953,172 +966,176 @@ create table VALORACION
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_41_FK                                    */
+/* Index: FK_FACTONLINE_VA_FK                                   */
 /*==============================================================*/
-create index RELATIONSHIP_41_FK on VALORACION (
+create index FK_FACTONLINE_VA_FK on VALORACION (
    VA_FK_FAC_ONLI ASC
 );
 
 /*==============================================================*/
-/* Index: RELATIONSHIP_42_FK                                    */
+/* Index: FK_FACTIENDA_VA_FK                                    */
 /*==============================================================*/
-create index RELATIONSHIP_42_FK on VALORACION (
+create index FK_FACTIENDA_VA_FK on VALORACION (
    VA_FK_FAC_TIENDA ASC
 );
 
 alter table CLAS_CLAS
-   add constraint FK_CLAS_CLAS2_TO_CLASIFIC foreign key (CL_PADRE)
+   add constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC foreign key (CC_HIJO)
       references CLASIFICACION (CL_ID);
 
 alter table CLAS_CLAS
-   add constraint FK_CLAS_CLAS1_TO_CLASIFIC foreign key (CL_HIJO)
+   add constraint FK_CLAS_CLA_FK_CLASIF_CLASIFIC foreign key (CC_PADRE)
       references CLASIFICACION (CL_ID);
 
 alter table CLIENTE_VISITANTE
-   add constraint FK_CLIENTE__RELATIONS_CLIENTE_ foreign key (CV_FK_REPRES)
+   add constraint FK_CLIENTE__FK_CIUDAD_ESTADO_C foreign key (CV_FK_CIUDAD)
+      references ESTADO_CIUDAD (EC_ID);
+
+alter table CLIENTE_VISITANTE
+   add constraint FK_CLIENTE__FK_CLIENT_CLIENTE_ foreign key (CV_FK_REPRESEN)
       references CLIENTE_VISITANTE (CV_ID);
 
 alter table CLIENTE_VISITANTE
-   add constraint FK_CLIENTE__RELATIONS_PAIS foreign key (CV_FK_NACIONALIDAD)
+   add constraint FK_CLIENTE__FK_PAIS_C_PAIS foreign key (CV_FK_NACIONALIDAD)
       references PAIS (PA_ID);
-
-alter table CLIENTE_VISITANTE
-   add constraint FK_CLIENTE__RELATIONS_ESTADO_C foreign key (CV_FK_DIRECCION)
-      references ESTADO_CIUDAD (EC_ID);
 
 alter table DESCUENTO
-   add constraint FK_DESCUENT_RELATIONS_PRODUCCI foreign key (DES_FK_PROD_LOTE)
+   add constraint FK_DESCUENT_FK_PRODLO_PRODUCCI foreign key (DES_FK_PROD_LOTE)
       references PRODUCCION_LOTE (PL_ID_LOTE);
 
 alter table DETALLE
-   add constraint FK_DETALLE_RELATIONS_DISP_PRO foreign key (DET_FK_PAIS, DET_FK_PRODUCTO)
-      references DISP_PROD (DP_FK_PAIS, DP_FK_PRODUCTO);
-
-alter table DETALLE
-   add constraint FK_DETALLE_RELATIONS_PRODUCCI foreign key (DET_FK_PROD_LOTE)
-      references PRODUCCION_LOTE (PL_ID_LOTE);
-
-alter table DETALLE
-   add constraint FK_DETALLE_RELATIONS_CLIENTE_ foreign key (DET_FK_CLIENTE)
+   add constraint FK_DETALLE_FK_CLIENT_CLIENTE_ foreign key (DET_FK_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
 
 alter table DETALLE
-   add constraint FK_DETALLE_RELATIONS_FACTURA_ foreign key (DET_FK_FACT_ONLI)
+   add constraint FK_DETALLE_FK_DISPRO_DISP_PRO foreign key (DET_FK_PAIS, DET_FK_PRODUCTO)
+      references DISP_PROD (DIP_FK_PAIS, DIP_FK_PRODUCTO);
+
+alter table DETALLE
+   add constraint FK_DETALLE_FK_FACTON_FACTURA_ foreign key (DET_FK_FACT_ONLI)
       references FACTURA_ONLINE (FO_NUMERO);
 
-alter table DETALLE_FACTURA
-   add constraint FK_DETALLE__RELATIONS_FACTURA_ foreign key (DF_FK_COD_VENTA)
-      references FACTURA_TIENDA (FT_CODIGO);
+alter table DETALLE
+   add constraint FK_DETALLE_FK_PRODLO_PRODUCCI foreign key (DET_FK_PROD_LOTE)
+      references PRODUCCION_LOTE (PL_ID_LOTE);
 
 alter table DETALLE_FACTURA
-   add constraint FK_DETALLE__RELATIONS_CLIENTE_ foreign key (DF_FK_USUARIO_FINAL)
+   add constraint FK_DETALLE__FK_CLIENT_CLIENTE_ foreign key (DF_FK_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
 
 alter table DETALLE_FACTURA
-   add constraint FK_DETALLE__RELATIONS_DETALLE_ foreign key (DF_FK_PEDIDO, DF_FK_DETPED)
+   add constraint FK_DETALLE__FK_DETPED_DETALLE_ foreign key (DF_FK_PEDIDO, DF_FK_DETPED)
       references DETALLE_PEDIDO (DP_FK_PEDIDO, DP_ID);
 
+alter table DETALLE_FACTURA
+   add constraint FK_DETALLE__FK_FACTIE_FACTURA_ foreign key (DF_FK_FACT_T)
+      references FACTURA_TIENDA (FT_CODIGO);
+
 alter table DETALLE_PEDIDO
-   add constraint FK_DETALLE__RELATIONS_PEDIDO foreign key (DP_FK_PEDIDO)
+   add constraint FK_DETALLE__FK_DISPRO_DISP_PRO foreign key (DIP_FK_PAIS, DIP_FK_PRODUCTO)
+      references DISP_PROD (DIP_FK_PAIS, DIP_FK_PRODUCTO);
+
+alter table DETALLE_PEDIDO
+   add constraint FK_DETALLE__FK_PEDIDO_PEDIDO foreign key (DP_FK_PEDIDO)
       references PEDIDO (PD_ORDEN);
 
-alter table DETALLE_PEDIDO
-   add constraint FK_DETALLE__RELATIONS_DISP_PRO foreign key (DP_FK_PAIS, DP_FK_PRODUCTO)
-      references DISP_PROD (DP_FK_PAIS, DP_FK_PRODUCTO);
-
 alter table DET_LOTE
-   add constraint FK_DET_LOTE_RELATIONS_PRODUCCI foreign key (DL_FK_PROD_LOTE)
-      references PRODUCCION_LOTE (PL_ID_LOTE);
-
-alter table DET_LOTE
-   add constraint FK_DET_LOTE_RELATIONS_DETALLE_ foreign key (DL_FK_PEDIDO, DL_FK_DET_PEDIDO)
+   add constraint FK_DET_LOTE_FK_DETPED_DETALLE_ foreign key (DL_FK_PEDIDO, DL_FK_DET_PEDIDO)
       references DETALLE_PEDIDO (DP_FK_PEDIDO, DP_ID);
 
+alter table DET_LOTE
+   add constraint FK_DET_LOTE_FK_PRODLO_PRODUCCI foreign key (DL_FK_PROD_LOTE)
+      references PRODUCCION_LOTE (PL_ID_LOTE);
+
 alter table DISP_PROD
-   add constraint FK_DISP_PRO_RELATIONS_PRODUCTO foreign key (DP_FK_PRODUCTO)
+   add constraint FK_DISP_PRO_FK_PAIS_D_PAIS foreign key (DIP_FK_PAIS)
+      references PAIS (PA_ID);
+
+alter table DISP_PROD
+   add constraint FK_DISP_PRO_FK_PRODUC_PRODUCTO foreign key (DIP_FK_PRODUCTO)
       references PRODUCTO (PR_CODIGO);
 
-alter table DISP_PROD
-   add constraint FK_DISP_PRO_RELATIONS_PAIS foreign key (DP_FK_PAIS)
-      references PAIS (PA_ID);
-
 alter table ESTADO_CIUDAD
-   add constraint FK_ESTADO_C_RELATIONS_PAIS foreign key (EC_FK_PAIS)
-      references PAIS (PA_ID);
-
-alter table ESTADO_CIUDAD
-   add constraint FK_ESTADO_C_RELATIONS_ESTADO_C foreign key (EC_FK_ESTADO)
+   add constraint FK_ESTADO_C_FK_ESTADO_ESTADO_C foreign key (EC_FK_ESTADO)
       references ESTADO_CIUDAD (EC_ID);
 
+alter table ESTADO_CIUDAD
+   add constraint FK_ESTADO_C_FK_PAIS_E_PAIS foreign key (EC_FK_PAIS)
+      references PAIS (PA_ID);
+
 alter table FABRICA
-   add constraint FK_FABRICA_RELATIONS_ESTADO_C foreign key (FA_FK_CIUDAD)
+   add constraint FK_FABRICA_FK_CIUDAD_ESTADO_C foreign key (FA_FK_CIUDAD)
       references ESTADO_CIUDAD (EC_ID);
 
 alter table FACTURA_ONLINE
-   add constraint FK_FACTURAO_RELATIONS_CLIENTE_ foreign key (FO_FK_CLIENTE)
+   add constraint FK_FACTURA__FK_CLIENT_CLIENTE_ foreign key (FO_FK_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
 
 alter table FACTURA_PEDIDO
-   add constraint FK_FACTURA__RELATIONS_PEDIDO foreign key (PD_ORDEN)
+   add constraint FK_FACTURA__FK_FACTPE_PEDIDO foreign key (PD_ORDEN)
       references PEDIDO (PD_ORDEN);
 
 alter table FACTURA_TIENDA
-   add constraint FK_FACTURA__RELATIONS_TIENDA foreign key (FT_FK_TIENDA)
-      references TIENDA (TI_ID);
-
-alter table FACTURA_TIENDA
-   add constraint FK_FACTURAT_RELATIONS_CLIENTE_ foreign key (FT_FK_PERSONA)
+   add constraint FK_FACTURA__FK_CLIENT_CLIENTE_ foreign key (FT_FK_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
 
-alter table HISTORICO_PRODUCTO
-   add constraint FK_HISTORIC_RELATIONS_PRODUCTO foreign key (HP_FK_PRODUCTO)
-      references PRODUCTO (PR_CODIGO);
+alter table FACTURA_TIENDA
+   add constraint FK_FACTURA__FK_TIENDA_TIENDA foreign key (FT_FK_TIENDA)
+      references TIENDA (TI_ID);
 
 alter table HISTORICO_PRODUCTO
-   add constraint FK_HISTORIC_RELATIONS_LINEA_PR foreign key (HP_FK_FABRICA, HP_FK_LINEAPROD)
+   add constraint FK_HISTORIC_FK_LINEA__LINEA_PR foreign key (HP_FK_FABRICA, HP_FK_LINEAPROD)
       references LINEA_PROD (LP_FK_FABRICA, LP_ID);
 
+alter table HISTORICO_PRODUCTO
+   add constraint FK_HISTORIC_FK_PRODUC_PRODUCTO foreign key (HP_FK_PRODUCTO)
+      references PRODUCTO (PR_CODIGO);
+
 alter table INSTALACION
-   add constraint FK_INSTALAC_RELATIONS_ESTADO_C foreign key (EC_ID)
+   add constraint FK_INSTALAC_FK_CIUDAD_ESTADO_C foreign key (INS_FK_CIUDAD)
       references ESTADO_CIUDAD (EC_ID);
 
 alter table LINEA_PROD
-   add constraint FK_LINEA_PR_RELATIONS_FABRICA foreign key (LP_FK_FABRICA)
+   add constraint FK_LINEA_PR_FK_FABRIC_FABRICA foreign key (LP_FK_FABRICA)
       references FABRICA (FA_ID);
 
 alter table PEDIDO
-   add constraint FK_PEDIDO_RELATIONS_FABRICA foreign key (PD_FK_FABRICA)
+   add constraint FK_PEDIDO_FK_FABRIC_FABRICA foreign key (PD_FK_FABRICA)
       references FABRICA (FA_ID);
 
 alter table PEDIDO
-   add constraint FK_PEDIDO_RELATIONS_TIENDA foreign key (PD_FK_TIENDA)
+   add constraint FK_PEDIDO_FK_FACTPE_FACTURA_ foreign key (FP_NUMERO)
+      references FACTURA_PEDIDO (FP_NUMERO);
+
+alter table PEDIDO
+   add constraint FK_PEDIDO_FK_TIENDA_TIENDA foreign key (PD_FK_TIENDA)
       references TIENDA (TI_ID);
 
 alter table PRODUCTO
-   add constraint FK_PRODUCTO_RELATIONS_CLASIFIC foreign key (PR_FK_TEMA)
+   add constraint FK_PRODUCTO_FK_CLASIF_CLASIFIC foreign key (PR_FK_CLASIFICACION)
       references CLASIFICACION (CL_ID);
 
 alter table PROD_REL
-   add constraint FK_PROD_REL2_TO_PRODUCTO foreign key (PR_PADRE)
+   add constraint FK_PROD_REL_FK_PRODUC_PRODUCTO foreign key (PRE_PADRE)
       references PRODUCTO (PR_CODIGO);
 
 alter table PROD_REL
-   add constraint FK_PROD_REL1_TO_PRODUCTO foreign key (PR_HIJO)
+   add constraint FK_PROD_REL_FK_PRODUC_PRODUCTO foreign key (PRE_HIJO)
       references PRODUCTO (PR_CODIGO);
 
 alter table TIENDA
-   add constraint FK_TIENDA_RELATIONS_ESTADO_C foreign key (TI_FK_CIUDAD)
+   add constraint FK_TIENDA_FK_CIUDAD_ESTADO_C foreign key (TI_FK_CIUDAD)
       references ESTADO_CIUDAD (EC_ID);
 
-alter table TO_PE
-   add constraint FK_TO_PE_RELATIONS_CLIENTE_ foreign key (TOPE_PERSONA)
+alter table TOPE
+   add constraint FK_TOPE_FK_CLIENT_CLIENTE_ foreign key (TOPE_CLIENTE)
       references CLIENTE_VISITANTE (CV_ID);
 
 alter table VALORACION
-   add constraint FK_VALORACI_TO_FACTURAO foreign key (VA_FK_FAC_ONLI)
-      references FACTURA_ONLINE (FO_NUMERO);
+   add constraint FK_VALORACI_FK_FACTIE_FACTURA_ foreign key (VA_FK_FAC_TIENDA)
+      references FACTURA_TIENDA (FT_CODIGO);
 
 alter table VALORACION
-   add constraint FK_VALORACI_TO_FACTURAT foreign key (VA_FK_FAC_TIENDA)
-      references FACTURA_TIENDA (FT_CODIGO);
+   add constraint FK_VALORACI_FK_FACTON_FACTURA_ foreign key (VA_FK_FAC_ONLI)
+      references FACTURA_ONLINE (FO_NUMERO);
 
