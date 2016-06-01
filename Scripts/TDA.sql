@@ -1,21 +1,10 @@
+/*==============================================================*/
+/* VARRAY: IDIOMAS                                             */
+/*==============================================================*/
 create or replace type idiomas as varray(10) of VARCHAR2(20);
 
-
-
 /*==============================================================*/
-/* Table: DIRECCION                                             */
-/*==============================================================*/
-create or replace type DIRECCION as object
-(
-   DI_CALLE             VARCHAR2(50)             not null,
-   DI_NUMERO_EDIF       VARCHAR2(50)             not null,
-   DI_ZONA_POSTAL       NUMBER(7)            not null,
-   DI_LOCAL             VARCHAR2(5)              not null,
-   DI_TELEFONOS         Fila (TELEFONO)      not null
-);
-
-/*==============================================================*/
-/* Table: RESUMEN                                               */
+/* TDA: RESUMEN                                               */
 /*==============================================================*/
 create or replace type RESUMEN as object
 (
@@ -27,7 +16,7 @@ create or replace type RESUMEN as object
 );
 
 /*==============================================================*/
-/* Table: DIA                                                   */
+/* TDA: DIA                                                   */
 /*==============================================================*/
 create or replace type DIA as object
 (
@@ -36,7 +25,7 @@ create or replace type DIA as object
 );
 
 /*==============================================================*/
-/* Table: MONEDA                                                */
+/* TDA: MONEDA                                                */
 /*==============================================================*/
 create or replace type MONEDA as object
 (
@@ -45,7 +34,7 @@ create or replace type MONEDA as object
 );
 
 /*==============================================================*/
-/* Table: HORARIO                                               */
+/* TDA: HORARIO                                               */
 /*==============================================================*/
 create or replace type HORARIO as object
 (
@@ -55,7 +44,7 @@ create or replace type HORARIO as object
 );
 
 /*==============================================================*/
-/* Table: TELEFONO                                              */
+/* TDA: TELEFONO                                              */
 /*==============================================================*/
 create or replace type TELEFONO as object
 (
@@ -66,7 +55,7 @@ create or replace type TELEFONO as object
 );
 
 /*==============================================================*/
-/* Table: COSTO                                                 */
+/* TDA: COSTO                                                 */
 /*==============================================================*/
 create or replace type COSTO as object
 (
@@ -75,7 +64,7 @@ create or replace type COSTO as object
 );
 
 /*==============================================================*/
-/* Table: RANGO                                                 */
+/* TDA: RANGO                                                 */
 /*==============================================================*/
 create or replace type RANGO as object
 (
@@ -84,11 +73,33 @@ create or replace type RANGO as object
 );
 
 /*==============================================================*/
-/* Table: TOUR_DIAS                                             */
+/* NESTED: TELEFONO                                             */
+/*==============================================================*/
+create or replace type telefonos as table of telefono;
+
+/*==============================================================*/
+/* NESTED: DIA                                             */
+/*==============================================================*/
+create or replace type dias as table of dia;
+
+/*==============================================================*/
+/* TDA: DIRECCION                                             */
+/*==============================================================*/
+create or replace type DIRECCION as object
+(
+   DI_CALLE             VARCHAR2(50)             not null,
+   DI_NUMERO_EDIF       VARCHAR2(50)             not null,
+   DI_ZONA_POSTAL       NUMBER(7)            not null,
+   DI_LOCAL             VARCHAR2(5)              not null,
+   DI_TELEFONOS         telefonos      not null
+);
+
+/*==============================================================*/
+/* TDA: TOUR_DIAS                                             */
 /*==============================================================*/
 create or replace type TOUR_DIAS as object
 (
-   TD_DIA1              fila(DIA)            not null,
-   TD_DIA2              fila(DIA)            not null,
-   TD_DIA3              fila(DIA)            not null
+   TD_DIA1              dias            not null,
+   TD_DIA2              dias            not null,
+   TD_DIA3              dias            not null
 );
