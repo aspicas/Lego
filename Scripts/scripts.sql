@@ -278,10 +278,10 @@ drop table VALORACION cascade constraints;
 create table CLASIFICACION 
 (
    CL_ID                NUMBER(7)            not null,
-   CL_NOMBRE            CHAR(50)             not null,
-   CL_DESCRIPCION       CHAR(1000)           not null,
-   CL_LICENCIA          CHAR(1)              not null,
-   CL_TIPO              CHAR(7)              not null,
+   CL_NOMBRE            VARCHAR2(50)             not null,
+   CL_DESCRIPCION       VARCHAR2(1000)           not null,
+   CL_LICENCIA          VARCHAR2(1)              not null,
+   CL_TIPO              VARCHAR2(7)              not null,
    CL_IMAGENES          BLOB                 not null,
    constraint PK_CLASIFICACION primary key (CL_ID)
 );
@@ -319,14 +319,14 @@ create table CLIENTE_VISITANTE
    CV_FK_REPRESEN       NUMBER(7),
    CV_FK_CIUDAD         NUMBER(7)            not null,
    CV_FK_NACIONALIDAD   NUMBER(7)            not null,
-   CV_NOMBRE            CHAR(20)             not null,
-   CV_NOMBRE_S          CHAR(20),
-   CV_APELLIDO          CHAR(20)             not null,
-   CV_APELLIDO_S        CHAR(20),
+   CV_NOMBRE            VARCHAR2(20)             not null,
+   CV_NOMBRE_S          VARCHAR2(20),
+   CV_APELLIDO          VARCHAR2(20)             not null,
+   CV_APELLIDO_S        VARCHAR2(20),
    CV_F_NAC             DATE                 not null,
-   CV_GENERO            CHAR(1)              not null,
-   CV_EXPERIENCIA       CHAR(10)             not null,
-   CV_TIPOCLIENTE       CHAR(20)             not null,
+   CV_GENERO            VARCHAR2(1)              not null,
+   CV_EXPERIENCIA       VARCHAR2(10)             not null,
+   CV_TIPOCLIENTE       VARCHAR2(20)             not null,
    CV_DIRECCION         DIRECCION            not null,
    constraint PK_CLIENTE_VISITANTE primary key (CV_ID)
 );
@@ -520,19 +520,7 @@ create index FK_DETPEDIDO_DL_FK on DET_LOTE (
 create table DIA 
 (
    DIA_HORA             DATE                 not null,
-   DIA_DESCRIPCION      CHAR(500)            not null
-);
-
-/*==============================================================*/
-/* Table: DIRECCION                                             */
-/*==============================================================*/
-create table DIRECCION 
-(
-   DI_CALLE             CHAR(50)             not null,
-   DI_NUMERO_EDIF       CHAR(50)             not null,
-   DI_ZONA_POSTAL       NUMBER(7)            not null,
-   DI_LOCAL             CHAR(5)              not null,
-   DI_TELEFONOS         Fila (TELEFONO)      not null
+   DIA_DESCRIPCION      VARCHAR2(500)            not null
 );
 
 /*==============================================================*/
@@ -568,8 +556,8 @@ create table ESTADO_CIUDAD
    EC_ID                NUMBER(7)            not null,
    EC_FK_ESTADO         NUMBER(7),
    EC_FK_PAIS           NUMBER(7)            not null,
-   EC_NOMBRE            CHAR(50)             not null,
-   EC_TIPO              CHAR(6)              not null,
+   EC_NOMBRE            VARCHAR2(50)             not null,
+   EC_TIPO              VARCHAR2(6)              not null,
    constraint PK_ESTADO_CIUDAD primary key (EC_ID)
 );
 
@@ -594,7 +582,7 @@ create table FABRICA
 (
    FA_ID                NUMBER(7)            not null,
    FA_FK_CIUDAD         NUMBER(7)            not null,
-   FA_NOMBRE            CHAR(100)            not null,
+   FA_NOMBRE            VARCHAR2(100)            not null,
    FA_DIRECCION         DIRECCION            not null,
    constraint PK_FABRICA primary key (FA_ID)
 );
@@ -704,7 +692,7 @@ create index FK_LINEA_HP_FK on HISTORICO_PRODUCTO (
 /*==============================================================*/
 create table HORARIO 
 (
-   HR_DIA               CHAR(30)             not null,
+   HR_DIA               VARCHAR2(30)             not null,
    HR_INICIO            DATE                 not null,
    HR_FIN               DATE                 not null
 );
@@ -716,8 +704,8 @@ create table INSTALACION
 (
    INS_ID               NUMBER(7)            not null,
    INS_FK_CIUDAD        NUMBER(7)            not null,
-   INS_NOMBRE           CHAR(10)             not null,
-   INS_TIPO             CHAR(50)             not null,
+   INS_NOMBRE           VARCHAR2(10)             not null,
+   INS_TIPO             VARCHAR2(50)             not null,
    INS_DIRECCION        DIRECCION            not null,
    constraint PK_INSTALACION primary key (INS_ID)
 );
@@ -736,7 +724,7 @@ create table LINEA_PROD
 (
    LP_FK_FABRICA        NUMBER(7)            not null,
    LP_ID                NUMBER(7)            not null,
-   LP_DESCRIPCION       CHAR(100),
+   LP_DESCRIPCION       VARCHAR2(100),
    constraint PK_LINEA_PROD primary key (LP_FK_FABRICA, LP_ID)
 );
 
@@ -752,7 +740,7 @@ create index FK_FABRICA_LP_FK on LINEA_PROD (
 /*==============================================================*/
 create table MONEDA 
 (
-   MO_NOMBRE            CHAR(3)              not null,
+   MO_NOMBRE            VARCHAR2(3)              not null,
    MO_CAMBIO            NUMBER(12,4)         not null
 );
 
@@ -762,9 +750,9 @@ create table MONEDA
 create table PAIS 
 (
    PA_ID                NUMBER(7)            not null,
-   PA_NOMBRE            CHAR(50)             not null,
-   PA_NACIONALIDAD      CHAR(50)             not null,
-   PA_CONTINENTE        CHAR(7)              not null,
+   PA_NOMBRE            VARCHAR2(50)             not null,
+   PA_NACIONALIDAD      VARCHAR2(50)             not null,
+   PA_CONTINENTE        VARCHAR2(7)              not null,
    PA_MONEDA            Moneda               not null,
    constraint PK_PAIS primary key (PA_ID)
 );
@@ -814,7 +802,7 @@ create table PRODUCCION_LOTE
    PL_ID_LOTE           NUMBER(7)            not null,
    PL_FEHA              DATE                 not null,
    PL_CANTIDAD          NUMBER(5)            not null,
-   PL_TIPO              CHAR(6)              not null,
+   PL_TIPO              VARCHAR2(6)              not null,
    constraint PK_PRODUCCION_LOTE primary key (PL_ID_LOTE)
 );
 
@@ -825,8 +813,8 @@ create table PRODUCTO
 (
    PR_CODIGO            NUMBER(7)            not null,
    PR_FK_CLASIFICACION  NUMBER(7)            not null,
-   PR_NOMBRE            CHAR(50)             not null,
-   PR_DESC              CHAR(300)            not null,
+   PR_NOMBRE            VARCHAR2(50)             not null,
+   PR_DESC              VARCHAR2(300)            not null,
    PR_RGO_EDAD          fila(RANGO)          not null,
    PR_PRECIO_USD        NUMBER(10,2)         not null,
    PR_CANT_PIEZAS       NUMBER(5)            not null,
@@ -879,18 +867,6 @@ create table RANGO
 );
 
 /*==============================================================*/
-/* Table: RESUMEN                                               */
-/*==============================================================*/
-create table RESUMEN 
-(
-   RE_ALTO              NUMBER(5,2)          not null,
-   RE_ANCHO             NUMBER(5,2)          not null,
-   RE_PROFUNDO          NUMBER(5,2)          not null,
-   RE_IDIOMAS           Conj(char)           not null,
-   RE_DESCRIPCION       CHAR(200)            not null
-);
-
-/*==============================================================*/
 /* Table: TELEFONO                                              */
 /*==============================================================*/
 create table TELEFONO 
@@ -898,7 +874,7 @@ create table TELEFONO
    TELE_COD_INT         NUMBER(2)            not null,
    TELE_COD_AREA        NUMBER(4)            not null,
    TELE_NUMERO          NUMBER(7)            not null,
-   TELE_TIPO            CHAR(10)             not null
+   TELE_TIPO            VARCHAR2(10)             not null
 );
 
 /*==============================================================*/
@@ -959,9 +935,9 @@ create table VALORACION
    VA_FECHA             DATE                 not null,
    VA_EXPERIENCIA       NUMBER(1)            not null,
    VA_CALIDAD_PR        NUMBER(1)            not null,
-   VA_DIFICULTAD        CHAR(10)             not null,
-   VA_IMPRESIONES       CHAR(1200),
-   VA_ARTICULO          CHAR(25)             not null,
+   VA_DIFICULTAD        VARCHAR2(10)             not null,
+   VA_IMPRESIONES       VARCHAR2(1200),
+   VA_ARTICULO          VARCHAR2(25)             not null,
    constraint PK_VALORACION primary key (VA_ID)
 );
 
