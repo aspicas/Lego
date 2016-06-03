@@ -2,23 +2,23 @@ Temas de catalogo LEGO:
 -Speed Champions 
 -Ninjago
 
-Estados Unidos
+Estados Unidos x
 
 -MALL OF AMERICA
 164 SOUTH AVENUE
-BLOOMINGTON MN 55425-5525
+BLOOMINGTON MN -x- 55425-5525
 Directions & Map
 (952) 858-894
 
 -THE WESTCHESTER
 125 Westchester Ave
-White Plains NY 10601
+White Plains NY -x- 10601
 Directions & Map
 914 259-8282
 
 -MAYFAIR
 2500 NORTH MAYFAIR RD, SPACE 0635
-WAUWATOSA WI 53226
+WAUWATOSA WI -x- 53226
 Directions & Map
 (414) 778-0280
 
@@ -30,19 +30,19 @@ A partir de aqui falta saber el nombre del centro comercial.
 
 Alemania
 
--ESSEN
+-ESSEN -x-
 Limbeckerstraße 25
 Essen 45127
 Directions & Map
 +49-(0)201-269 892 70
 
--BERLIN
+-BERLIN -x-
 TAUENTZIENSTRAßE 20
 Berlin 10789
 Directions & Map
 +49-(0)30-210 162 22
 
--FRANKFURT
+-FRANKFURT -x-
 MyZeil Einkaufszentrum
 Frankfurt 60313
 Directions & Map
@@ -50,19 +50,19 @@ Directions & Map
 
 Inglaterra
 
--MANCHESTER
+-MANCHESTER -x-
 Arndale Shopping Centre
 M4 3AQ Manchester
 Directions & Map
 +44 161 819 2272
 
--LIVERPOOL
+-LIVERPOOL -x-
 Liverpool ONE Shopping Centre
 L1 8BJ Liverpool
 Directions & Map
 +44 (0) 151 708 6017
 
--NEWCASTLE
+-NEWCASTLE -x-
 Unit 73,Metrocentre
 NE11 9YG Gateshead
 Directions & Map
@@ -72,31 +72,31 @@ Canada
 
 -POLO PARK
 1485 PORTAGE AVE., UNIT 0210A
-WINNIPEG MB R3G 0W4
+WINNIPEG MB -x- R3G 0W4
 Directions & Map
 204-774-1801
 
 -SHERWAY GARDENS
 25 THE WEST MALL - #1066
-TORONTO ON M9C 1B8
+TORONTO ON -x- M9C 1B8
 Directions & Map
 (416) 695-2433
 
 -SOUTHGATE CENTRE
 5015-111 ST NW SPACE #424
-EDMONTON AB T6H 4M6
+EDMONTON AB -x- T6H 4M6
 Directions & Map
 780-437-4567
 
 AUSTRIA
 
--SCS
+-SCS -x-
 Shopping City Süd , Unit G103
 2334 Vösendorf
 
 BELGICA
 
--WIJNEGEM
+-WIJNEGEM -x-
 Space 526, Turnhoutsebaan 5
 2110 Wijnegem
 Directions & Map
@@ -104,7 +104,7 @@ Directions & Map
 
 DINAMARCA
 
--COPENHAGEN
+-COPENHAGEN -x-
 VIMMELSKAFTET 37
 COPENHAGEN 1161
 Directions & Map
@@ -112,14 +112,14 @@ Directions & Map
 
 FRANCIA
 
--DISNEYLAND PARIS
+-DISNEYLAND PARIS -x-
 Chessy 77700
 Directions & Map
 +33 (0)161 103 319
 
 SUECIA
 
--STOCKHOLM
+-STOCKHOLM -x-
 Nationalarenan 6, Floor: UGF
 169 56 SOLNA
 Directions & Map
