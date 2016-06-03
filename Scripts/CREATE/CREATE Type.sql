@@ -33,7 +33,7 @@ create or replace type DIA as object
 create or replace type MONEDA as object
 (
    MO_NOMBRE            VARCHAR2(3),
-   MO_CAMBIO            NUMBER(12,4)
+   MO_CAMBIO            NUMBER(12,5)
 );
 /
 
