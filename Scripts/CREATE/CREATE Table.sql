@@ -94,8 +94,8 @@ create table DETALLE_PEDIDO
 (
    DP_ID                NUMBER(7)            not null,
    DP_FK_PEDIDO         NUMBER(7)            not null,
-   DIP_FK_PAIS          NUMBER(7)            not null,
-   DIP_FK_PRODUCTO      NUMBER(7)            not null,
+   DP_FK_PAIS          NUMBER(7)            not null,
+   DP_FK_PRODUCTO      NUMBER(7)            not null,
    DP_CANTIDAD          NUMBER(10)           not null,
    DP_SUBTOTAL          NUMBER(20,2)         not null,
    constraint PK_DETALLE_PEDIDO primary key (DP_FK_PEDIDO, DP_ID)
@@ -118,10 +118,10 @@ create table DET_LOTE
 /*==============================================================*/
 create table DISP_PROD 
 (
-   DIP_FK_PAIS          NUMBER(7)            not null,
-   DIP_FK_PRODUCTO      NUMBER(7)            not null,
-   DIP_LIMITE           NUMBER(3),
-   constraint PK_DISP_PROD primary key (DIP_FK_PAIS, DIP_FK_PRODUCTO)
+   DP_FK_PAIS          NUMBER(7)            not null,
+   DP_FK_PRODUCTO      NUMBER(7)            not null,
+   DP_LIMITE           NUMBER(3),
+   constraint PK_DISP_PROD primary key (DP_FK_PAIS, DP_FK_PRODUCTO)
 );
 
 /*==============================================================*/
@@ -167,7 +167,7 @@ create table FACTURA_ONLINE
 create table FACTURA_PEDIDO 
 (
    FP_NUMERO            NUMBER(7)            not null,
-   PD_ORDEN             NUMBER(7)            not null,
+   FP_FK_ORDEN          NUMBER(7)            not null,
    FP_FECHA             DATE                 not null,
    FP_TOTAL             NUMBER(5,2)          not null,
    constraint PK_FACTURA_PEDIDO primary key (FP_NUMERO)
