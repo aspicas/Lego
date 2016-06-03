@@ -1,0 +1,1 @@
+crear restriccion, si ESTADO_CIUDAD es ESTADO la FK_ESTADO es null.
