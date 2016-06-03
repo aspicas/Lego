@@ -26,6 +26,8 @@ drop type horarios_nt force;
 
 drop type idiomas_va force;
 
+drop type IMAGEN force;
+
 drop type imagenes_nt force;
 
 drop type rangos_nt force;

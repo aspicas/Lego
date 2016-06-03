@@ -117,9 +117,19 @@ create or replace type TOUR_DIAS as object
 /
 
 /*==============================================================*/
+/* TDA: IMAGEN                                             */
+/*==============================================================*/
+create or replace type IMAGEN as object
+(
+    IM_NOMBRE  VARCHAR2(20),
+    IM_IMAGEN  BLOB
+);
+/
+
+/*==============================================================*/
 /* NESTED: IMAGENES                                           */
 /*==============================================================*/
-create or replace type imagenes_nt as table of BLOB;
+create or replace type imagenes_nt as table of IMAGEN;
 /
 
 /*==============================================================*/
