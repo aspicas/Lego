@@ -1,5 +1,6 @@
-CREATE DIRECTORY DIR_BINARIOS AS 'C:\oraclexe\Binarios';
+CREATE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
 --Cambiar a donde quieran guardar
+/
 
 CREATE OR REPLACE FUNCTION IMPORTAR_BINARIO(NOMBRE VARCHAR2)
 RETURN BLOB IS
@@ -12,18 +13,21 @@ BEGIN
 	DBMS_LOB.CLOSE(V_BFILE);
 	RETURN R_BLOB;
 END;
-
-
 /*
 
 INSERT INTO CLASIFICACION(CL_ID,CL_NOMBRE,CL_DESCRIPCION,CL_LICENCIA,CL_TIPO,CL_IMAGENES) VALUES(
-  1,
-  'ROBOTS',
-  'ALGO',
-  'S',
-  'ASD',
-  IMAGENES_NT(IMPORTAR_BINARIO('ER.png'),IMPORTAR_BINARIO('23687.jpg'))
+  SQ_CLASIFICACION_ID.NEXTVAL,
+  'NINJAGO',
+  'DESC',
+  'N',
+  'TEMA',
+  IMAGENES_NT(
+    IMAGEN('COVER',IMPORTAR_BINARIO('ninjago.png')),
+    IMAGEN('LOGO',IMPORTAR_BINARIO('LEGO_Ninjago.png'))
+  )
 );
+
+SELECT c.cl_nombre "Clasificacion", im.im_nombre "Nombre de Imagen", im.im_imagen "Imagen" FROM clasificacion c, table(c.cl_imagenes) im;
 
 */
 /*Dos imágenes de prueba
