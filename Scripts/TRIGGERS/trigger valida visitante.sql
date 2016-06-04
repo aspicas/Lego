@@ -1,4 +1,4 @@
-/*Valida que el visitante no sea menor de edad*/
+/*Valida que el visitante no sea menor de edad&*/
 
 create or replace TRIGGER VALIDAR_EDAD_VISITANTE 
 BEFORE INSERT ON CLIENTE_VISITANTE
