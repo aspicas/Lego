@@ -1,4 +1,5 @@
-CREATE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
+--CREATE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
+CREATE DIRECTORY DIR_BINARIOS AS '/home/aspicas/Lego/images';
 --Cambiar a donde quieran guardar
 /
 
