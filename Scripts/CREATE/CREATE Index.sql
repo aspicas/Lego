@@ -102,8 +102,8 @@ create index FK_PEDIDO_DP_FK on DETALLE_PEDIDO (
 /* Index: FK_DISPROD_DP_FK                                      */
 /*==============================================================*/
 create index FK_DISPROD_DP_FK on DETALLE_PEDIDO (
-   DIP_FK_PAIS ASC,
-   DIP_FK_PRODUCTO ASC
+   DP_FK_PAIS ASC,
+   DP_FK_PRODUCTO ASC
 );
 
 /*==============================================================*/
@@ -125,14 +125,14 @@ create index FK_DETPEDIDO_DL_FK on DET_LOTE (
 /* Index: FK_PRODUCTO_DP_FK                                     */
 /*==============================================================*/
 create index FK_PRODUCTO_DP_FK on DISP_PROD (
-   DIP_FK_PRODUCTO ASC
+   DP_FK_PRODUCTO ASC
 );
 
 /*==============================================================*/
 /* Index: FK_PAIS_DP_FK                                         */
 /*==============================================================*/
 create index FK_PAIS_DP_FK on DISP_PROD (
-   DIP_FK_PAIS ASC
+   DP_FK_PAIS ASC
 );
 
 /*==============================================================*/
@@ -167,7 +167,7 @@ create index FK_CLIENTE_FON_FK on FACTURA_ONLINE (
 /* Index: FK_FACTPEDIDO_PEDIDO2_FK                              */
 /*==============================================================*/
 create index FK_FACTPEDIDO_PEDIDO2_FK on FACTURA_PEDIDO (
-   PD_ORDEN ASC
+   FP_FK_ORDEN ASC
 );
 
 /*==============================================================*/

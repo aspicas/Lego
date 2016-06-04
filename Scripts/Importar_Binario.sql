@@ -13,16 +13,17 @@ BEGIN
 	DBMS_LOB.CLOSE(V_BFILE);
 	RETURN R_BLOB;
 END;
+/
 /*
 
 INSERT INTO CLASIFICACION(CL_ID,CL_NOMBRE,CL_DESCRIPCION,CL_LICENCIA,CL_TIPO,CL_IMAGENES) VALUES(
   SQ_CLASIFICACION_ID.NEXTVAL,
-  'NINJAGO',
+  'sucisdfa',
   'DESC',
   'N',
   'TEMA',
   IMAGENES_NT(
-    IMAGEN('COVER',IMPORTAR_BINARIO('ninjago.png')),
+    IMAGEN('aa',IMPORTAR_BINARIO('ninjago.png')),
     IMAGEN('LOGO',IMPORTAR_BINARIO('LEGO_Ninjago.png'))
   )
 );
@@ -30,4 +31,3 @@ INSERT INTO CLASIFICACION(CL_ID,CL_NOMBRE,CL_DESCRIPCION,CL_LICENCIA,CL_TIPO,CL_
 SELECT c.cl_nombre "Clasificacion", im.im_nombre "Nombre de Imagen", im.im_imagen "Imagen" FROM clasificacion c, table(c.cl_imagenes) im;
 
 */
-/*Dos imágenes de prueba
