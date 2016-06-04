@@ -7,5 +7,3 @@ insert into pais VALUES (SQ_PAIS_ID.NEXTVAL,'BELGIUM','BELGIAN','EUROPE',moneda(
 insert into pais VALUES (SQ_PAIS_ID.NEXTVAL,'DENMARK','DANISH','EUROPE',moneda('EUR',1.11465));
 insert into pais VALUES (SQ_PAIS_ID.NEXTVAL,'FRANCE','FRENCH','EUROPE',moneda('EUR',1.11465));
 insert into pais VALUES (SQ_PAIS_ID.NEXTVAL,'SWEDEN','SWEDISH','EUROPE',moneda('EUR',1.11465));
-
-select treat(pa_moneda as moneda).mo_nombre, treat(pa_moneda as moneda).mo_cambio from pais where PA_NOMBRE='ENGLAND';

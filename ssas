@@ -1,0 +1,723 @@
+[33mcommit a697d577a69114eea74ec4823af08ccf7526125e[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Fri Jun 3 22:37:06 2016 -0400
+
+    arreglo v2 trigger de horario de tienda
+
+[33mcommit afddc491d13ae76cfb04915d10698575a43a3ffc[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Fri Jun 3 20:53:13 2016 -0400
+
+    trigger de horario de tienda
+
+[33mcommit 4d1186db8070743c0fa0b2948d29ccc311cc9e78[m
+Merge: e48d76e 9db8945
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Fri Jun 3 20:19:45 2016 -0400
+
+    Arreglo de conflicto en trigger valida_edad_visitante
+
+[33mcommit e48d76ef4edfb244c9cfb0e06e357c5eeb2c633a[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Fri Jun 3 20:03:00 2016 -0400
+
+    insert de cliente_visitante y arreglo de trigger validar_edad_visitante
+
+[33mcommit 9db894518ec9c5e5bbd29d52e28dfade8ca23dd8[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Fri Jun 3 18:03:09 2016 -0400
+
+    Arreglo Representante visitante
+
+[33mcommit 6fea67cbef3bf7e966704a977611fd8e0a9751be[m
+Merge: 44aa3ff 45bb22c
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Fri Jun 3 17:57:02 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 44aa3ffeb71f61d121cc9eaaa10391dcab410b84[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Fri Jun 3 17:55:55 2016 -0400
+
+    Arreglo nombre atributos FK
+
+[33mcommit 45bb22c57d376ef8774f891d558d009578b658e7[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Fri Jun 3 17:43:02 2016 -0400
+
+    trigger de validacion visitante
+
+[33mcommit 01ca183f1547b2831a833a51415b12ab6722b0b6[m
+Merge: 56cb42d 4161414
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Fri Jun 3 17:41:45 2016 -0400
+
+    no
+
+[33mcommit 56cb42d5dd929fb93bf99ca65fcc0b1b525f2b4e[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Fri Jun 3 17:26:26 2016 -0400
+
+    trigger valida visitante
+
+[33mcommit 416141451aef0280c33f3bb1da25a00bdb1c55ed[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Fri Jun 3 15:53:22 2016 -0400
+
+    sin espacios xD
+
+[33mcommit fdbe37b84b7236b5b327be47c4652670aeb2221f[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Fri Jun 3 15:50:47 2016 -0400
+
+    Imágenes, arreglo constraints CH, cambio IMAGENES_NT, inserts clasificacion
+
+[33mcommit 1c4e44e6bec1964c81b067571cb0e408f986c3b3[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Fri Jun 3 13:10:14 2016 -0400
+
+    Arreglo decimales en inserts.xls y script para reiniciar BD
+
+[33mcommit 061af46161e2698a1ab010dfdb3bcff22957b728[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Fri Jun 3 02:55:01 2016 -0400
+
+    fin de la prueba 2
+
+[33mcommit f1fb1114cdf73caa1b9882f7abb7699eedd1c332[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Fri Jun 3 02:54:18 2016 -0400
+
+    prueba 2
+
+[33mcommit 8f9b8a9d7e863779aa3fa752364e8b1190fc3c46[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Fri Jun 3 02:40:03 2016 -0400
+
+    fin de la prueba
+
+[33mcommit 6f872df98bbc259bad0a723bd89647c0c9b6028f[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Fri Jun 3 02:39:15 2016 -0400
+
+    prueba
+
+[33mcommit 0f7e78e329d089a5db4ad8890189d14f5360f7ae[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 23:19:12 2016 -0700
+
+    agregada la foto y el directorio de imagenes
+
+[33mcommit 51b186856103343bf21897188b6dfc22251df1da[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 22:08:22 2016 -0700
+
+    Arreglo de estado ciudad
+
+[33mcommit 7a2da91c40d86b9592c978b27023656f6e79bea8[m
+Merge: 33f08cc a227a70
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 22:04:02 2016 -0700
+
+    merge
+
+[33mcommit 33f08cc84894755ec39ad156122bd34c9a727702[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 22:02:46 2016 -0700
+
+    	new file:   Scripts/insert_pais.sql
+
+[33mcommit a227a7070ca469ffb90e22fba465bf7c2d538c44[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Fri Jun 3 01:00:36 2016 -0400
+
+    inserts de estado ciudad
+
+[33mcommit a8e49f0e28f79bf9ead5518c7ec54278da9e70f7[m
+Merge: 6439a27 7cc7a94
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 20:14:25 2016 -0700
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 7cc7a94547845277ee97f3d39a52556aa2d58c60[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 23:14:01 2016 -0400
+
+    inserts de pais
+
+[33mcommit 6439a2719e54d84cc2bb31654cf7f7eb30b79a3e[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 18:20:21 2016 -0700
+
+    restricciones en el .gitignore
+
+[33mcommit 2caa34290b5faa294cd313525fbf7ee4205add8a[m
+Merge: c069106 67407b7
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 19:57:01 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit c069106ca03b3378984d8feb9c3fd7f6484381c4[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 19:56:29 2016 -0400
+
+    Calcular fecha tachada
+
+[33mcommit 67407b7b3239c914466c4d70e1493fdd47dbc81b[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 08:20:07 2016 -0700
+
+    Arreglos
+
+[33mcommit a4559c2874e4d275475e2b44d53945434e0f108a[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 08:18:37 2016 -0700
+
+    implementada la funcion calcula fecha
+
+[33mcommit b61892d6f809dbffd297dbaa1b4533feb3aefcb6[m
+Merge: 03e8bf5 955d352
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 09:00:22 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 03e8bf5f5d9722906f0e7f42d49d226604cccf37[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 08:59:57 2016 -0400
+
+    drop uniques and checks
+
+[33mcommit 955d35270e0b210298e25c707ec9d7ef2db41a61[m
+Author: David Garcia <David Garcia>
+Date:   Thu Jun 2 08:16:13 2016 -0430
+
+    Arreglo del ER
+
+[33mcommit adcc4736c2a94302aa9e21fae6eb1ae42b83c59f[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 07:50:21 2016 -0400
+
+     Changes to be committed:
+    	deleted:    ALTER Constraints CH Y UN.sql
+    	deleted:    ALTER Constraints FK.sql
+    	deleted:    CREATE Index.sql
+    	deleted:    CREATE SEQUENCE.sql
+    	deleted:    CREATE Table.sql
+    	deleted:    CREATE Type.sql
+    	deleted:    DROP Constraints FK.sql
+    	deleted:    DROP Index.sql
+    	deleted:    DROP SEQUENCE.sql
+    	deleted:    DROP Table.sql
+    	deleted:    DROP Type.sql
+
+[33mcommit 2368b4f8c5e2a81e3f00bcbb2ddd685956517591[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Thu Jun 2 07:49:48 2016 -0400
+
+    Arreglo de archivos
+
+[33mcommit ae81b4ebb7379e79caae3f35e6097d01f0a8b168[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 18:20:16 2016 -0400
+
+    arreglo de las secuencias
+
+[33mcommit 4beae90f683e0f7160bed99e3a7ba1e3bb88e1de[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 18:17:28 2016 -0400
+
+    create y drop de las secuencias
+
+[33mcommit e20b7e49279873055b30e113f271aaa87d9355d3[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 17:46:36 2016 -0400
+
+    checks y uniques terminados
+
+[33mcommit 8cf9c174d9a19a67f9bc4ef96d63c913c6867989[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 13:54:12 2016 -0700
+
+    arreglos de Type
+
+[33mcommit 8de9f7b2fab8bcae5df58e9a479736a4fdd01083[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed Jun 1 13:39:12 2016 -0400
+
+    Carga de BLOB
+
+[33mcommit 2666edaaab835fab7432dda41b85cb6aa7c7e852[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed Jun 1 04:02:35 2016 -0400
+
+    Me duermo... cambios en lista de proc.
+
+[33mcommit 7071a1f06e24a4ddd3b0eb29085f31ac8b138dcb[m
+Merge: 5799bf7 e40b04b
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed Jun 1 03:24:16 2016 -0400
+
+    Haciendo merge
+
+[33mcommit 5799bf7711b0ac3ad495e07402276acb96ca8ad5[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed Jun 1 03:15:05 2016 -0400
+
+    Arreglo de error de PD y Scripts SQL (Ya sirven en ORACLE)
+
+[33mcommit e40b04bd6072b2026245d4c67182dfd64fcd7244[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 01:01:36 2016 -0400
+
+    Arreglo del drop type
+
+[33mcommit e3b311ac7523e19be9e9ba954e8ca7072d19cbb6[m
+Merge: 06b7ae4 7006531
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 00:57:57 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 06b7ae4de496f00a32cebbbd8c3285aa7ec97597[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 00:57:48 2016 -0400
+
+    Arreglo de TDA
+
+[33mcommit 7006531e6454fc690797e39a63c64173f3c7fb00[m
+Merge: 5628498 fbdc9b5
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Tue May 31 21:53:50 2016 -0700
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 5628498a6f364af49af1690c03819144071ec6af[m
+Author: aspicas <david.a.g.r93@gmail.com>
+Date:   Tue May 31 21:53:31 2016 -0700
+
+    TDA casi listo
+
+[33mcommit fbdc9b5cac4544fcb68c0cceaa8bc6671bb0d537[m
+Merge: 9340441 202a1ba
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed Jun 1 00:42:18 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 93404419023f7a8185746c5c4e410df6b3908649[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed Jun 1 00:41:17 2016 -0400
+
+    Organización de Scripts
+
+[33mcommit 202a1baba78937a7b7ccc8d372869522ad07da71[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed Jun 1 00:36:00 2016 -0400
+
+    Arreglos en TDA
+
+[33mcommit a0a37f14e9b6934716461f7b5deb9add684d3e5f[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Tue May 31 23:47:38 2016 -0400
+
+    TDA listos
+
+[33mcommit 5e2cad83268a6722c0c3b0cb491d218adbfdf7da[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Tue May 31 23:31:19 2016 -0400
+
+    VARRAY de idiomas
+
+[33mcommit 8d3f6fc82eed1dd322042b66e360e8b9d4c81b4b[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Tue May 31 23:20:36 2016 -0400
+
+    TDA.sql creado con los primeros TDA
+
+[33mcommit 9aa2b8e6f846e47ee94f4ce8bfbbca8fe308e1c4[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Tue May 31 22:53:23 2016 -0400
+
+    ignorara .directory
+
+[33mcommit 0aa1ad382c8dd119a7c30014199797fed3b4018e[m
+Author: David Garcia <David Garcia>
+Date:   Tue May 31 22:09:26 2016 -0430
+
+    Arreglos de indexes en el ER y en el Script
+
+[33mcommit 1f208956bcc9a804f970a71a70c9550967cb5618[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Tue May 31 02:55:30 2016 -0400
+
+    Lista incompleta de Proc-Func-Triggers
+
+[33mcommit 61fb17fcf4a4f014a1c71e880114511e141ad544[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Tue May 31 01:21:52 2016 -0400
+
+    Verificado ER y creado modelo físico y Script SQL
+
+[33mcommit df783256ad06e21e429d152c0de54e74bace9520[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Tue May 31 00:00:47 2016 -0400
+
+    Arreglo Tour 2, ahora sí xD
+
+[33mcommit bc3227de514dd1df191173099a0184c39abc7171[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Mon May 30 23:55:38 2016 -0400
+
+    Arreglo Tour, TDA TOUR_DIA
+
+[33mcommit a29dc89d98aed1ba13e3eb9eba7d5ceaa7e9a51c[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 30 21:25:17 2016 -0400
+
+    Plantilla de datamart para el top 2 del documento corregido, incompleto
+
+[33mcommit ba2da9f5b3cea8c67427f948805a89077a182bdd[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 30 21:00:38 2016 -0400
+
+    En la plantilla de agrego los visitantes a la fecha
+
+[33mcommit c0d83c043d79bf7723ceb0aec7001b66c9f4e94a[m
+Author: David Garcia <David Garcia>
+Date:   Mon May 30 20:14:21 2016 -0430
+
+    co_incluido agregado
+
+[33mcommit 4fdaa173a602247ee19918364543a1c6553ada6a[m
+Author: David Garcia <David Garcia>
+Date:   Mon May 30 19:26:50 2016 -0430
+
+    Reporte Catalogo y Factura del cliente
+
+[33mcommit fac1344b3c9af2cf0505df0bb4f20fa72b9e6b8e[m
+Author: David Garcia <David Garcia>
+Date:   Mon May 30 19:22:09 2016 -0430
+
+    Agregados TDA en el ER
+
+[33mcommit a4e9b78fde926adaa8b05f4d5e4acb37cd738268[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 30 14:20:28 2016 -0400
+
+    Arreglo plantilla eficiencia
+
+[33mcommit d147f3bdbd736f85be9355a6aad2089da2081330[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 30 13:52:23 2016 -0400
+
+    Plantilla de eficiencia de las fabricas
+
+[33mcommit 27f44ae6ab80caadf5cac016c54d8e10957e0732[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 30 12:39:01 2016 -0400
+
+    modificacion de status de reportes.txt
+
+[33mcommit a4e2dbe439c1511f198b648dc12aaf58b4ac2f28[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 30 12:33:22 2016 -0400
+
+    Plantilla de tiendas lego
+
+[33mcommit fb53ce31409ee67b5ac89816ada00af0da68c08a[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 30 09:19:32 2016 -0400
+
+    Plantilla de programacion tour
+
+[33mcommit 6c34aa7b9008639cf425707a51667bc2142d1453[m
+Author: David Garcia <David Garcia>
+Date:   Sat May 28 23:50:07 2016 -0430
+
+    Division de los reportes Jessie y yo
+
+[33mcommit 34a16ccd842d89b3698f3ccff80a97f17e2e1738[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Sat May 28 23:28:41 2016 -0400
+
+    Resaltados posibles reportes en doc de entrega 1
+
+[33mcommit 2296b4af92f1bf044dae8e2d817926c8026a7f41[m
+Author: David Garcia <David Garcia>
+Date:   Sat May 28 22:30:17 2016 -0430
+
+    ER Corregido
+
+[33mcommit 8a6cec07789dee4445b7f5ca6e94bfd2e1de8ce9[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Sat May 28 21:02:35 2016 -0400
+
+    LOLOLOL
+
+[33mcommit 11f4e9e22b8d2b53c82eaa2c02e0e98681fd5735[m
+Author: David Garcia <David Garcia>
+Date:   Sat May 28 20:15:35 2016 -0430
+
+    lala
+
+[33mcommit 8358377b936a046bdb6250d6db5b09a6f7325faa[m
+Author: David Garcia <David Garcia>
+Date:   Sat May 28 18:45:31 2016 -0430
+
+    Algunos arreglos al ER
+
+[33mcommit ee2af3c541881cbfb164387d32d0dddab10cfae2[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Thu May 26 12:01:04 2016 -0400
+
+    Especificación de actividades del Data Mart
+
+[33mcommit bba8281d2bd3cee435130686179a7e307089946b[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Thu May 26 12:00:38 2016 -0400
+
+    Especificación de actividades del Data Mart
+
+[33mcommit 015d203e59e440b59cf8cadb3dba4c74ebc9fbab[m
+Author: david alejandro garcia ruiz <david alejandro garcia ruiz>
+Date:   Thu May 26 01:46:09 2016 -0400
+
+    Planificacion con las reflexiones, ya deberian poder visualizarlas en Windows
+
+[33mcommit 281299859472a2a6fb070dbb7e0bd0486588e70a[m
+Merge: 6e76a09 10ed2a0
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed May 25 23:19:07 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 6e76a09109a9015e2674ad4b3d458d8b1d3216c0[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Wed May 25 23:18:22 2016 -0400
+
+    Reflexión Carlos
+
+[33mcommit 10ed2a08f3b570a55ffbfc5dc881c4d5e1ef439c[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 25 22:29:35 2016 -0400
+
+    reflexion David
+
+[33mcommit 1b419db190268f967b90659a3033e2890257c74a[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Wed May 25 22:04:05 2016 -0400
+
+    Reflexion jessica para la planificacion
+
+[33mcommit e446182f830f889ed472cb3849226621ca39dcc3[m
+Merge: 0f72a4c e4bb645
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Wed May 25 22:01:30 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit e4bb6455f64e6272c8d76fc455ed034de69a3b39[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 25 21:59:18 2016 -0400
+
+    Arreglos
+
+[33mcommit 27f53ab87b0c3cd153f5fe0e87608576227f70a0[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 25 21:52:53 2016 -0400
+
+    formato de la planificacion arreglado
+
+[33mcommit 0f72a4cb824b7effd41b58415cf804fae38b7753[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Wed May 25 21:50:37 2016 -0400
+
+    Reflexion jessica
+
+[33mcommit df19d426cc4c0298b5835b1457c1135421e7968f[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 25 21:35:34 2016 -0400
+
+    En la planificacion solo faltan listar los programas a implementar y arreglar las actividades y tiempos pertinentes del DSS
+
+[33mcommit 886978d6272a7d36e1eb48ace88a794350d51eb7[m
+Merge: 7a441a6 5054484
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 25 02:00:29 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit 7a441a6e39b4decde4f8c6591d05f7e213b1ce0d[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 25 02:00:11 2016 -0400
+
+    Agregada entrega 1
+
+[33mcommit 5054484ef2e5e347bf6adf85437e72b21760895d[m
+Author: david alejandro garcia ruiz <david alejandro garcia ruiz>
+Date:   Sat May 21 13:26:47 2016 -0700
+
+    Planificacion modificada, faltan 3 detalles
+
+[33mcommit 99fc77ff4930cedf4c78f303efc8f1b6a2032aa7[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 21 10:16:51 2016 -0400
+
+    Planificacion version 1 sin modificar
+
+[33mcommit e50d77d93909bb53515999b436bd42d23968a175[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Wed May 18 16:43:29 2016 -0400
+
+    Arreglo casi completo del ER, falta la parte de tour
+
+[33mcommit 5031fe6097ff02bdc7b24d2406b681e21c19bfe1[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Mon May 16 13:26:29 2016 -0400
+
+    Estan las entidades que nos faltaron
+
+[33mcommit 4a51a21c0dfe7a7c8e207485616b62034878f41c[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Thu May 12 09:56:10 2016 -0400
+
+    Feedback de la P1
+
+[33mcommit 849f926f1643ceab8cbdc754a2eac5ae1bb6783c[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Tue May 10 20:09:22 2016 -0400
+
+    Feedback de la primera entrega y cambio de la carpeta D-Conceptual
+
+[33mcommit 83879a3337b9a7d5a11aea80b565d880189214fa[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 7 21:50:13 2016 -0400
+
+    borrado
+
+[33mcommit d8fc7a5be05a0213ae5f4a2d70412a3ad3fd09f9[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 7 21:44:39 2016 -0400
+
+    sin rama1
+
+[33mcommit 48ea6a01c220bb2203db5cc9cb984ba2981776ed[m
+Merge: a675988 bd0e17d
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 7 21:39:23 2016 -0400
+
+    bla
+
+[33mcommit bd0e17d1ec2265686621ccdb10d0b40f44621742[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Sat May 7 21:27:53 2016 -0400
+
+    La rama del perro
+
+[33mcommit d6fd0dd333910b1c128200cdf53d2c16621a2597[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Sat May 7 21:10:14 2016 -0400
+
+    Nuevo cambio
+
+[33mcommit c87f64a7836816e3496533d72a3275ec355c3d07[m
+Author: David Garcia <David Garcia>
+Date:   Sat May 7 20:32:18 2016 -0430
+
+    ole
+
+[33mcommit a67598801486173a3f9084e3b4a70e4c030b9959[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 7 20:59:57 2016 -0400
+
+    aaaaaaaarreglate
+
+[33mcommit 2129c2a0342453a69ce260e6cb4ec25518aa2849[m
+Merge: f328866 6fe007b
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 7 20:40:02 2016 -0400
+
+    merge prueba
+
+[33mcommit f328866902d26e3b946b97a6893eab13187347fd[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 7 20:35:26 2016 -0400
+
+    prueba2
+
+[33mcommit 6fe007b6ae4f01582ca965b718f590c6f95bef0e[m
+Author: Jessica Elberg <elbergjessica@gmail.com>
+Date:   Sat May 7 20:29:27 2016 -0400
+
+    lero lero
+
+[33mcommit 4f979cdad6b36f1f5414dee3a39bc546a2977ee7[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Sat May 7 20:23:58 2016 -0400
+
+    Agregando a prueba
+
+[33mcommit cfa1d87eba099ece5660e7a504f8e79a795fec8a[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sat May 7 20:17:40 2016 -0400
+
+    prueba1
+
+[33mcommit 6c3d5512d1c62629897cefd5e9bc673bc84e05f5[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 4 22:53:19 2016 -0400
+
+    Agregadas las otras tiendas de los paises que faltaban
+
+[33mcommit f3c00895a99677167f63fd2372484e8b8f1ac812[m
+Merge: c5450de fc73234
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 4 22:30:43 2016 -0400
+
+    Merge branch 'master' of https://github.com/aspicas/Lego
+
+[33mcommit c5450de2cf00f449e3011eeef74be496b7def162[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Wed May 4 22:30:07 2016 -0400
+
+    archivos con las 3 tiendas elegidas de Alemania, Inglaterra y Canada, mas las otras 3 de Estados Unidos
+
+[33mcommit fc73234d9af2d732352ab2ee1198fda5e1f4d19e[m
+Author: Carlos Velasco <carlosvel9794@gmail.com>
+Date:   Mon Apr 25 23:14:02 2016 -0430
+
+    ER Version 4 (preRelease cand. 1)
+
+[33mcommit 28fdaf57a55af0e4e5a0e6a540c95cd32d19b913[m
+Author: David Garcia <David Garcia>
+Date:   Mon Apr 25 22:45:30 2016 -0430
+
+    Diagram version 3
+
+[33mcommit 36f965028064c282b97d17250d73b21145207810[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Sun Apr 24 23:29:35 2016 -0430
+
+    Documento de la primera entrega y requerimientos
+
+[33mcommit 2ff56ab51073fd3b8e0c0344554baee86c1c607f[m
+Author: David Garcia <david.a.g.r93@gmail.com>
+Date:   Fri Apr 22 17:18:00 2016 -0430
+
+    Design ER-database-version1
+
+[33mcommit 15b7e856fbb5cc6fbb66577528d9e70d102efa46[m
+Author: David Garcia <david@user.as>
+Date:   Tue Apr 19 22:33:36 2016 -0430
+
+    Design ER-database-version1
+
+[33mcommit a42eea61edb96e28c779927dd0ddc222bf3cc830[m
+Author: David Alejandro Garcia Ruiz <david.a.g.r93@gmail.com>
+Date:   Tue Mar 29 19:34:30 2016 -0430
+
+    Initial commit

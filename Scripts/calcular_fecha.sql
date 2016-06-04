@@ -4,5 +4,6 @@ begin
 	select trunc((sysdate - to_date(d_fecha,'dd/mm/rrrr'))/365,0) into n_retorno from dual;
 	return n_retorno;
 end;
+/
 
 SELECT calcular_edad(TO_DATE('04/06/1993','dd/mm/yyyy')) from dual;
