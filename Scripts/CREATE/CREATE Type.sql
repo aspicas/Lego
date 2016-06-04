@@ -87,7 +87,7 @@ create or replace type telefonos_va as varray(3) of telefono;
 /
 
 /*==============================================================*/
-/* NESTED: DIA                                             */
+/* VARRAY: DIA                                             */
 /*==============================================================*/
 create or replace type dias_va as varray(2) of dia;
 /
@@ -133,9 +133,9 @@ create or replace type imagenes_nt as table of IMAGEN;
 /
 
 /*==============================================================*/
-/* NESTED: HORARIO                                             */
+/* VARRAY: HORARIO                                             */
 /*==============================================================*/
-create or replace type horarios_nt as table of HORARIO;
+create or replace type horarios_va as varray(10) of HORARIO;
 /
 
 /*==============================================================*/
@@ -145,7 +145,7 @@ create or replace type categorias_va as varray(10) of varchar2(20);
 /
 
 /*==============================================================*/
-/* NESTED: RANGO                                             */
+/* VARRAY: RANGO                                             */
 /*==============================================================*/
-create or replace type rangos_nt as table of RANGO;
+create or replace type rangos_va as varray(10) of RANGO;
 /

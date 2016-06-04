@@ -13,3 +13,6 @@
 
 @"ALTER\ALTER Constraints FK.sql";
 @"ALTER\ALTER Constraints CH Y UN.sql";
+
+@"INSERT\insert_pais.sql";
+@"INSERT\insert_estadociudad.sql";
