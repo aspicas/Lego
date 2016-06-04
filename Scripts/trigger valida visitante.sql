@@ -1,11 +1,10 @@
-/* Valida que no se registre un visitante menor de edad. No lo he podido probar por que no hay inserts
-en la tabla cliente_visitante*/
+/*Solo valida que la persona sea menor de edad no se pueda registrar*/
 
-CREATE OR REPLACE TRIGGER VALIDAR_EDAD_VISITANTE 
+create or replace TRIGGER VALIDAR_EDAD_VISITANTE 
 BEFORE INSERT ON CLIENTE_VISITANTE
 FOR EACH ROW
 BEGIN 
 IF (months_between(sysdate,:new.CV_F_NAC)/12) < 18 THEN
-raise_Application_error(30003,'El visitante es menor de edad');
+raise_Application_error(-20929,'El visitante es menor de edad);
 end if;
-END; 
+END;
