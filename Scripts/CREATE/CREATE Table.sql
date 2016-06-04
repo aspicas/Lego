@@ -290,7 +290,7 @@ create table PRODUCTO
    PR_RESUMEN           RESUMEN,
    PR_FOTOS             imagenes_nt,
    PR_FEC_LANZAM        DATE                 not null,
-   PR_INSTRUCCIONES     BLOB,
+   PR_INSTRUCCIONES     BLOB DEFAULT EMPTY_BLOB(),
    PR_CATEGORIAS        categorias_va,
    constraint PK_PRODUCTO primary key (PR_CODIGO)
 ) NESTED TABLE PR_RGO_EDAD STORE AS NT_EDADES_PROD
