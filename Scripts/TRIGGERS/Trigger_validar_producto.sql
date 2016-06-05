@@ -39,4 +39,3 @@ IF :NEW.PR_CATEGORIAS IS NULL THEN
     RAISE_APPLICATION_ERROR(-20009, 'Debe haber al menos una categoría.');
 END IF; 
 END;
-/
