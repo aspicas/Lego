@@ -6,7 +6,7 @@
    <polyline fill="none" points="522,332 522,55" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="532,42 522,68 513,42 532,42" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="517,68 528,68" stroke="#000000" stroke-width="1"/>
-   <text x="461" y="588" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">esta disponible</text>
+   <text x="465" y="588" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">esta disponible</text>
    <path d="M594,17 L1157,17 A8,8 0 0,1 1165,25 L1165,34" fill="none" stroke="#000000" stroke-width="1"/>
    <path d="M1165,34 L1165,44 A8,8 0 0,0 1173,52 L1725,52" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="581,7 607,17 581,26 581,7" stroke="#000000" stroke-width="1"/>
@@ -20,18 +20,18 @@
    <path d="M1479,991 L1391,991 A8,8 0 0,0 1383,999 L1383,1007" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1383,1007 L1383,1015 A8,8 0 0,1 1375,1023 L1277,1023" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1263,1014 1290,1023 1263,1033 1263,1014" stroke="#000000" stroke-width="1"/>
-   <text x="1437" y="1006" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">paga</text>
-   <text x="1338" y="1017" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es pagada</text>
+   <text x="1441" y="1007" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">paga</text>
+   <text x="1334" y="1017" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es pagada</text>
    <path d="M950,951 L950,1035 A4,4 0 0,0 954,1039 L959,1039" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="959,1039 1106,1039" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="959,938 950,964 940,938 959,938" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="944,964 955,964" stroke="#000000" stroke-width="1"/>
-   <text x="1000" y="983" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es detallada</text>
-   <text x="1049" y="1054" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se detalla</text>
+   <text x="996" y="983" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es detallada</text>
+   <text x="1053" y="1055" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se detalla</text>
    <path d="M1657,802 L1685,802 A8,8 0 0,0 1693,794 L1693,714 A8,8 0 0,1 1701,706 L1805,706" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1805,706 L1909,706 A8,8 0 0,1 1917,714 L1917,900 A8,8 0 0,1 1909,908 L1661,908" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1647,899 1674,908 1647,918 1647,899" stroke="#000000" stroke-width="1"/>
-   <text x="1743" y="902" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es representante</text>
+   <text x="1739" y="902" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es representante</text>
    <polyline fill="none" points="1661,1001 1837,1001" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1837,1001 2013,1001" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="2026,1011 1999,1001 2026,992 2026,1011" stroke="#000000" stroke-width="1"/>
@@ -50,35 +50,35 @@
    <path d="M2269,1289 L1538,1289 A5,5 0 0,1 1533,1284 L1533,1278" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1533,1278 L1533,1272 A6,6 0 0,0 1527,1266 L1383,1266" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1370,1257 1397,1266 1370,1276 1370,1257" stroke="#000000" stroke-width="1"/>
-   <text x="2222" y="1304" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">atiende</text>
-   <text x="1444" y="1260" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es atendido</text>
+   <text x="2219" y="1304" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">atiende</text>
+   <text x="1447" y="1260" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es atendido</text>
    <path d="M1383,1210 L1482,1210 A8,8 0 0,0 1490,1202 L1490,1183" fill="none" stroke="#000000" stroke-width="1"/>
    <path d="M1490,1183 L1490,1165 A8,8 0 0,1 1498,1157 L1757,1157" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1370,1201 1397,1210 1370,1219 1370,1201" stroke="#000000" stroke-width="1"/>
-   <text x="1435" y="1204" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es hecho</text>
-   <text x="1719" y="1172" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">hace</text>
+   <text x="1438" y="1204" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es hecho</text>
+   <text x="1716" y="1172" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">hace</text>
    <polyline fill="none" points="2269,1329 1650,1329" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1650,1329 1031,1329" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1018,1320 1045,1329 1018,1338 1018,1320" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1045,1334 1045,1323" stroke="#000000" stroke-width="1"/>
-   <text x="2236" y="1345" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">usa</text>
-   <text x="1083" y="1323" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es usada</text>
+   <text x="2233" y="1345" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">usa</text>
+   <text x="1086" y="1323" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es usada</text>
    <path d="M460,844 L460,1028 A8,8 0 0,1 452,1036 L394,1036" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M394,1036 L335,1036 A8,8 0 0,0 327,1044 L327,1260" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="318,1274 327,1247 337,1274 318,1274" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="333,1247 322,1247" stroke="#000000" stroke-width="1"/>
-   <text x="511" y="876" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es fabricado</text>
+   <text x="507" y="876" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es fabricado</text>
    <polyline fill="none" points="434,1307 663,1307" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="663,1307 893,1307" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="421,1298 447,1307 421,1317 421,1298" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="447,1313 447,1302" stroke="#000000" stroke-width="1"/>
-   <text x="845" y="1323" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">fabrica</text>
+   <text x="848" y="1323" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">fabrica</text>
    <path d="M1170,1193 L973,1193 A6,6 0 0,1 967,1187 L967,1180" fill="none" stroke="#000000" stroke-width="1"/>
    <path d="M967,1180 L967,1173 A6,6 0 0,0 961,1167 L647,1167" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="634,1158 661,1167 634,1177 634,1158" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="661,1173 661,1162" stroke="#000000" stroke-width="1"/>
-   <text x="1088" y="1209" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">esta conformado</text>
-   <text x="703" y="1161" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">conforma</text>
+   <text x="1092" y="1209" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">esta conformado</text>
+   <text x="700" y="1161" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">conforma</text>
    <path d="M1767,172 L1767,302 A5,5 0 0,0 1772,307 L1777,307" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1777,307 1853,307" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1866,316 1839,307 1866,297 1866,316" stroke="#000000" stroke-width="1"/>
@@ -87,7 +87,7 @@
    <path d="M1990,290 L1990,234 A8,8 0 0,1 1998,226 L2254,226 A4,4 0 0,1 2258,230 L2258,235" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M2258,235 L2258,303 A8,8 0 0,1 2250,311 L2023,311" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="2010,302 2037,311 2010,320 2010,302" stroke="#000000" stroke-width="1"/>
-   <text x="2091" y="305" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">está dividido</text>
+   <text x="2088" y="305" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">está dividido</text>
    <path d="M2023,364 L2097,364 A5,5 0 0,1 2102,369 L2102,374" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="2102,374 2102,535" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="2093,548 2102,522 2111,548 2093,548" stroke="#000000" stroke-width="1"/>
@@ -116,18 +116,18 @@
    <path d="M1136,994 L1136,801 A5,5 0 0,0 1131,796 L1126,796" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1126,796 1074,796" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1061,787 1087,796 1061,805 1061,787" stroke="#000000" stroke-width="1"/>
-   <path d="M199,896 L93,896 A4,4 0 0,0 89,900 L89,905" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="89,905 89,994" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="80,1007 89,980 98,1007 80,1007" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="94,980 83,980" stroke="#000000" stroke-width="1"/>
-   <path d="M199,866 L79,866 A5,5 0 0,1 74,861 L74,856" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="74,856 74,759" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="83,746 74,772 65,746 83,746" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="69,772 80,772" stroke="#000000" stroke-width="1"/>
+   <path d="M199,672 L93,672 A4,4 0 0,0 89,676 L89,681" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="89,681 89,770" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="80,783 89,756 98,783 80,783" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="94,756 83,756" stroke="#000000" stroke-width="1"/>
+   <path d="M199,642 L79,642 A5,5 0 0,1 74,637 L74,632" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="74,632 74,535" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="83,522 74,548 65,522 83,522" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="69,548 80,548" stroke="#000000" stroke-width="1"/>
    <path d="M1006,55 L1006,50 A4,4 0 0,0 1002,46 L594,46" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1006,428 1006,55" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="997,442 1006,415 1016,442 997,442" stroke="#000000" stroke-width="1"/>
-   <path d="M358,459 L353,459 A4,4 0 0,0 349,463 L349,844" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <path d="M358,459 L353,459 A4,4 0 0,0 349,463 L349,620" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="978,459 797,459" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="787,459 528,459" stroke="#000000" stroke-width="1"/>
    <path d="M797,459 A5,5 0 0,0 792,453" fill="none" stroke="#000000" stroke-width="1"/>
@@ -183,11 +183,14 @@
    <path d="M333,1111 A5,5 0 0,0 327,1106" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <line x1="327" x2="327" y1="1106" y2="1106" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M327,1106 A5,5 0 0,0 322,1111" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
-   <polyline fill="none" points="102,1047 102,1102" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="111,1034 102,1060 93,1034 111,1034" stroke="#000000" stroke-width="1"/>
-   <polyline fill="none" points="97,1060 108,1060" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="102,823 102,1102" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="111,810 102,836 93,810 111,810" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="97,836 108,836" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1383,1228 1575,1228" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1575,1228 1767,1228" stroke="#000000" stroke-width="1"/>
+   <path d="M434,823 L415,823 A8,8 0 0,1 407,815 L407,764" fill="none" stroke="#000000" stroke-width="1"/>
+   <path d="M407,764 L407,714 A8,8 0 0,0 399,706 L381,706" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="367,696 394,706 367,715 367,696" stroke="#000000" stroke-width="1"/>
    <defs>
       <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -512,16 +515,16 @@
          <stop offset="95%" stop-color="#00ff00"/>
       </linearGradient>
    </defs>
-   <rect x="199" y="844" rx="13" ry="13" fill="url(#Gradient21)" width="182" height="107" stroke="#0080ff" stroke-width="1"/>
-   <text x="290" y="861" fill="#000000" font-size="16" font-family="Arial" font-weight="bold" text-anchor="middle">PRODUCCION_LOTE</text>
-   <text x="211" y="881" fill="#000000" font-size="16" font-family="Arial">#</text>
-   <text x="211" y="900" fill="#000000" font-size="16" font-family="Arial">*</text>
-   <text x="211" y="919" fill="#000000" font-size="16" font-family="Arial">*</text>
-   <text x="211" y="938" fill="#000000" font-size="16" font-family="Arial">*</text>
-   <text x="228" y="881" fill="#000000" font-size="16" font-family="Arial">pl_id_lote</text>
-   <text x="228" y="900" fill="#000000" font-size="16" font-family="Arial">pl_feha</text>
-   <text x="228" y="919" fill="#000000" font-size="16" font-family="Arial">pl_cantidad</text>
-   <text x="228" y="938" fill="#000000" font-size="16" font-family="Arial">pl_tipo</text>
+   <rect x="199" y="620" rx="13" ry="13" fill="url(#Gradient21)" width="182" height="107" stroke="#0080ff" stroke-width="1"/>
+   <text x="290" y="637" fill="#000000" font-size="16" font-family="Arial" font-weight="bold" text-anchor="middle">PRODUCCION_LOTE</text>
+   <text x="211" y="657" fill="#000000" font-size="16" font-family="Arial">#</text>
+   <text x="211" y="676" fill="#000000" font-size="16" font-family="Arial">*</text>
+   <text x="211" y="695" fill="#000000" font-size="16" font-family="Arial">*</text>
+   <text x="211" y="714" fill="#000000" font-size="16" font-family="Arial">*</text>
+   <text x="228" y="657" fill="#000000" font-size="16" font-family="Arial">pl_id_lote</text>
+   <text x="228" y="676" fill="#000000" font-size="16" font-family="Arial">pl_feha</text>
+   <text x="228" y="695" fill="#000000" font-size="16" font-family="Arial">pl_cantidad</text>
+   <text x="228" y="714" fill="#000000" font-size="16" font-family="Arial">pl_tipo</text>
    <defs>
       <linearGradient id="Gradient22" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -542,14 +545,14 @@
          <stop offset="95%" stop-color="#00ff00"/>
       </linearGradient>
    </defs>
-   <rect x="29" y="674" rx="10" ry="10" fill="url(#Gradient23)" width="128" height="85" stroke="#0080ff" stroke-width="1"/>
-   <text x="92" y="691" fill="#000000" font-size="16" font-family="Arial" font-weight="bold" text-anchor="middle">DESCUENTO</text>
-   <text x="39" y="711" fill="#000000" font-size="16" font-family="Arial">#</text>
-   <text x="39" y="730" fill="#000000" font-size="16" font-family="Arial">*</text>
-   <text x="39" y="749" fill="#000000" font-size="16" font-family="Arial">*</text>
-   <text x="56" y="711" fill="#000000" font-size="16" font-family="Arial">des_id</text>
-   <text x="56" y="730" fill="#000000" font-size="16" font-family="Arial">des_fecha</text>
-   <text x="56" y="749" fill="#000000" font-size="16" font-family="Arial">des_cantidad</text>
+   <rect x="29" y="450" rx="10" ry="10" fill="url(#Gradient23)" width="128" height="85" stroke="#0080ff" stroke-width="1"/>
+   <text x="92" y="467" fill="#000000" font-size="16" font-family="Arial" font-weight="bold" text-anchor="middle">DESCUENTO</text>
+   <text x="39" y="487" fill="#000000" font-size="16" font-family="Arial">#</text>
+   <text x="39" y="506" fill="#000000" font-size="16" font-family="Arial">*</text>
+   <text x="39" y="525" fill="#000000" font-size="16" font-family="Arial">*</text>
+   <text x="56" y="487" fill="#000000" font-size="16" font-family="Arial">des_id</text>
+   <text x="56" y="506" fill="#000000" font-size="16" font-family="Arial">des_fecha</text>
+   <text x="56" y="525" fill="#000000" font-size="16" font-family="Arial">des_cantidad</text>
    <defs>
       <linearGradient id="Gradient24" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
@@ -612,10 +615,10 @@
          <stop offset="95%" stop-color="#62b0ff"/>
       </linearGradient>
    </defs>
-   <rect x="39" y="994" rx="6" ry="6" fill="url(#Gradient29)" width="107" height="53" stroke="#0080ff" stroke-width="1"/>
-   <text x="93" y="1011" fill="#000000" font-size="16" font-family="Arial" font-weight="bold" text-anchor="middle">DET_LOTE</text>
-   <text x="47" y="1031" fill="#000000" font-size="16" font-family="Arial">*</text>
-   <text x="61" y="1031" fill="#000000" font-size="16" font-family="Arial">dl_cantidad</text>
+   <rect x="39" y="770" rx="6" ry="6" fill="url(#Gradient29)" width="107" height="53" stroke="#0080ff" stroke-width="1"/>
+   <text x="93" y="787" fill="#000000" font-size="16" font-family="Arial" font-weight="bold" text-anchor="middle">DET_LOTE</text>
+   <text x="47" y="807" fill="#000000" font-size="16" font-family="Arial">*</text>
+   <text x="61" y="807" fill="#000000" font-size="16" font-family="Arial">dl_cantidad</text>
    <defs>
       <linearGradient id="Gradient30" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>

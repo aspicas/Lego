@@ -272,6 +272,7 @@ create table PRODUCCION_LOTE
    PL_FEHA              DATE                 not null,
    PL_CANTIDAD          NUMBER(5)            not null,
    PL_TIPO              VARCHAR2(6)              not null,
+   PL_FK_PRODUCTO	NUMBER(7),
    constraint PK_PRODUCCION_LOTE primary key (PL_ID_LOTE)
 );
 
