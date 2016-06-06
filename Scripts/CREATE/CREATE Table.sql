@@ -283,7 +283,7 @@ create table PRODUCTO
    PR_CODIGO            NUMBER(7)            not null,
    PR_FK_CLASIFICACION  NUMBER(7)            not null,
    PR_NOMBRE            VARCHAR2(50)             not null,
-   PR_DESC              VARCHAR2(300)            not null,
+   PR_DESC              VARCHAR2(1000)            not null,
    PR_RGO_EDAD          rangos_va,
    PR_PRECIO_USD        NUMBER(10,2)         not null,
    PR_CANT_PIEZAS       NUMBER(5)            not null,

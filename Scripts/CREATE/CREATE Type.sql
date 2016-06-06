@@ -141,7 +141,7 @@ create or replace type horarios_va as varray(10) of HORARIO;
 /*==============================================================*/
 /* VARRAY: CATEGORIAS                                           */
 /*==============================================================*/
-create or replace type categorias_va as varray(10) of varchar2(20);
+create or replace type categorias_va as varray(10) of varchar2(50);
 /
 
 /*==============================================================*/
