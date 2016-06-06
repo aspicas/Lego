@@ -282,3 +282,10 @@ create index FK_FACTONLINE_VA_FK on VALORACION (
 create index FK_FACTIENDA_VA_FK on VALORACION (
    VA_FK_FAC_TIENDA ASC
 );
+
+/*==============================================================*/
+/* Index: FK_PRODUCTO_PL_FK                                     */
+/*==============================================================*/
+create index FK_PRODUCTO_PL_FK on PRODUCCION_LOTE(
+   PL_FK_PRODUCTO ASC
+);
