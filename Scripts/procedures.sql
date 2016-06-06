@@ -5,6 +5,6 @@ BEGIN
   DBMS_LOB.FILECLOSE(V_BFILE);
   DBMS_OUTPUT.PUT_LINE('EL ARCHIVO EXISTE');  
   EXCEPTION WHEN OTHERS THEN    
-    raise_application_error('EL ARCHIVO NO EXISTE');
+    raise_application_error(-20100,'EL ARCHIVO NO EXISTE');
 END;
 /

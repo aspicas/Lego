@@ -22,7 +22,7 @@ drop type dias_va force;
 
 drop type categorias_va force;
 
-drop type horarios_nt force;
+drop type horarios_va force;
 
 drop type idiomas_va force;
 
@@ -30,4 +30,4 @@ drop type IMAGEN force;
 
 drop type imagenes_nt force;
 
-drop type rangos_nt force;
+drop type rangos_va force;

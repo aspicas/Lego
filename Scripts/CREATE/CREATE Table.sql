@@ -255,7 +255,6 @@ create table PEDIDO
    PD_FK_TIENDA         NUMBER(7)            not null,
    PD_FK_FABRICA        NUMBER(7)            not null,
    PD_ORDEN             NUMBER(7)            not null,
-   FP_NUMERO            NUMBER(7)            not null,
    PD_FEC_PEDIDO        DATE                 not null,
    PD_FEC_OBJETIVO      DATE                 not null,
    PD_FEC_ENVIO         DATE,
@@ -284,7 +283,7 @@ create table PRODUCTO
    PR_FK_CLASIFICACION  NUMBER(7)            not null,
    PR_NOMBRE            VARCHAR2(50)             not null,
    PR_DESC              VARCHAR2(300)            not null,
-   PR_RGO_EDAD          rangos_nt,
+   PR_RGO_EDAD          rangos_va,
    PR_PRECIO_USD        NUMBER(10,2)         not null,
    PR_CANT_PIEZAS       NUMBER(5)            not null,
    PR_RESUMEN           RESUMEN,
@@ -293,7 +292,7 @@ create table PRODUCTO
    PR_INSTRUCCIONES     BLOB,
    PR_CATEGORIAS        categorias_va,
    constraint PK_PRODUCTO primary key (PR_CODIGO)
-) NESTED TABLE PR_RGO_EDAD STORE AS NT_EDADES_PROD
+) --NESTED TABLE PR_RGO_EDAD STORE AS NT_EDADES_PROD
   NESTED TABLE PR_FOTOS STORE AS NT_IMAGENES_PROD;
 
 /*==============================================================*/
@@ -313,11 +312,11 @@ create table TIENDA
 (
    TI_ID                NUMBER(7)            not null,
    TI_FK_CIUDAD         NUMBER(7)            not null,
-   TI_HORARIO           horarios_nt,
+   TI_HORARIO           horarios_va,
    TI_FOTOS             imagenes_nt,
    TI_DIRECCION         DIRECCION,
    constraint PK_TIENDA primary key (TI_ID)
-)NESTED TABLE TI_HORARIO STORE AS NT_HORARIO_TIENDA
+)--NESTED TABLE TI_HORARIO STORE AS NT_HORARIO_TIENDA
  NESTED TABLE TI_FOTOS STORE AS NT_IMAGENES_TIENDA;
 
 /*==============================================================*/
