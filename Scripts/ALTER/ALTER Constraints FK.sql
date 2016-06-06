@@ -159,5 +159,8 @@ alter table VALORACION
       references FACTURA_ONLINE (FO_NUMERO);
 
 alter table PRODUCCION_LOTE
+   add PL_FK_PRODUCTO NUMBER(7);
+      
+alter table PRODUCCION_LOTE
    add constraint FK_PRODUCCION_LOTE_FK_PRODUCTO foreign key (PL_FK_PRODUCTO)
-      references PRODUCTO (PR_ID);
+      references PRODUCTO (PR_CODIGO);
