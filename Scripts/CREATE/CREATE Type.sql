@@ -23,6 +23,7 @@ create or replace type RESUMEN as object
 create or replace type DIA as object
 (
    DIA_HORA             DATE,
+   DIA_PROGRAMACION     VARCHAR2(25),
    DIA_DESCRIPCION      VARCHAR2(500)
 );
 /
@@ -100,7 +101,7 @@ create or replace type DIRECCION as object
    DI_CALLE             VARCHAR2(50),
    DI_NUMERO_EDIF       VARCHAR2(50),
    DI_ZONA_POSTAL       NUMBER(7),
-   DI_LOCAL             VARCHAR2(5),
+   DI_LOCAL             VARCHAR2(10),
    DI_TELEFONOS         telefonos_va
 );
 /
@@ -133,9 +134,9 @@ create or replace type imagenes_nt as table of IMAGEN;
 /
 
 /*==============================================================*/
-/* VARRAY: HORARIO                                             */
+/* NESTED: HORARIO                                             */
 /*==============================================================*/
-create or replace type horarios_va as varray(10) of HORARIO;
+create or replace type horarios_nt as table of HORARIO;
 /
 
 /*==============================================================*/
@@ -148,7 +149,4 @@ create or replace type categorias_va as varray(10) of varchar2(50);
 /* VARRAY: RANGO                                             */
 /*==============================================================*/
 create or replace type rangos_va as varray(10) of RANGO;
-/
-
-create or replace type horarios_nt as table of HORARIO;
 /
