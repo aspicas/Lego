@@ -42,8 +42,8 @@ create table CLIENTE_VISITANTE
    CV_APELLIDO_S        VARCHAR2(20),
    CV_F_NAC             DATE                 not null,
    CV_GENERO            VARCHAR2(1)              not null,
-   CV_EXPERIENCIA       VARCHAR2(10)             not null,
-   CV_TIPOCLIENTE       VARCHAR2(20)             not null,
+   CV_EXPERIENCIA       VARCHAR2(1)             not null,
+   CV_TIPOCLIENTE       VARCHAR2(1)             not null,
    CV_DIRECCION         DIRECCION,
    constraint PK_CLIENTE_VISITANTE primary key (CV_ID)
 );
@@ -343,7 +343,7 @@ create table VALORACION
    VA_CALIDAD_PR        NUMBER(1)            not null,
    VA_DIFICULTAD        VARCHAR2(10)             not null,
    VA_IMPRESIONES       VARCHAR2(1200),
-   VA_ARTICULO          VARCHAR2(25)             not null,
+   VA_ARTICULO          NUMBER(7)             not null,
    constraint PK_VALORACION primary key (VA_ID)
 );
 
