@@ -78,3 +78,12 @@ CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS '/home/aspicas/Lego/images';
 SELECT * FROM ALL_DIRECTORIES;
 
 select * from all_procedures where PROCEDURE_name like 'EXI%';
+
+
+/**VALORACION**/
+insert into cliente_visitante values (SQ_CLIENTE_VISITANTE_ID.NEXTVAL,null,18,1,'PEPE',NULL,'GONZALEZ',NULL,TO_DATE('04/06/1993','dd/mm/rrrr'),'M','E','P',
+DIRECCION('CALLE 1','25',1060,'LOCAL',telefonos_va(telefono(58,0212,2646577,'OFICINA'))));
+
+insert into factura_online values (SQ_FACTURA_ONLINE_ID.NEXTVAL,31,TO_DATE('06/06/2016','dd/mm/rrrr'),100.5);
+
+insert into valoracion values (SQ_VALORACION_ID.NEXTVAL,NULL);
