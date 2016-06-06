@@ -157,9 +157,6 @@ alter table VALORACION
 alter table VALORACION
    add constraint FK_VALORACI_FK_FACTON_FACTURA_ foreign key (VA_FK_FAC_ONLI)
       references FACTURA_ONLINE (FO_NUMERO);
-
-alter table PRODUCCION_LOTE
-   add PL_FK_PRODUCTO NUMBER(7);
       
 alter table PRODUCCION_LOTE
    add constraint FK_PRODUCCION_LOTE_FK_PRODUCTO foreign key (PL_FK_PRODUCTO)
