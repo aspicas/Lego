@@ -41,7 +41,7 @@ select treat(pa_moneda as moneda).mo_nombre, treat(pa_moneda as moneda).mo_cambi
 
 insert into tienda values (SQ_tienda_id.nextval,
 (select ec_id from estado_ciudad where ec_nombre='BERLIN' and ec_tipo='CIUDAD'),
-horarios_nt(horario('LUNES',to_date('07:00','HH24:MI'),to_date('15:00','HH24:MI')),horario('LUNES',to_date('07:00','HH24:MI'),to_date('15:00','HH24:MI'))),
+horarios_nt(horario('LUNES',to_date('07:00','HH24:MI'),to_date('15:00','HH24:MI'))),
 null,
 DIRECCION('3','15253',1060,'local',telefonos_va(telefono(58,0212,2646577,'OFICINA')))
 );
@@ -76,3 +76,5 @@ GRANT READ, WRITE ON DIRECTORY DIR_BINARIOS TO PUBLIC;
 CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS '/home/aspicas/Lego/images';
 
 SELECT * FROM ALL_DIRECTORIES;
+
+select * from all_procedures where PROCEDURE_name like 'EXI%';

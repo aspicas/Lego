@@ -313,11 +313,11 @@ create table TIENDA
 (
    TI_ID                NUMBER(7)            not null,
    TI_FK_CIUDAD         NUMBER(7)            not null,
-   TI_HORARIO           horarios_va,
+   TI_HORARIO           horarios_nt,
    TI_FOTOS             imagenes_nt,
    TI_DIRECCION         DIRECCION,
    constraint PK_TIENDA primary key (TI_ID)
-)--NESTED TABLE TI_HORARIO STORE AS NT_HORARIO_TIENDA
+)NESTED TABLE TI_HORARIO STORE AS NT_HORARIO_TIENDA
  NESTED TABLE TI_FOTOS STORE AS NT_IMAGENES_TIENDA;
 
 /*==============================================================*/

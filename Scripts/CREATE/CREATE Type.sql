@@ -149,3 +149,6 @@ create or replace type categorias_va as varray(10) of varchar2(20);
 /*==============================================================*/
 create or replace type rangos_va as varray(10) of RANGO;
 /
+
+create or replace type horarios_nt as table of HORARIO;
+/
