@@ -29,3 +29,6 @@
 @"INSERT\insert_estadociudad.sql";
 @"INSERT\insert_clasificacion.sql";
 @"INSERT\inserts Cliente padre.sql";
+@"INSERT\insert_producto.sql";
+@"INSERT\INSERTS FABRICA SIN DIRECCION.sql";
+@"INSERT\TIENDAS.sql";
