@@ -24,3 +24,5 @@ BEGIN
     END IF;
 END;
 /
+
+/*drop trigger ch_horario;/**/

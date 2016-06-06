@@ -18,7 +18,7 @@
 @"procedures.sql";
 
 @"TRIGGERS\TR_VALIDAR_PR_REL.sql";
-@"TRIGGERS\trigger de direccion.sql";
+/*@"TRIGGERS\trigger de direccion.sql";*/
 @"TRIGGERS\trigger valida visitante.sql";
 @"TRIGGERS\trigger valida_Arcexclusivo .sql";
 @"TRIGGERS\Trigger_validar_producto.sql";
