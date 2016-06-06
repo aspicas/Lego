@@ -1,0 +1,13 @@
+INSERT INTO FECHAS VALUES ('30-dic-99',
+TOUR_DIAS(DIAS_VA(
+HORARIO(TO_DATE('16:00','HH24:MI'),'Bienvenida'),
+HORARIO(TO_DATE('18:00','HH24:MI'),'Conozcasu trabajo diario. Partcipe en un evento de construccion de tema lego. Discuta su experiencia individual')),
+
+DIAS_VA(
+HORARIO(TO_DATE('09:30','HH24:MI'),'Conozca la historia sobre el grupo lego incluyendo cultura y valores'),
+HORARIO(TO_DATE('13:00','HH24:MI'),'Camine y vea la planta de modelado totalmente automatizadoy su almacen')),
+
+DIAS_VA(
+HORARIO(TO_DATE('09:30','HH24:MI'),'Vea los secretos detras de los escenarios del parque Legoland. Visite el parque con los diseñadores. Vea como opera el parque. Explore y disfrute por su cuenta del  parque'),
+HORARIO(TO_DATE('14:00','HH24:MI'),'No le diremos que es el regalo pero si que el dueño del grupo Lego estuvo involucrado directamente en la elaboracion'))),
+2191.00);

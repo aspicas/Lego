@@ -23,6 +23,7 @@ create or replace type RESUMEN as object
 create or replace type DIA as object
 (
    DIA_HORA             DATE,
+   DIA_PROGRAMACION     VARCHAR2(25),
    DIA_DESCRIPCION      VARCHAR2(500)
 );
 /
