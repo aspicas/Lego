@@ -21,6 +21,10 @@ exec realizar_venta(&foo,&foo2);
 accept v1 prompt 'ID de la tienda222:'
 exec realizar_venta(&vi,&foo2);
 
+set serveroutput on
+accept aa prompt 'asd'
+prompt '&aa'
+
 INSERT INTO FABRICA VALUES(1,1,'fabrica1',null);
 INSERT INTO PEDIDO VALUES(1,1,1,(SELECT SYSDATE FROM DUAL),(SELECT SYSDATE FROM DUAL),null,null);
 INSERT INTO DISP_PROD VALUES(1,1,42);
@@ -41,3 +45,10 @@ begin
   
   NUEVA_VENTA.REALIZAR_VENTA(1,1,a_prod,a_cant);
 end;
+
+update CLIENTE_VISITANTE set cv_direccion=null;
+
+UPDATE CLIENTE_VISITANTE SET CV_DIRECCION.DI_TELEFONOS=TELEFONOS_VA(58,212,5551234,'LOCAL') WHERE CV_ID = 1;
+
+
+UPDATE CLIENTE_VISITANTE cv SET cv.CV_DIRECCION.DI_TELEFONOS=TELEFONOS_VA(TELEFONO(58,212,5551234,'LOCAL')) WHERE CV_ID = 1;
