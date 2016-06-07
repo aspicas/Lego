@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2016-06-07T12:21:22 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SUB-Catalogo" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3eb312e5-b985-45e0-9d93-40bc31e37e35">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="ID_CLAS" class="java.lang.Integer"/>
+	<queryString>
+		<![CDATA[select p.PR_CODIGO, p.PR_NOMBRE, p.PR_DESC FROM producto p  WHERE p.PR_FK_CLASIFICACION =$P{ID_CLAS}]]>
+	</queryString>
+	<field name="PR_CODIGO" class="java.lang.Integer"/>
+	<field name="PR_NOMBRE" class="java.lang.String"/>
+	<field name="PR_DESC" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="50">
+			<textField>
+				<reportElement x="0" y="10" width="100" height="30" uuid="ab0c56ce-b1ec-4583-bb3f-e10884fbf3de"/>
+				<textElement>
+					<font size="20" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PR_CODIGO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="9" width="470" height="30" uuid="6d0253c6-a41e-4ae1-a2d8-487d025c1ba5"/>
+				<textElement>
+					<font size="18" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PR_NOMBRE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="397" splitType="Stretch">
+			<textField>
+				<reportElement x="390" y="30" width="410" height="349" uuid="91b54d40-e3f4-4696-9a31-9cfcec9f50cb"/>
+				<textElement>
+					<font size="12" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PR_DESC}]]></textFieldExpression>
+			</textField>
+			<subreport>
+				<reportElement isPrintRepeatedValues="false" x="10" y="30" width="370" height="348" uuid="db764b51-a525-41d5-93c2-fd2f75d91421"/>
+				<subreportParameter name="ID_PROD">
+					<subreportParameterExpression><![CDATA[$F{PR_CODIGO}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["SUB-Img.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>
