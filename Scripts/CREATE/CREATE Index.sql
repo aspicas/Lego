@@ -94,14 +94,14 @@ create index FK_DETPEDIDO_DF_FK on DETALLE_FACTURA (
 /*==============================================================*/
 /* Index: FK_PEDIDO_DP_FK                                       */
 /*==============================================================*/
-create index FK_PEDIDO_DP_FK on DETALLE_PEDIDO (
+create index FK_PEDIDO_DIP_FK on DETALLE_PEDIDO (
    DP_FK_PEDIDO ASC
 );
 
 /*==============================================================*/
-/* Index: FK_DISPROD_DP_FK                                      */
+/* Index: FK_DISPROD_DIP_FK                                      */
 /*==============================================================*/
-create index FK_DISPROD_DP_FK on DETALLE_PEDIDO (
+create index FK_DISPROD_DIP_FK on DETALLE_PEDIDO (
    DP_FK_PAIS ASC,
    DP_FK_PRODUCTO ASC
 );
@@ -122,17 +122,17 @@ create index FK_DETPEDIDO_DL_FK on DET_LOTE (
 );
 
 /*==============================================================*/
-/* Index: FK_PRODUCTO_DP_FK                                     */
+/* Index: FK_PRODUCTO_DIP_FK                                     */
 /*==============================================================*/
-create index FK_PRODUCTO_DP_FK on DISP_PROD (
-   DP_FK_PRODUCTO ASC
+create index FK_PRODUCTO_DIP_FK on DISP_PROD (
+   DIP_FK_PRODUCTO ASC
 );
 
 /*==============================================================*/
-/* Index: FK_PAIS_DP_FK                                         */
+/* Index: FK_PAIS_DIP_FK                                         */
 /*==============================================================*/
-create index FK_PAIS_DP_FK on DISP_PROD (
-   DP_FK_PAIS ASC
+create index FK_PAIS_DIP_FK on DISP_PROD (
+   DIP_FK_PAIS ASC
 );
 
 /*==============================================================*/

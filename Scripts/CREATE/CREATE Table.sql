@@ -118,10 +118,10 @@ create table DET_LOTE
 /*==============================================================*/
 create table DISP_PROD 
 (
-   DP_FK_PAIS          NUMBER(7)            not null,
-   DP_FK_PRODUCTO      NUMBER(7)            not null,
-   DP_LIMITE           NUMBER(3),
-   constraint PK_DISP_PROD primary key (DP_FK_PAIS, DP_FK_PRODUCTO)
+   DIP_FK_PAIS          NUMBER(7)            not null,
+   DIP_FK_PRODUCTO      NUMBER(7)            not null,
+   DIP_LIMITE           NUMBER(3),
+   constraint PK_DISP_PROD primary key (DIP_FK_PAIS, DIP_FK_PRODUCTO)
 );
 
 /*==============================================================*/

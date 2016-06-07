@@ -24,7 +24,7 @@ drop index FK_CLIENTE_DF_FK;
 
 drop index FK_FACTIENDA_DF_FK;
 
-drop index FK_DISPROD_DP_FK;
+drop index FK_DISPROD_DIP_FK;
 
 drop index FK_PEDIDO_DP_FK;
 
@@ -32,9 +32,9 @@ drop index FK_DETPEDIDO_DL_FK;
 
 drop index FK_PRODLOTE_DL_FK;
 
-drop index FK_PAIS_DP_FK;
+drop index FK_PAIS_DIP_FK;
 
-drop index FK_PRODUCTO_DP_FK;
+drop index FK_PRODUCTO_DIP_FK;
 
 drop index FK_ESTADO_CIUDAD_FK;
 
