@@ -66,7 +66,7 @@ CREATE OR REPLACE PACKAGE BODY NUEVA_VENTA AS
 				RAISE_APPLICATION_ERROR(-20016,'No existe el cliente '||id_cliente);
 			END IF;
 		ELSE
-			RAISE_APPLICATION_ERROR(-20017,'Los par·metros de producto y cantidad no coinciden');
+			RAISE_APPLICATION_ERROR(-20017,'Los par√°metros de producto y cantidad no coinciden');
 		END IF;
 	END;
 END;
