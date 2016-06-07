@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
-<!-- 2016-06-07T07:12:21 -->
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-06-07T10:12:57 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Factura-tienda" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="71ab8a06-b771-49e2-82fc-c8b02a761988">
 	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Lego"/>
 	<parameter name="ID_FACTURA" class="java.lang.Integer"/>
 	<parameter name="ID_TIENDA" class="java.lang.Integer"/>
 	<queryString>
-		<![CDATA[SELECT ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE||' '||cv.CV_NOMBRE_S,cv.CV_APELLIDO||' '||cv.CV_APELLIDO_S, COUNT(df.DF_FK_DETPED), p.PR_NOMBRE, p.PR_CODIGO, p.PR_PRECIO_USD, ft.FT_MONTO_USD
+		<![CDATA[SELECT ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE||' '||cv.CV_NOMBRE_S,cv.CV_APELLIDO||' '||cv.CV_APELLIDO_S, COUNT(df.DF_FK_DETPED), p.PR_NOMBRE, p.PR_CODIGO, p.PR_PRECIO_USD, ft.FT_MONTO_USD,cv_id
 FROM producto p, tienda ti, factura_tienda ft, cliente_visitante cv, detalle_factura df, detalle_pedido dp, pedido pe
 WHERE dp.DP_FK_PEDIDO=pe.PD_ORDEN AND dp.DP_FK_PRODUCTO=p.PR_CODIGO AND df.DF_FK_PEDIDO=dp.DP_FK_PEDIDO AND dp.DP_ID=df.DF_FK_DETPED AND df.DF_FK_FACT_T=ft.FT_CODIGO AND ft.FT_CODIGO = $P{ID_FACTURA} AND ft.FT_FK_CLIENTE=cv.CV_ID AND ft.FT_FK_TIENDA=ti.TI_ID AND ti.TI_ID=$P{ID_TIENDA}
-GROUP BY ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE,cv.CV_NOMBRE_S,cv.CV_APELLIDO,cv.CV_APELLIDO_S,PR_CODIGO, PR_NOMBRE, PR_PRECIO_USD, ft.FT_MONTO_USD]]>
+GROUP BY ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE,cv.CV_NOMBRE_S,cv.CV_APELLIDO,cv.CV_APELLIDO_S,PR_CODIGO, PR_NOMBRE, PR_PRECIO_USD, ft.FT_MONTO_USD,cv_id]]>
 	</queryString>
 	<field name="TI_ID" class="java.math.BigDecimal"/>
 	<field name="FT_CODIGO" class="java.math.BigDecimal"/>
 	<field name="FT_FECHA" class="java.sql.Timestamp"/>
 	<field name="CV.CV_NOMBRE||&apos;&apos;||CV.CV_NOMBRE_S" class="java.lang.String"/>
 	<field name="CV.CV_APELLIDO||&apos;&apos;||CV.CV_APELLIDO_S" class="java.lang.String"/>
-	<field name="COUNT(DF.DF_FK_DETPED)" class="java.lang.Integer"/>
+	<field name="COUNT(DF.DF_FK_DETPED)" class="java.math.BigDecimal"/>
 	<field name="PR_NOMBRE" class="java.lang.String"/>
 	<field name="PR_CODIGO" class="java.math.BigDecimal"/>
-	<field name="PR_PRECIO_USD" class="java.lang.Double"/>
+	<field name="PR_PRECIO_USD" class="java.math.BigDecimal"/>
 	<field name="FT_MONTO_USD" class="java.math.BigDecimal"/>
+	<field name="CV_ID" class="java.math.BigDecimal"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -160,6 +162,15 @@ GROUP BY ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE,cv.CV_NOMBRE_S,cv.CV_AP
 				</textElement>
 				<textFieldExpression><![CDATA[$F{CV.CV_APELLIDO||''||CV.CV_APELLIDO_S}]]></textFieldExpression>
 			</textField>
+			<subreport>
+				<reportElement x="110" y="173" width="440" height="24" uuid="af5091aa-c6fe-4120-8824-9727d859b79a"/>
+				<parametersMapExpression><![CDATA[$F{CV_ID}]]></parametersMapExpression>
+				<subreportParameter name="cliente">
+					<subreportParameterExpression><![CDATA[$F{CV_ID}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["sub-factura-cliente1.jasper"]]></subreportExpression>
+			</subreport>
 		</band>
 	</title>
 	<detail>

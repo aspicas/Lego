@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.0.final using JasperReports Library version 6.2.0  -->
+<!-- 2016-06-07T10:04:00 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sub-factura-cliente1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="970a6b61-6e03-4d18-959c-1e9a5a8e923a">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<parameter name="cliente" class="java.math.BigDecimal">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<queryString>
+		<![CDATA[select treat(cv_direccion as direccion).di_calle ||','|| treat(cv_direccion as direccion).di_numero_edif ||','|| treat(cv_direccion as direccion).di_zona_postal ||','|| treat(cv_direccion as direccion).di_local as direccion
+from cliente_visitante 
+where cv_id=$P{cliente}]]>
+	</queryString>
+	<field name="DIRECCION" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="0" y="0" width="440" height="24" uuid="1a5eb5b0-c599-4c94-8aa3-1dad179ead52">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{DIRECCION}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
