@@ -68,10 +68,15 @@ describe disp_prod
 
 select IM_IMAGEN FROM producto p, TABLE(p.PR_FOTOS) WHERE IM_NOMBRE='1';
 
-select c.CL_ID,IM_NOMBRE,IM_IMAGEN FROM clasificacion c, TABLE(c.CL_IMAGENES);
+select c.CL_ID, IM_IMAGEN, c.CL_DESCRIPCION FROM clasificacion c, TABLE(c.CL_IMAGENES) WHERE IM_NOMBRE='LOGO';
 
-SELECT ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE||' '||cv.CV_NOMBRE_S,cv.CV_APELLIDO||' '||cv.CV_APELLIDO_S, COUNT(df.DF_FK_DETPED), p.PR_NOMBRE, p.PR_CODIGO, p.PR_PRECIO_USD, ft.FT_MONTO_USD
-FROM producto p, tienda ti, factura_tienda ft, cliente_visitante cv, detalle_factura df, detalle_pedido dp, pedido pe
-WHERE dp.DP_FK_PEDIDO=pe.PD_ORDEN AND dp.DP_FK_PRODUCTO=p.PR_CODIGO AND df.DF_FK_PEDIDO=dp.DP_FK_PEDIDO AND dp.DP_ID=df.DF_FK_DETPED AND df.DF_FK_FACT_T=ft.FT_CODIGO AND ft.FT_CODIGO = 2 AND ft.FT_FK_CLIENTE=cv.CV_ID AND ft.FT_FK_TIENDA=ti.TI_ID
+select p.PR_CODIGO, IM_IMAGEN, p.PR_DESC FROM producto p, TABLE(p.PR_FOTOS) WHERE p.PR_FK_CLASIFICACION = $P{ID_CLAS}
+
+
+
+SELECT ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE||' '||cv.CV_NOMBRE_S,cv.CV_APELLIDO||' '||cv.CV_APELLIDO_S, cv.CV_DIRECCION.DI_CALLE||', '||cv.CV_DIRECCION.DI_NUMERO_EDIF||', '||cv.CV_DIRECCION.DI_ZONA_POSTAL||'. '||ecc.EC_NOMBRE||', '||ece.EC_NOMBRE||', '||pais.PA_NOMBRE||'.' COUNT(df.DF_FK_DETPED), p.PR_NOMBRE, p.PR_CODIGO, p.PR_PRECIO_USD, ft.FT_MONTO_USD
+FROM producto p, tienda ti, factura_tienda ft, cliente_visitante cv, estado_ciudad ece, estado_ciudad ecc, pais, detalle_factura df, detalle_pedido dp, pedido pe
+WHERE dp.DP_FK_PEDIDO=pe.PD_ORDEN AND dp.DP_FK_PRODUCTO=p.PR_CODIGO AND df.DF_FK_PEDIDO=dp.DP_FK_PEDIDO AND dp.DP_ID=df.DF_FK_DETPED AND df.DF_FK_FACT_T=ft.FT_CODIGO AND ft.FT_CODIGO = 2 AND ft.FT_FK_CLIENTE=cv.CV_ID AND ft.FT_FK_TIENDA=ti.TI_ID AND cv.CV_
 GROUP BY ti.TI_ID, ft.FT_CODIGO,ft.FT_FECHA,cv.CV_NOMBRE,cv.CV_NOMBRE_S,cv.CV_APELLIDO,cv.CV_APELLIDO_S,PR_CODIGO, PR_NOMBRE, PR_PRECIO_USD, ft.FT_MONTO_USD;
+
 
