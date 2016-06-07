@@ -20,14 +20,14 @@
    <path d="M1479,991 L1391,991 A8,8 0 0,0 1383,999 L1383,1007" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1383,1007 L1383,1015 A8,8 0 0,1 1375,1023 L1277,1023" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1263,1014 1290,1023 1263,1033 1263,1014" stroke="#000000" stroke-width="1"/>
-   <text x="1437" y="1006" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">paga</text>
-   <text x="1338" y="1017" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es pagada</text>
+   <text x="1441" y="1007" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">paga</text>
+   <text x="1334" y="1017" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es pagada</text>
    <path d="M950,951 L950,1035 A4,4 0 0,0 954,1039 L959,1039" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="959,1039 1106,1039" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="959,938 950,964 940,938 959,938" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="944,964 955,964" stroke="#000000" stroke-width="1"/>
-   <text x="1000" y="983" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es detallada</text>
-   <text x="1049" y="1054" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se detalla</text>
+   <text x="996" y="983" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es detallada</text>
+   <text x="1053" y="1055" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se detalla</text>
    <path d="M1661,855 L1685,855 A8,8 0 0,0 1693,847 L1693,820 A8,8 0 0,1 1701,812 L1762,812" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1762,812 L1823,812 A8,8 0 0,1 1831,820 L1831,900 A8,8 0 0,1 1823,908 L1661,908" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1647,899 1674,908 1647,918 1647,899" stroke="#000000" stroke-width="1"/>
@@ -36,7 +36,7 @@
    <polyline fill="none" points="1837,1001 2013,1001" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="2026,1011 1999,1001 2026,992 2026,1011" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1999,996 1999,1007" stroke="#000000" stroke-width="1"/>
-   <text x="1707" y="995" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">realiza</text>
+   <text x="1703" y="995" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">realiza</text>
    <path d="M2087,1004 L2158,1004 A4,4 0 0,0 2162,1000 L2162,995" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="2162,995 2162,866" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="2074,995 2101,1004 2074,1014 2074,995" stroke="#000000" stroke-width="1"/>
@@ -45,7 +45,7 @@
    <path d="M1725,149 L1570,149 A5,5 0 0,0 1565,154 L1565,159" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1565,159 1565,791" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1555,804 1565,778 1574,804 1555,804" stroke="#000000" stroke-width="1"/>
-   <text x="1631" y="165" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">están nacionalizadas</text>
+   <text x="1628" y="165" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">están nacionalizadas</text>
    <text x="1565" y="684" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">posee nacionalidad</text>
    <path d="M2269,1289 L1538,1289 A5,5 0 0,1 1533,1284 L1533,1278" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1533,1278 L1533,1272 A6,6 0 0,0 1527,1266 L1383,1266" fill="none" stroke="#000000" stroke-width="1"/>
@@ -82,8 +82,8 @@
    <path d="M1767,172 L1767,302 A5,5 0 0,0 1772,307 L1777,307" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1777,307 1853,307" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1866,316 1839,307 1866,297 1866,316" stroke="#000000" stroke-width="1"/>
-   <text x="1816" y="204" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se divide en</text>
-   <text x="1793" y="322" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se localiza</text>
+   <text x="1813" y="204" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se divide en</text>
+   <text x="1796" y="322" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">se localiza</text>
    <path d="M1990,290 L1990,234 A8,8 0 0,1 1998,226 L2254,226 A4,4 0 0,1 2258,230 L2258,235" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M2258,235 L2258,303 A8,8 0 0,1 2250,311 L2023,311" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="2010,302 2037,311 2010,320 2010,302" stroke="#000000" stroke-width="1"/>
@@ -121,8 +121,8 @@
    <path d="M1211,652 L1211,736 A4,4 0 0,1 1207,740 L1202,740" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1202,740 1074,740" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1061,730 1087,740 1061,749 1061,730" stroke="#000000" stroke-width="1"/>
-   <text x="1239" y="684" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">valora</text>
-   <text x="1126" y="734" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">la valora</text>
+   <text x="1236" y="684" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">valora</text>
+   <text x="1123" y="734" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">la valora</text>
    <path d="M1213,994 L1213,801 A5,5 0 0,0 1208,796 L1203,796" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1203,796 1074,796" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1061,787 1087,796 1061,805 1061,787" stroke="#000000" stroke-width="1"/>
@@ -132,13 +132,13 @@
    <polyline fill="none" points="89,681 89,770" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="80,783 89,756 98,783 80,783" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="94,756 83,756" stroke="#000000" stroke-width="1"/>
-   <text x="140" y="687" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es pedido</text>
+   <text x="144" y="687" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es pedido</text>
    <path d="M199,642 L79,642 A5,5 0 0,1 74,637 L74,632" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="74,632 74,535" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="83,522 74,548 65,522 83,522" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="69,548 80,548" stroke="#000000" stroke-width="1"/>
-   <text x="160" y="657" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">lleva</text>
-   <text x="117" y="567" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">descuenta</text>
+   <text x="164" y="657" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">lleva</text>
+   <text x="114" y="567" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">descuenta</text>
    <path d="M1006,55 L1006,50 A4,4 0 0,0 1002,46 L594,46" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1006,428 1006,55" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="997,442 1006,415 1016,442 997,442" stroke="#000000" stroke-width="1"/>
@@ -160,8 +160,8 @@
    <path d="M1490,794 L1490,445 A4,4 0 0,0 1486,441 L1481,441" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1481,441 1063,441" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1050,431 1077,441 1050,450 1050,431" stroke="#000000" stroke-width="1"/>
-   <text x="1467" y="772" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">mira</text>
-   <text x="1123" y="435" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es midado</text>
+   <text x="1471" y="772" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">mira</text>
+   <text x="1120" y="435" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es midado</text>
    <path d="M1201,567 L1201,486 A4,4 0 0,0 1197,482 L1192,482" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1192,482 1063,482" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1050,472 1077,482 1050,491 1050,472" stroke="#000000" stroke-width="1"/>
@@ -171,7 +171,7 @@
    <path d="M1853,343 L1643,343 A4,4 0 0,0 1639,347 L1639,352" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1639,352 1639,791" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1630,804 1639,778 1649,804 1630,804" stroke="#000000" stroke-width="1"/>
-   <text x="1804" y="359" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">habitan</text>
+   <text x="1807" y="359" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">habitan</text>
    <text x="1667" y="694" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">habita</text>
    <path d="M1207,913 L1207,913 L1010,913" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1479,914 1218,914" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
@@ -180,8 +180,8 @@
    <line x1="1213" x2="1213" y1="909" y2="909" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1213,909 A5,5 0 0,0 1207,914" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="997,904 1023,913 997,922 997,904" stroke="#000000" stroke-width="1"/>
-   <text x="1082" y="907" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es visualizado</text>
-   <text x="1426" y="930" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">visualiza</text>
+   <text x="1079" y="907" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es visualizado</text>
+   <text x="1430" y="930" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">visualiza</text>
    <path d="M7,605 L7,54 A8,8 0 0,1 15,46 L477,46" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="487,1164 333,1164" stroke="#000000" stroke-width="1"/>
    <path d="M322,1164 L15,1164 A8,8 0 0,1 7,1156 L7,605" fill="none" stroke="#000000" stroke-width="1"/>
@@ -194,8 +194,8 @@
    <path d="M1350,855 L1345,855 A4,4 0 0,1 1341,851 L1341,652" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="1479,855 1350,855" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1350,639 1341,666 1331,639 1350,639" stroke="#000000" stroke-width="1"/>
-   <text x="1390" y="684" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es abonada</text>
-   <text x="1433" y="871" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">abona</text>
+   <text x="1386" y="684" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">es abonada</text>
+   <text x="1437" y="871" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">abona</text>
    <path d="M1929,1139 L1934,1139 A4,4 0 0,0 1938,1135 L1938,1007" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1938,996 1938,375" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <path d="M1938,1007 A5,5 0 0,0 1943,1001" fill="none" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
@@ -223,7 +223,7 @@
    <polyline fill="none" points="102,823 102,1102" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="111,810 102,836 93,810 111,810" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="97,836 108,836" stroke="#000000" stroke-width="1"/>
-   <text x="448" y="1127" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">pide</text>
+   <text x="452" y="1127" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">pide</text>
    <polyline fill="none" points="1383,1228 1575,1228" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="1575,1228 1767,1228" stroke="#000000" stroke-width="1"/>
    <text x="1431" y="1222" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">genera</text>
@@ -231,6 +231,19 @@
    <path d="M434,823 L299,823 A4,4 0 0,1 295,819 L295,814" fill="none" stroke="#000000" stroke-width="1"/>
    <polyline fill="none" points="295,814 295,727" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
    <polyline fill="none" points="305,714 295,740 286,714 305,714" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="258,994 258,1106" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="258,1116 258,1159" stroke="#000000" stroke-width="1"/>
+   <path d="M258,1116 A5,5 0 0,0 263,1111" fill="none" stroke="#000000" stroke-width="1"/>
+   <line x1="263" x2="263" y1="1111" y2="1111" stroke="#000000" stroke-width="1"/>
+   <path d="M263,1111 A5,5 0 0,0 258,1106" fill="none" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="258,1170 258,1260" stroke="#000000" stroke-width="1"/>
+   <path d="M258,1170 A5,5 0 0,0 263,1164" fill="none" stroke="#000000" stroke-width="1"/>
+   <line x1="263" x2="263" y1="1164" y2="1164" stroke="#000000" stroke-width="1"/>
+   <path d="M263,1164 A5,5 0 0,0 258,1159" fill="none" stroke="#000000" stroke-width="1"/>
+   <polyline fill="none" points="258,727 258,994" stroke="#000000" stroke-width="1" stroke-dasharray="16,8"/>
+   <polyline fill="none" points="249,1274 258,1247 267,1274 249,1274" stroke="#000000" stroke-width="1"/>
+   <text x="218" y="1238" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">producen</text>
+   <text x="226" y="759" fill="#000000" font-size="16" font-family="Arial" text-anchor="middle">produce</text>
    <defs>
       <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>

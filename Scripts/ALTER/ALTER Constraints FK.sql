@@ -164,7 +164,7 @@ alter table PRODUCCION_LOTE
 
 --LA RELACION DE HISTORICO CON LOTE
 
-alter table historico_producto add HP_FK_LOTE NUMBER(7); 
+alter table historico_producto add HP_FK_LOTE NUMBER(7) NOT NULL; 
 
 Alter table HISTORICO_PRODUCTO
    add constraint FK_LOTE_HP foreign key (HP_FK_LOTE)
