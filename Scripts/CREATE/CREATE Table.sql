@@ -193,7 +193,7 @@ create table FECHAS
 (
    FE_FECHA             DATE                 not null,
    FE_TOUR              TOUR_DIAS,
-   FE_COSTO             NUMBER(5,2)          not null,
+   FE_COSTO             NUMBER(10,2)          not null,
    constraint PK_FECHAS primary key (FE_FECHA)
 );
 

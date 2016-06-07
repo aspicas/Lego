@@ -5,7 +5,7 @@ IF :NEW.PR_RGO_EDAD IS NOT NULL THEN
         IF :NEW.PR_RGO_EDAD(i).RA_VALORI > :NEW.PR_RGO_EDAD(i).RA_VALORF
         OR :NEW.PR_RGO_EDAD(i).RA_VALORI < 0
         OR :NEW.PR_RGO_EDAD(i).RA_VALORF < 0  THEN
-            RAISE_APPLICATION_ERROR(-20001, 'Rango de edad no válido.');
+            RAISE_APPLICATION_ERROR(-20001, 'Rango de edad no vÃ¡lido.');
         END IF;
     END LOOP;
 ELSE
@@ -15,12 +15,12 @@ IF :NEW.PR_RESUMEN IS NOT NULL THEN
     IF :NEW.PR_RESUMEN.RE_ALTO <= 0
     OR :NEW.PR_RESUMEN.RE_ANCHO <= 0
     OR :NEW.PR_RESUMEN.RE_PROFUNDO <= 0 THEN
-        RAISE_APPLICATION_ERROR(-20003, 'Valores de dimensión inválidos.');
+        RAISE_APPLICATION_ERROR(-20003, 'Valores de dimensiÃ³n invÃ¡lidos.');
     END IF;
     IF  :NEW.PR_RESUMEN.RE_IDIOMAS IS NOT NULL THEN
         FOR i IN :NEW.PR_RESUMEN.RE_IDIOMAS.FIRST..:NEW.PR_RESUMEN.RE_IDIOMAS.LAST LOOP
             IF :NEW.PR_RESUMEN.RE_IDIOMAS(i) = NULL THEN
-                RAISE_APPLICATION_ERROR(-20004, 'Idioma no válido.');
+                RAISE_APPLICATION_ERROR(-20004, 'Idioma no vÃ¡lido.');
             END IF;
         END LOOP;
     ELSE
@@ -30,12 +30,12 @@ ELSE
     RAISE_APPLICATION_ERROR(-20006, 'El resumen no puede ser nulo.');
 END IF;
 IF :NEW.PR_FOTOS IS NULL THEN
-    RAISE_APPLICATION_ERROR(-20007, 'Debe haber al menos una imágen.');
+    RAISE_APPLICATION_ERROR(-20007, 'Debe haber al menos una imÃ¡gen.');
 END IF;
 IF :NEW.PR_INSTRUCCIONES IS NULL THEN
     RAISE_APPLICATION_ERROR(-20008, 'El instructivo no puede ser nulo');
 END IF;
 IF :NEW.PR_CATEGORIAS IS NULL THEN
-    RAISE_APPLICATION_ERROR(-20009, 'Debe haber al menos una categoría.');
+    RAISE_APPLICATION_ERROR(-20009, 'Debe haber al menos una categorÃ­a.');
 END IF; 
 END;
