@@ -26,7 +26,7 @@ drop index FK_FACTIENDA_DF_FK;
 
 drop index FK_DISPROD_DIP_FK;
 
-drop index FK_PEDIDO_DP_FK;
+drop index FK_PEDIDO_DIP_FK;
 
 drop index FK_DETPEDIDO_DL_FK;
 
