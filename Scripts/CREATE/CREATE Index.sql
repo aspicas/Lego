@@ -94,7 +94,7 @@ create index FK_DETPEDIDO_DF_FK on DETALLE_FACTURA (
 /*==============================================================*/
 /* Index: FK_PEDIDO_DP_FK                                       */
 /*==============================================================*/
-create index FK_PEDIDO_DIP_FK on DETALLE_PEDIDO (
+create index FK_PEDIDO_DP_FK on DETALLE_PEDIDO (
    DP_FK_PEDIDO ASC
 );
 

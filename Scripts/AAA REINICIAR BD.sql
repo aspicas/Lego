@@ -8,10 +8,11 @@
 
 @"CREATE\CREATE Type.sql";
 @"CREATE\CREATE Table.sql";
+@"ALTER\ALTER Constraints FK.sql";
 @"CREATE\CREATE Index.sql";
 @"CREATE\CREATE SEQUENCE.sql";
 
-@"ALTER\ALTER Constraints FK.sql";
+
 @"ALTER\ALTER Constraints CH Y UN.sql";
 
 @"functions.sql";
