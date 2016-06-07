@@ -28,7 +28,7 @@ alter table DETALLE
 
 alter table DETALLE
    add constraint FK_DETALLE_FK_DISPRO_DISP_PRO foreign key (DET_FK_PAIS, DET_FK_PRODUCTO)
-      references DISP_PROD (DP_FK_PAIS, DP_FK_PRODUCTO);
+      references DISP_PROD (DIP_FK_PAIS, DIP_FK_PRODUCTO);
 
 alter table DETALLE
    add constraint FK_DETALLE_FK_FACTON_FACTURA_ foreign key (DET_FK_FACT_ONLI)
@@ -52,7 +52,7 @@ alter table DETALLE_FACTURA
 
 alter table DETALLE_PEDIDO
    add constraint FK_DETALLE__FK_DISPRO_DISP_PRO foreign key (DP_FK_PAIS, DP_FK_PRODUCTO)
-      references DISP_PROD (DP_FK_PAIS, DP_FK_PRODUCTO);
+      references DISP_PROD (DIP_FK_PAIS, DIP_FK_PRODUCTO);
 
 alter table DETALLE_PEDIDO
    add constraint FK_DETALLE__FK_PEDIDO_PEDIDO foreign key (DP_FK_PEDIDO)
@@ -67,11 +67,11 @@ alter table DET_LOTE
       references PRODUCCION_LOTE (PL_ID_LOTE);
 
 alter table DISP_PROD
-   add constraint FK_DISP_PRO_FK_PAIS_D_PAIS foreign key (DP_FK_PAIS)
+   add constraint FK_DISP_PRO_FK_PAIS_D_PAIS foreign key (DIP_FK_PAIS)
       references PAIS (PA_ID);
 
 alter table DISP_PROD
-   add constraint FK_DISP_PRO_FK_PRODUC_PRODUCTO foreign key (DP_FK_PRODUCTO)
+   add constraint FK_DISP_PRO_FK_PRODUC_PRODUCTO foreign key (DIP_FK_PRODUCTO)
       references PRODUCTO (PR_CODIGO);
 
 alter table ESTADO_CIUDAD
@@ -161,3 +161,11 @@ alter table VALORACION
 alter table PRODUCCION_LOTE
    add constraint FK_PRODUCCION_LOTE_FK_PRODUCTO foreign key (PL_FK_PRODUCTO)
       references PRODUCTO (PR_CODIGO);
+
+--LA RELACION DE HISTORICO CON LOTE
+
+alter table historico_producto add HP_FK_LOTE NUMBER(7) NOT NULL; 
+
+Alter table HISTORICO_PRODUCTO
+   add constraint FK_LOTE_HP foreign key (HP_FK_LOTE)
+      references PRODUCCION_LOTE (PL_ID_LOTE);
