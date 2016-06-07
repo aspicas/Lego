@@ -1,0 +1,5 @@
+INSERT INTO HISTORICO_PRODUCTO VALUES (1,2,(select PR_CODIGO from PRODUCTO WHERE PR_NOMBRE = 'Minifigura despertador de Jay'),TO_DATE('20/02/2016','dd/mm/rrrr'),NULL);
+INSERT INTO HISTORICO_PRODUCTO VALUES (1,1,(select PR_CODIGO from PRODUCTO WHERE PR_NOMBRE = 'Persecución en la moto ninja'),TO_DATE('15/03/2016','dd/mm/rrrr'),NULL);
+INSERT INTO HISTORICO_PRODUCTO VALUES (2,3,(select PR_CODIGO from PRODUCTO WHERE PR_NOMBRE = 'Set de construcción de ejércitos'),TO_DATE('12/02/2015','dd/mm/rrrr'),NULL);
+INSERT INTO HISTORICO_PRODUCTO VALUES (3,4,(select PR_CODIGO from PRODUCTO WHERE PR_NOMBRE = 'Tapete de juego'),TO_DATE('10/06/2005','dd/mm/rrrr'),TO_DATE('15/08/2015','dd/mm/rrrr'));
+INSERT INTO HISTORICO_PRODUCTO VALUES (5,6,(select PR_CODIGO from PRODUCTO WHERE PR_NOMBRE = 'Templo de Airjitzu'),TO_DATE('11/05/2016','dd/mm/rrrr'),NULL);
