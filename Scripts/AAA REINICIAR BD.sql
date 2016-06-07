@@ -32,6 +32,8 @@
 @"INSERT\insert_clasificacion.sql";
 @"INSERT\inserts Cliente padre.sql";
 @"INSERT\insert_producto.sql";
-@"INSERT\INSERTS FABRICA SIN DIRECCION.sql";
+@"INSERT\INSERTS FABRICA.sql";
 @"INSERT\TIENDAS.sql";
 @"INSERT\FECHAS_TOUR.sql";
+@"INSERT\INSTALACION.sql";
+@"INSERT\linea_prod.sql";
