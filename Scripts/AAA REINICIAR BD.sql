@@ -1,4 +1,4 @@
---Poner ruta del dir. Scripts en Tools->Preferences->Database->Worksheet
+--Poner ruta del dir. Scripts en Toaspicasols->Preferences->Database->Worksheet
 @"DROP\DROP Index.sql";
 @"DROP\DROP Constraints CH Y UN.sql";
 @"DROP\DROP Constraints FK.sql";
