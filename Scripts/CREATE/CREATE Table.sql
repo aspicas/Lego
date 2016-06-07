@@ -217,8 +217,8 @@ create table INSTALACION
 (
    INS_ID               NUMBER(7)            not null,
    INS_FK_CIUDAD        NUMBER(7)            not null,
-   INS_NOMBRE           VARCHAR2(10)             not null,
-   INS_TIPO             VARCHAR2(50)             not null,
+   INS_NOMBRE           VARCHAR2(50)             not null,
+   INS_TIPO             VARCHAR2(7)             not null,
    INS_DIRECCION        DIRECCION,
    constraint PK_INSTALACION primary key (INS_ID)
 );
