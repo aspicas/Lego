@@ -60,7 +60,7 @@ FROM THE (SELECT TI_HORARIO FROM TIENDA WHERE TI_ID=13) H, TIENDA T;
 
 
 
-SET SERVEROUTPUT ON;
+SET SERVEROUTPUT ON size unlimited;
 DECLARE
   V_BFILE BFILE := BFILENAME('DIR_BINARIOS','loSgo.jpg');
 BEGIN
@@ -87,3 +87,7 @@ DIRECCION('CALLE 1','25',1060,'LOCAL',telefonos_va(telefono(58,0212,2646577,'OFI
 insert into factura_online values (SQ_FACTURA_ONLINE_ID.NEXTVAL,31,TO_DATE('06/06/2016','dd/mm/rrrr'),100.5);
 
 insert into valoracion values (SQ_VALORACION_ID.NEXTVAL,NULL);
+
+
+/*clasificacion*/
+select * from the (select CL_IMAGENES from clasificacion where cl_id = 1);

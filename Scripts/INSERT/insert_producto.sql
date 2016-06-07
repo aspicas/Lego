@@ -15,7 +15,6 @@ INSERT INTO PRODUCTO VALUES(70756,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMB
 
 ***Armas incluidas: hoz de Kai, hoz de Sleven y bastón bo de Griffin Turner.
 ***Pon a prueba tu agilidad con el robot y sus espadas giratorias.
-***¡Escala la pared como un experto!
 ***Esquiva los dardos con punta envenenada.
 ***Sube por los escalones o la cadena para llegar a lo más alto del dojo.
 ***Esquiva las demoledoras manos de Karlof.
@@ -26,7 +25,7 @@ INSERT INTO PRODUCTO VALUES(70747,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMB
 ***El Destructor de Roca cuenta con cañón rápido automático NINJAGO™ de 8 misiles, cabina abatible, mecanismo giratorio, alas ajustables, soportes para las armas de Cole y detalles creados con espadas ninja doradas.
 ***Armas incluidas: 2 espadas dentadas de Cole, espada Anacondrai de Zugu y daga de Sleven.
 ***¡Destruye el puesto de ataque Anacondrai con el cañón rápido automático NINJAGO™ de 8 misiles!',RANGOS_VA(RANGO(7,14)),29.99,236,RESUMEN(8,20,28,IDIOMAS_VA('INGLES','ESPAÑOL','ALEMÁN'),'¡Ayuda a Cole a escapar de su prisión en el Destructor de Roca, de LEGO® NINJAGO™! Cuenta con cañón rápido automático NINJAGO de 8 misiles y mango retráctil.'),IMAGENES_NT(IMAGEN('1',IMPORTAR_BINARIO('PROD_70747_1.png')),IMAGEN('2',IMPORTAR_BINARIO('PROD_70747_2.png'))),TO_DATE('01-JAN-15','DD-MON-RR'),EMPTY_BLOB(),CATEGORIAS_VA('VEHÍCULOS'));
-INSERT INTO PRODUCTO VALUES(70747,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMBRE = 'NINJAGO'),'Llavero de Zane: ninja de titanio','¡Deja que el héroe ninja Zane te proteja dondequiera que vayas! Unido a una auténtica minifigura de Zane, el ninja de titanio, este útil llavero se engancha fácilmente a tus llaves o tu mochila.
+INSERT INTO PRODUCTO VALUES(851352,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMBRE = 'NINJAGO'),'Llavero de Zane: ninja de titanio','¡Deja que el héroe ninja Zane te proteja dondequiera que vayas! Unido a una auténtica minifigura de Zane, el ninja de titanio, este útil llavero se engancha fácilmente a tus llaves o tu mochila.
 
 ***Cuenta con una auténtica minifigura de Zane, el ninja de titanio, unida a una resistente anilla con cadena metálica.
 ***Úsalo como llavero o como amuleto para tu mochila.

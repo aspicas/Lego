@@ -8,16 +8,16 @@
 
 @"CREATE\CREATE Type.sql";
 @"CREATE\CREATE Table.sql";
+@"ALTER\ALTER Constraints FK.sql";
 @"CREATE\CREATE Index.sql";
 @"CREATE\CREATE SEQUENCE.sql";
 
-@"ALTER\ALTER Constraints FK.sql";
 @"ALTER\ALTER Constraints CH Y UN.sql";
 
 @"functions.sql";
 --@"procedures.sql";
 @"NUEVA_VENTA.sql";
-CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
+--CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
 @"TRIGGERS\TR_VALIDAR_PR_REL.sql";
 /*@"TRIGGERS\trigger de direccion.sql";*/
 @"TRIGGERS\trigger valida visitante.sql";
@@ -32,6 +32,8 @@ CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Bas
 @"INSERT\insert_clasificacion.sql";
 @"INSERT\inserts Cliente padre.sql";
 @"INSERT\insert_producto.sql";
-@"INSERT\INSERTS FABRICA SIN DIRECCION.sql";
+@"INSERT\INSERTS FABRICA.sql";
 @"INSERT\TIENDAS.sql";
 @"INSERT\FECHAS_TOUR.sql";
+@"INSERT\INSTALACION.sql";
+@"INSERT\linea_prod.sql";

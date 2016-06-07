@@ -117,3 +117,6 @@ alter table VALORACION
 
 alter table VALORACION
    drop constraint FK_VALORACI_FK_FACTON_FACTURA_;
+
+alter table PRODUCCION_LOTE
+   drop constraint FK_PROD_LOTE_FK_HISTORICO;
