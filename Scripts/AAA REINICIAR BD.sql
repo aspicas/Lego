@@ -24,7 +24,6 @@
 @"TRIGGERS\trigger valida_Arcexclusivo .sql";
 @"TRIGGERS\Trigger_validar_producto.sql";
 @"TRIGGERS\triggers_HORARIO_TIENDA.sql";
---@"TRIGGERS\trigger_valoracion.sql";
 @"trigger maxima compra online .sql";
 
 @"INSERT\insert_pais.sql";
