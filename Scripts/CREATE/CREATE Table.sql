@@ -271,7 +271,13 @@ create table PRODUCCION_LOTE
    PL_FEHA              DATE                 not null,
    PL_CANTIDAD          NUMBER(5)            not null,
    PL_TIPO              VARCHAR2(6)              not null,
-   PL_FK_PRODUCTO	NUMBER(7),
+   /*
+   PL_FK_HIST_FABRICA   NUMBER(7)   NOT NULL,
+   PL_FK_HIST_LINEAPROD NUMBER(7)   NOT NULL,
+   PL_FK_HIST_PRODUCTO  NUMBER(7)   NOT NULL,
+   PL_FK_HIST_FECHAI    NUMBER(7)   NOT NULL);
+   */
+   --ESTO ESTÁ EN ALTER Constraints FK
    constraint PK_PRODUCCION_LOTE primary key (PL_ID_LOTE)
 );
 

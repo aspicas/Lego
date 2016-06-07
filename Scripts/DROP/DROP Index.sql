@@ -77,3 +77,5 @@ drop index FK_CLIENTE_TOPE_FK;
 drop index FK_FACTIENDA_VA_FK;
 
 drop index FK_FACTONLINE_VA_FK;
+
+drop index FK_HISTORICO_PL_FK;

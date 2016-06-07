@@ -192,13 +192,6 @@ create index FK_PRODUCTO_HP_FK on HISTORICO_PRODUCTO (
 );
 
 /*==============================================================*/
-/* Index: FK_LOTE_HP_FK                                     */
-/*==============================================================*/
-create index FK_LOTE_HP_FK on HISTORICO_PRODUCTO (
-   HP_FK_PRODLOTE ASC
-);
-
-/*==============================================================*/
 /* Index: FK_LINEA_HP_FK                                        */
 /*==============================================================*/
 create index FK_LINEA_HP_FK on HISTORICO_PRODUCTO (
@@ -293,6 +286,9 @@ create index FK_FACTIENDA_VA_FK on VALORACION (
 /*==============================================================*/
 /* Index: FK_PRODUCTO_PL_FK                                     */
 /*==============================================================*/
-create index FK_PRODUCTO_PL_FK on PRODUCCION_LOTE(
-   PL_FK_PRODUCTO ASC
+create index FK_HISTORICO_PL_FK on PRODUCCION_LOTE(
+   PL_FK_HIST_FABRICA ASC,  
+   PL_FK_HIST_LINEAPROD ASC,
+   PL_FK_HIST_PRODUCTO ASC,
+   PL_FK_HIST_FECHAI ASC   
 );
