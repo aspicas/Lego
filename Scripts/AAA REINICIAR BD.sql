@@ -17,7 +17,7 @@
 @"functions.sql";
 --@"procedures.sql";
 @"NUEVA_VENTA.sql";
-CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
+--CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
 @"TRIGGERS\TR_VALIDAR_PR_REL.sql";
 /*@"TRIGGERS\trigger de direccion.sql";*/
 @"TRIGGERS\trigger valida visitante.sql";
