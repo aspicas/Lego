@@ -161,3 +161,11 @@ alter table VALORACION
 alter table PRODUCCION_LOTE
    add constraint FK_PRODUCCION_LOTE_FK_PRODUCTO foreign key (PL_FK_PRODUCTO)
       references PRODUCTO (PR_CODIGO);
+
+--LA RELACION DE HISTORICO CON LOTE
+
+alter table historico_producto add HP_FK_LOTE NUMBER(7); 
+
+Alter table HISTORICO_PRODUCTO
+   add constraint FK_LOTE_HP foreign key (HP_FK_LOTE)
+      references PRODUCCION_LOTE (PL_ID_LOTE);
