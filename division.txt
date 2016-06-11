@@ -1,0 +1,29 @@
+Carlos Velasco
+1.fabrica
+2.pedido
+3.tienda
+4.factura_pedido
+5.linea_prod
+6.historico_productos
+7.produccion_lote
+8.producto
+
+Jessica Elberg
+1.clasificacion
+2.clas_clas
+3.disp_prod
+4.detalle
+5.factura_online
+6.cliente_visitante
+7.tope
+8.fechas
+
+David Garcia
+1.factura_tienda
+2.detalle_factura
+3.detalle_pedido
+4.det_lote
+5.descuento
+6.valoracion
+7.prod_rel
+8.instalacion
