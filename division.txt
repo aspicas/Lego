@@ -19,11 +19,11 @@ Jessica Elberg
 8.fechas
 
 David Garcia
-1.factura_tienda
-2.detalle_factura
-3.detalle_pedido
-4.det_lote
-5.descuento
-6.valoracion
-7.prod_rel
-8.instalacion
+1.factura_tienda(X)
+2.detalle_factura(X)
+3.detalle_pedido()
+4.det_lote()
+5.descuento()
+6.valoracion()
+7.prod_rel()
+8.instalacion()
