@@ -15,7 +15,7 @@
 @"ALTER\ALTER Constraints CH Y UN.sql";
 
 @"functions.sql";
---@"procedures.sql";
+@"procedures.sql";
 @"NUEVA_VENTA.sql";
 --CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
 @"TRIGGERS\TR_VALIDAR_PR_REL.sql";
