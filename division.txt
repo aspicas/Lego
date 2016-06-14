@@ -1,11 +1,11 @@
 Carlos Velasco
 1.fabrica(x)
 2.pedido
-3.tienda
+3.tienda(x)
 4.factura_pedido
-5.linea_prod
-6.historico_productos
-7.produccion_lote
+5.linea_prod(x)
+6.historico_productos(x)
+7.produccion_lote(x)
 8.producto(x)
 
 Jessica Elberg
