@@ -9,12 +9,12 @@ Carlos Velasco
 8.producto(x)
 
 Jessica Elberg
-1.clasificacion
-2.clas_clas
+1.clasificacion(x)
+2.clas_clas(x)
 3.disp_prod
 4.detalle
-5.factura_online
-6.cliente_visitante
+5.factura_online(x)
+6.cliente_visitante(x)
 7.tope
 8.fechas
 
