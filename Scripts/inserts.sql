@@ -1423,3 +1423,28 @@ exec INSERTAR_DESCUENTO(8,TO_DATE('04/11/2015','dd/mm/rrrr'),620);
 exec INSERTAR_DESCUENTO(9,TO_DATE('04/10/2014','dd/mm/rrrr'),650);
 exec INSERTAR_DESCUENTO(10,TO_DATE('04/04/2015','dd/mm/rrrr'),730);
 
+/*FECHAS*/
+insert into fechas values (to_date('11/05/2016','dd/mm/rrrr'),
+TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date('19:00','HH24:MI'),' Encuentro con diseñadores de modelos Lego:','*Conozca su trabajo diario en el Grupo Lego.*Participe en un evento de construcción de un tema Lego.* Discuta su experiencia individual en construcciones Lego.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),'Visite la casa de Ole Kirks','* Conozca sobre la historia del Grupo Lego incluyendo su cultura y valores.* Visite la histórica colección de modelos que datan desde 1932.'),dia(to_date('13:00','HH24:MI'),'Tour a la fábrica “Kornmarken” de Lego','*Camine y vea la planta de moldeado totalmente automatizada y su almacén.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
+        )
+,2191);
+insert into fechas values (to_date('25/05/2016','dd/mm/rrrr'),
+TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date('19:00','HH24:MI'),' Encuentro con diseñadores de modelos Lego:','*Conozca su trabajo diario en el Grupo Lego.*Participe en un evento de construcción de un tema Lego.* Discuta su experiencia individual en construcciones Lego.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),'Visite la casa de Ole Kirks','* Conozca sobre la historia del Grupo Lego incluyendo su cultura y valores.* Visite la histórica colección de modelos que datan desde 1932.'),dia(to_date('13:00','HH24:MI'),'Tour a la fábrica “Kornmarken” de Lego','*Camine y vea la planta de moldeado totalmente automatizada y su almacén.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
+        )
+,2191);
+insert into fechas values (to_date('08/06/2016','dd/mm/rrrr'),
+TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date('19:00','HH24:MI'),' Encuentro con diseñadores de modelos Lego:','*Conozca su trabajo diario en el Grupo Lego.*Participe en un evento de construcción de un tema Lego.* Discuta su experiencia individual en construcciones Lego.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),'Visite la casa de Ole Kirks','* Conozca sobre la historia del Grupo Lego incluyendo su cultura y valores.* Visite la histórica colección de modelos que datan desde 1932.'),dia(to_date('13:00','HH24:MI'),'Tour a la fábrica “Kornmarken” de Lego','*Camine y vea la planta de moldeado totalmente automatizada y su almacén.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
+        )
+,2191);
+insert into fechas values (to_date('22/06/2016','dd/mm/rrrr'),
+TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date('19:00','HH24:MI'),' Encuentro con diseñadores de modelos Lego:','*Conozca su trabajo diario en el Grupo Lego.*Participe en un evento de construcción de un tema Lego.* Discuta su experiencia individual en construcciones Lego.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),'Visite la casa de Ole Kirks','* Conozca sobre la historia del Grupo Lego incluyendo su cultura y valores.* Visite la histórica colección de modelos que datan desde 1932.'),dia(to_date('13:00','HH24:MI'),'Tour a la fábrica “Kornmarken” de Lego','*Camine y vea la planta de moldeado totalmente automatizada y su almacén.'))
+         ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
+        )
+,2191);
