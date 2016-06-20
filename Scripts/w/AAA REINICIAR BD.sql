@@ -24,10 +24,12 @@
 @"TRIGGERS\trigger valida_Arcexclusivo .sql";
 @"TRIGGERS\Trigger_validar_producto.sql";
 @"TRIGGERS\triggers_HORARIO_TIENDA.sql";
-@"trigger maxima compra online .sql";
+/*@"trigger maxima compra online .sql";*/
 
 @"INSERT\insert_pais.sql";
 @"INSERT\insert_estadociudad.sql";
+@"inserts.sql";
+/*
 @"INSERT\insert_clasificacion.sql";
 @"INSERT\inserts Cliente padre.sql";
 @"INSERT\insert_producto.sql";
@@ -35,4 +37,4 @@
 @"INSERT\TIENDAS.sql";
 @"INSERT\FECHAS_TOUR.sql";
 @"INSERT\INSTALACION.sql";
-@"INSERT\linea_prod.sql";
+@"INSERT\linea_prod.sql";*/

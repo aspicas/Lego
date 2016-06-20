@@ -198,8 +198,8 @@ Reduce el circuito a cenizas con el Audi R8 LMS de LEGO® Speed Champions. Si em
 
 
 
-/*------	FABRICA		------*/
-EXEC INSERTAR_FABRICA(1,19,'Blooming Bricks','Calle 5','234',24921,null,TELEFONO(1,812,5551598,'OFICINA'));
+/*------	FABRICA		------*/E
+XEC INSERTAR_FABRICA(1,19,'Blooming Bricks','Calle 5','234',24921,null,TELEFONO(1,812,5551598,'OFICINA'));
 EXEC INSERTAR_FABRICA(2,20,'NY LEGO Factory','Avenida Lincoln','65',33215,null,TELEFONO(1,914,5557459,'OFICINA'));
 EXEC INSERTAR_FABRICA(3,21,'The American Brick','Calle 69','115',23315,null,TELEFONO(1,863,5559553,'OFICINA'));
 EXEC INSERTAR_FABRICA(4,22,'LEGO Florida HQ','Gulfport','76',11256,null,TELEFONO(1,727,5559731,'OFICINA'));
