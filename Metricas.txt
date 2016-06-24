@@ -1,10 +1,19 @@
 Enunciado
-Generar las tiendas con más ventas por año (en euros)
-Generar la distribución de temas por país.
-Generar temas preferidos por género.
-Generar top 2 de los temas preferidos por país y de producto preferido por rango de edades.(valoracion ultimos tres años (2013-2015))
-% de visitantes por nacionalidad a lo largo de los ultimos 4 años (2012-2015)
-Cuantos pedidos se envian antes de los 5 dias, cuantos se envian tarde, % de eficiencia, fabricas mas eficientes por año.
+1* Generar las tiendas con más ventas por año (en euros)
+
+2* Generar la distribución de temas por país.
+
+3* Generar temas preferidos por género.
+
+4* Generar top 2 de los temas preferidos por país 
+
+5* Producto preferido por rango de edades.(valoracion ultimos tres años (2013-2015))
+
+6* % de visitantes por nacionalidad a lo largo de los ultimos 4 años (2012-2015)
+
+7* Cuantos pedidos se envian antes de los 5 dias, cuantos se envian tarde 
+
+8* % de eficiencia, fabricas mas eficientes por año.
 
 Puestas por nosotros
 Tienda con mayor ganancia anual por pais
