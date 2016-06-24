@@ -13,7 +13,7 @@ create or replace type RESUMEN as object
    RE_ANCHO             NUMBER(5,2),
    RE_PROFUNDO          NUMBER(5,2),
    RE_IDIOMAS           idiomas_va,
-   RE_DESCRIPCION       VARCHAR2(200)
+   RE_DESCRIPCION       VARCHAR2(500)
 );
 /
 

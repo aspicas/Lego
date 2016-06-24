@@ -58,12 +58,29 @@ INSERT INTO PRODUCTO VALUES(75908,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMB
 ***Accesorios incluidos: un casco, una llave y un trofeo plateado.
 ***Comprueba las ruedas con la llave.
 ***¡Compite contralos coches LEGO® Speed Champions de tus amigos y hazte con el trofeo!',RANGOS_VA(RANGO(7,14)),14.99,153,RESUMEN(4,5,14,IDIOMAS_VA('INGLES','ESPAÑOL','INGLES'),'¡Gana el trofeo con el 458 Italia GT2 de LEGO® Speed Champions! Cuenta con exclusivos tapacubos y fantásticos detalles inspirados en la marca Ferrari, así como una minifigura de un piloto.'),IMAGENES_NT(IMAGEN('1',IMPORTAR_BINARIO('PROD_75913_1.png')),IMAGEN('2',IMPORTAR_BINARIO('PROD_75913_2.png'))),TO_DATE('01-MAR-15','DD-MON-RR'),EMPTY_BLOB(),CATEGORIAS_VA('VEHÍCULOS'));
-INSERT INTO PRODUCTO VALUES(75876,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMBRE = 'SPEED CHAMPIONS'),'Puesto de reparación Porsche 919 Hybrid y 917K','De ti dependen las decisiones que tome el legendario equipo de Porsche en el avanzado taller. Usa el elevador y las herramientas para preparar el ultramoderno Porsche 919 Hybrid y el clásico 917K. Pisa el acelerador en la línea de salida y controla los dos coches desde las pantallas del carril de reparación. Si haces una parada técnica, cambia esas ruedas bien rápido y vuelve a la carrera. Durante más de 60 años, Porsche ha tenido una misión: fabricar el coche del futuro. Pero… ¿será el 919 Hybrid el primero en pasar junto a la bandera de cuadros y conseguir el trofeo?',RANGOS_VA(RANGO(8,14)),55.99,732,RESUMEN(4,14,5,IDIOMAS_VA('INGLES','ESPAÑOL','INGLES'),'¡Prepárate para una carrera LEGO® Speed Champions entre el Porsche 919 Hybrid y el Porsche 917K! Cuenta con puesto de reparación, elevador, bomba de combustible, línea de salida y otros accesorios. 
-'),IMAGENES_NT(IMAGEN('1',IMPORTAR_BINARIO('PROD_75876_1.png')),IMAGEN('2',IMPORTAR_BINARIO('PROD_75876_2.png'))),TO_DATE('01-MAR-15','DD-MON-RR'),EMPTY_BLOB(),CATEGORIAS_VA('VEHÍCULOS'));
-INSERT INTO PRODUCTO VALUES(75872,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMBRE = 'SPEED CHAMPIONS'),'Audi R18 e-tron quattro',' ¡Llena el depósito y compite por la victoria!
 
-Esta fantástica versión LEGO® Speed Champions de un prototipo de Le Mans ha sido diseñada para correr día y noche. ¡Usa la llave inglesa y la bomba de combustible para poner a punto el Audi R18 e-tron quattro y deja atrás a tus rivales!',RANGOS_VA(RANGO(7,14)),14.99,166,RESUMEN(4,5,14,IDIOMAS_VA('INGLES','ESPAÑOL','INGLES'),'¡Hazte con la victoria a pura potencia con el Audi R18 e-tron quattro de LEGO® Speed Champions! Cuenta con tapacubos intercambiables, minifigura de un piloto, llave inglesa y bomba de combustible. 
-'),IMAGENES_NT(IMAGEN('1',IMPORTAR_BINARIO('PROD_75872_1.png')),IMAGEN('2',IMPORTAR_BINARIO('PROD_75872_2.png'))),TO_DATE('01-MAR-15','DD-MON-RR'),EMPTY_BLOB(),CATEGORIAS_VA('VEHÍCULOS'));
+INSERT INTO PRODUCTO VALUES(75876,
+(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMBRE = 'SPEED CHAMPIONS'),
+'Puesto de reparación Porsche 919 Hybrid y 917K',
+'De ti dependen las decisiones que tome el legendario equipo de Porsche en el avanzado taller. Usa el elevador y las herramientas para preparar el ultramoderno Porsche 919 Hybrid y el clásico 917K. Pisa el acelerador en la línea de salida y controla los dos coches desde las pantallas del carril de reparación. Si haces una parada técnica, cambia esas ruedas bien rápido y vuelve a la carrera. Durante más de 60 años, Porsche ha tenido una misión: fabricar el coche del futuro. Pero… ¿será el 919 Hybrid el primero en pasar junto a la bandera de cuadros y conseguir el trofeo?',
+RANGOS_VA(RANGO(8,14)),
+55.99,
+732,
+RESUMEN(4,14,5,IDIOMAS_VA('INGLES','ESPAÑOL','INGLES'),'¡Prepárate para una carrera LEGO® Speed Champions entre el Porsche 919 Hybrid y el Porsche 917K! Cuenta con puesto de reparación, elevador, bomba de combustible, línea de salida y otros accesorios.'),
+IMAGENES_NT(IMAGEN('1',IMPORTAR_BINARIO('PROD_75876_1.png')),IMAGEN('2',IMPORTAR_BINARIO('PROD_75876_2.png'))),
+TO_DATE('01-MAR-15','DD-MON-RR'),EMPTY_BLOB(),CATEGORIAS_VA('VEHÍCULOS'));
+
+INSERT INTO PRODUCTO VALUES(75872,
+(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMBRE = 'SPEED CHAMPIONS'),
+'Audi R18 e-tron quattro',
+'¡Llena el depósito y compite por la victoria!Esta fantástica versión LEGO® Speed Champions de un prototipo de Le Mans ha sido diseñada para correr día y noche. ¡Usa la llave inglesa y la bomba de combustible para poner a punto el Audi R18 e-tron quattro y deja atrás a tus rivales!',
+RANGOS_VA(RANGO(7,14)),
+14.99,
+166,
+RESUMEN(4,5,14,IDIOMAS_VA('INGLES','ESPAÑOL','INGLES'),'¡Hazte con la victoria a pura potencia con el Audi R18 e-tron quattro de LEGO® Speed Champions! Cuenta con tapacubos intercambiables, minifigura de un piloto, llave inglesa y bomba de combustible.'),
+IMAGENES_NT(IMAGEN('1',IMPORTAR_BINARIO('PROD_75872_1.png')),IMAGEN('2',IMPORTAR_BINARIO('PROD_75872_2.png'))),
+TO_DATE('01-MAR-15','DD-MON-RR'),EMPTY_BLOB(),CATEGORIAS_VA('VEHÍCULOS'));
+
 INSERT INTO PRODUCTO VALUES(75870,(SELECT CL_ID FROM CLASIFICACION WHERE CL_NOMBRE = 'SPEED CHAMPIONS'),'Chevrolet Corvette Z06','¡Prepárate para correr por el desierto con este emblemático deportivo americano!
 
 Cambia los tapacubos y pon a punto el motor con la llave inglesa. ¡Coloca al piloto en el fabuloso Chevrolet Corvette Z06 de LEGO® Speed Champions y pisa a fondo! ¡Practica en las curvas cerradas y usa después la cámara para imaginar que grabas la acción a toda velocidad!',RANGOS_VA(RANGO(7,14)),14.99,173,RESUMEN(4,5,14,IDIOMAS_VA('INGLES','ESPAÑOL','INGLES'),'¡Prepárate para la carrera con el Chevrolet Corvette Z06 de LEGO® Speed Champions! Cuenta con tapacubos intercambiables, una minifigura de un piloto, una cámara de televisión y llave inglesa. 
