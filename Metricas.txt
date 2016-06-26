@@ -1,7 +1,7 @@
 ﻿Enunciado
 1 Generar las tiendas con más ventas por año (en euros)
 
-2* Generar la distribución de temas por país.
+2 Generar la distribución de temas por país.
 
 3 Generar temas preferidos por género.
 
