@@ -30,3 +30,5 @@ drop table TIENDA_V cascade constraints;
 drop table TOUR cascade constraints;
 
 drop table VENTA cascade constraints;
+
+DROP SEQUENCE SQ_FABRICA_E;

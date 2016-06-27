@@ -230,3 +230,5 @@ create index FK4 on VENTA (
 create index FK5 on VENTA (
    TIEN_ID ASC
 );
+
+CREATE SEQUENCE SQ_FABRICA_E INCREMENT BY 1 START WITH 1;
