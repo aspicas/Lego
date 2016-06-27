@@ -11,7 +11,7 @@ Carlos Velasco
 Jessica Elberg
 1.clasificacion(x)
 2.clas_clas(x)
-3.disp_prod
+3.disp_prod(x)
 4.detalle
 5.factura_online(x)
 6.cliente_visitante(x)
