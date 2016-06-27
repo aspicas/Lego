@@ -1,6 +1,10 @@
 ﻿Enunciado
+<<<<<<< HEAD
 
 1 Generar las tiendas con más ventas por año (en euros)
+=======
+1* Generar las tiendas con más ventas por año (en euros)
+>>>>>>> 39b69c9d52f5ab8623b7b8531446b5b28206d58a
 
 2 Generar la distribución de temas por país.
 
@@ -10,9 +14,9 @@
 
 5 Producto preferido por rango de edades.(valoracion ultimos tres años (2013-2015))
 
-6 % de visitantes por nacionalidad a lo largo de los ultimos 4 años (2012-2015)
+6* % de visitantes por nacionalidad a lo largo de los ultimos 4 años (2012-2015)
 
-7 Cuantos pedidos se envian antes de los 5 dias, cuantos se envian tarde 
+7* Cuantos pedidos se envian antes de los 5 dias, cuantos se envian tarde 
 
 8 % de eficiencia, fabricas mas eficientes por año.
 
