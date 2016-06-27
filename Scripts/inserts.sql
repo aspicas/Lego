@@ -1448,3 +1448,69 @@ TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date(
          ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
         )
 ,2191);
+
+/*------	PEDIDO		------*/
+insert into PEDIDO values (1, 6, 1, '18/12/2015', '24/12/2015', '25/12/2015', '20/12/2015');
+insert into PEDIDO values (2, 7, 2, '31/08/2014', '05/09/2014', null, '02/09/2014');
+insert into PEDIDO values (3, 9, 3, '24/03/2016', '26/03/2016',null, null);
+insert into PEDIDO values (4, 16, 4, '11/12/2015', '18/12/2015', '14/12/2015', '13/12/2015');
+insert into PEDIDO values (5, 9, 5, '11/03/2016', '25/03/2016', null, '13/03/2016');
+insert into PEDIDO values (6, 13, 6, '12/02/2014', '26/02/2014',null, null);
+insert into PEDIDO values (7, 3, 7, '06/10/2014', '17/10/2014', null, '10/10/2014');
+insert into PEDIDO values (8, 5, 8, '02/03/2014', '16/03/2014', '09/03/2014', '04/03/2014');
+insert into PEDIDO values (9, 10, 9, '08/09/2015', '12/09/2015', null, '14/09/2015');
+insert into PEDIDO values (10, 17, 10, '13/12/2015', '19/12/2015',null, null);
+insert into PEDIDO values (11, 4, 11, '12/03/2016', '16/03/2016', null, '14/03/2016');
+insert into PEDIDO values (12, 11, 12, '19/01/2016', '21/01/2016', '27/01/2016', '25/01/2016');
+insert into PEDIDO values (13, 17, 13, '23/01/2016', '26/01/2016', '03/02/2016', '29/01/2016');
+insert into PEDIDO values (14, 8, 14, '06/11/2015', '10/11/2015', '13/11/2015', '09/11/2015');
+insert into PEDIDO values (15, 6, 15, '17/02/2016', '23/02/2016', '26/02/2016', '24/02/2016');
+insert into PEDIDO values (16, 8, 16, '14/07/2014', '21/07/2014', '20/07/2014', '18/07/2014');
+insert into PEDIDO values (17, 4, 17, '10/11/2015', '13/11/2015', '20/11/2015', '16/11/2015');
+insert into PEDIDO values (1, 16, 18, '01/04/2015', '03/04/2015',null, null);
+insert into PEDIDO values (2, 11, 19, '19/06/2014', '01/07/2014', '23/06/2014', '22/06/2014');
+insert into PEDIDO values (1, 15, 20, '29/07/2015', '11/08/2015', null, '05/08/2015');
+
+/*detalle_pedido*/
+exec INSERTAR_DETALLE_PEDIDO(1,8,5005117,100,110);
+exec INSERTAR_DETALLE_PEDIDO(2,1,5005117,200,100);
+exec INSERTAR_DETALLE_PEDIDO(3,3,5005117,100,150);
+exec INSERTAR_DETALLE_PEDIDO(4,4,5005117,200,100);
+exec INSERTAR_DETALLE_PEDIDO(5,5,5005117,100,120);
+exec INSERTAR_DETALLE_PEDIDO(6,5,851345,200,130);
+exec INSERTAR_DETALLE_PEDIDO(7,2,851345,100,150);
+exec INSERTAR_DETALLE_PEDIDO(8,6,851345,200,500);
+exec INSERTAR_DETALLE_PEDIDO(9,9,851345,100,200);
+exec INSERTAR_DETALLE_PEDIDO(10,8,851345,200,300);
+exec INSERTAR_DETALLE_PEDIDO(11,5,70747,100,200);
+exec INSERTAR_DETALLE_PEDIDO(12,4,851345,200,100);
+exec INSERTAR_DETALLE_PEDIDO(13,5,70756,100,190);
+exec INSERTAR_DETALLE_PEDIDO(14,4,70747,200,250);
+exec INSERTAR_DETALLE_PEDIDO(15,1,70747,100,300);
+exec INSERTAR_DETALLE_PEDIDO(16,8,70747,200,100);
+exec INSERTAR_DETALLE_PEDIDO(17,2,851352,100,150);
+exec INSERTAR_DETALLE_PEDIDO(18,7,851352,200,500);
+exec INSERTAR_DETALLE_PEDIDO(19,9,851352,100,600);
+exec INSERTAR_DETALLE_PEDIDO(20,3,851352,200,100);
+
+/*det_lote*/
+exec INSERTAR_DET_LOTE(1,1,1,200);
+exec INSERTAR_DET_LOTE(2,2,2,200);
+exec INSERTAR_DET_LOTE(3,3,3,200);
+exec INSERTAR_DET_LOTE(4,4,4,200);
+exec INSERTAR_DET_LOTE(5,5,5,200);
+exec INSERTAR_DET_LOTE(6,6,6,200);
+exec INSERTAR_DET_LOTE(7,7,7,200);
+exec INSERTAR_DET_LOTE(8,8,8,200);
+exec INSERTAR_DET_LOTE(9,9,9,200);
+exec INSERTAR_DET_LOTE(10,10,10,200);
+exec INSERTAR_DET_LOTE(11,11,11,200);
+exec INSERTAR_DET_LOTE(12,12,12,200);
+exec INSERTAR_DET_LOTE(13,13,13,200);
+exec INSERTAR_DET_LOTE(14,14,14,200);
+exec INSERTAR_DET_LOTE(15,15,15,200);
+exec INSERTAR_DET_LOTE(16,16,16,200);
+exec INSERTAR_DET_LOTE(17,17,17,200);
+exec INSERTAR_DET_LOTE(18,18,18,200);
+exec INSERTAR_DET_LOTE(19,19,19,200);
+exec INSERTAR_DET_LOTE(20,20,20,200);
