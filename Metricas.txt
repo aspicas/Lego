@@ -1,12 +1,8 @@
 ﻿Enunciado
-<<<<<<< HEAD
 
-1 Generar las tiendas con más ventas por año (en euros)
-=======
 1* Generar las tiendas con más ventas por año (en euros)
->>>>>>> 39b69c9d52f5ab8623b7b8531446b5b28206d58a
 
-2 Generar la distribución de temas por país.
+2* Generar la distribución de temas por país.
 
 3 Generar temas preferidos por género.
 
@@ -21,4 +17,4 @@
 8 % de eficiencia, fabricas mas eficientes por año.
 
 Puestas por nosotros
-7.Tienda con mayor ganancia anual por pais
+9* Tienda con mayor ganancia anual por pais

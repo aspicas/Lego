@@ -3,3 +3,10 @@ select distinct cl_nombre, pa_nombre, cl_tipo
 from clasificacion, pais, disp_prod, producto
 where dip_fk_pais = pa_id and dip_fk_producto = pr_codigo and 
 PR_FK_CLASIFICACION = cl_id and cl_tipo = 'TEMA';
+
+--**********METRICAS 9**************---
+select distinct pa_nombre, ti_id, sum(ft_monto_usd)
+from factura_tienda, pais, tienda, ESTADO_CIUDAD
+where factura_tienda.FT_FK_TIENDA = tienda.TI_ID and tienda.TI_FK_CIUDAD = ESTADO_CIUDAD.EC_ID and
+ESTADO_CIUDAD.EC_FK_PAIS = pais.PA_ID
+group by pais.PA_NOMBRE, tienda.TI_ID;
