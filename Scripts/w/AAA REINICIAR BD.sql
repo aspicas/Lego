@@ -14,6 +14,7 @@
 
 @"ALTER\ALTER Constraints CH Y UN.sql";
 
+
 @"functions.sql";
 @"procedures.sql";
 @"NUEVA_VENTA.sql";
@@ -25,6 +26,8 @@
 @"TRIGGERS\Trigger_validar_producto.sql";
 @"TRIGGERS\triggers_HORARIO_TIENDA.sql";
 /*@"trigger maxima compra online .sql";*/
+
+@"Scripts\procedimientosyfunciones.sql";
 
 @"INSERT\insert_pais.sql";
 @"INSERT\insert_estadociudad.sql";
