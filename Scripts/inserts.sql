@@ -1430,13 +1430,13 @@ TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date(
          ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
         )
 ,2191);
-insert into fechas values (to_date('25/05/2016','dd/mm/rrrr'),
+insert into fechas values (to_date('25/05/2015','dd/mm/rrrr'),
 TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date('19:00','HH24:MI'),' Encuentro con diseñadores de modelos Lego:','*Conozca su trabajo diario en el Grupo Lego.*Participe en un evento de construcción de un tema Lego.* Discuta su experiencia individual en construcciones Lego.'))
          ,dias_va(dia(to_date('09:30','HH24:MI'),'Visite la casa de Ole Kirks','* Conozca sobre la historia del Grupo Lego incluyendo su cultura y valores.* Visite la histórica colección de modelos que datan desde 1932.'),dia(to_date('13:00','HH24:MI'),'Tour a la fábrica “Kornmarken” de Lego','*Camine y vea la planta de moldeado totalmente automatizada y su almacén.'))
          ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
         )
 ,2191);
-insert into fechas values (to_date('08/06/2016','dd/mm/rrrr'),
+insert into fechas values (to_date('08/06/2015','dd/mm/rrrr'),
 TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date('19:00','HH24:MI'),' Encuentro con diseñadores de modelos Lego:','*Conozca su trabajo diario en el Grupo Lego.*Participe en un evento de construcción de un tema Lego.* Discuta su experiencia individual en construcciones Lego.'))
          ,dias_va(dia(to_date('09:30','HH24:MI'),'Visite la casa de Ole Kirks','* Conozca sobre la historia del Grupo Lego incluyendo su cultura y valores.* Visite la histórica colección de modelos que datan desde 1932.'),dia(to_date('13:00','HH24:MI'),'Tour a la fábrica “Kornmarken” de Lego','*Camine y vea la planta de moldeado totalmente automatizada y su almacén.'))
          ,dias_va(dia(to_date('09:30','HH24:MI'),' Tour LEGOLAND® Billund Backstage','*Vea los secretos detrás de los escenarios del Parque Legoland de Billund.*Visite el parque con los diseñadores.*Vea cómo opera el Parque.*Visite el departamento de luz y sonido* Luego del tour guiado explore el Parque y las atracciones por su cuenta!'),dia(to_date('14:00','HH24:MI'),' Finalmente reciba un regalo exclusivo de Lego!','* No le diremos qué es el regalo pero sí que el dueño del Grupo Lego estuvo involucrado directamente en la elaboración del mismo.'))
@@ -1450,7 +1450,7 @@ TOUR_DIAS(dias_va(dia(to_date('16:00','HH24:MI'),'Bienvenida',null),dia(to_date(
 ,2191);
 
 /*------	PEDIDO		------*/
-insert into PEDIDO values (1, 6, 1, '18/12/2015', '24/12/2015', '25/12/2015', '20/12/2015');
+insert into PEDIDO values (1, 6, 1, '18/12/2015', '23/12/2015', '25/12/2015', '20/12/2015');
 insert into PEDIDO values (2, 7, 2, '31/08/2014', '05/09/2014', null, '02/09/2014');
 insert into PEDIDO values (3, 9, 3, '24/03/2016', '26/03/2016',null, null);
 insert into PEDIDO values (4, 16, 4, '11/12/2015', '18/12/2015', '14/12/2015', '13/12/2015');

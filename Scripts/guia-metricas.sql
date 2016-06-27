@@ -10,11 +10,11 @@ select cv_genero from ejemplo where cv_genero = 'H';
 
 /*AI TRANSFORMACION*/
 CREATE OR REPLACE PROCEDURE PROBA AS
-HOM EJEMPLO.CV_GENERO%TYPE;
+/*HOM EJEMPLO.CV_GENERO%TYPE;*/
 BEGIN
-  select cv_genero INTO HOM from ejemplo where cv_genero = 'H';
+  /*select cv_genero INTO HOM from ejemplo;*/
   /*AI EXTRACCION*/
-  INSERT INTO HOMBRES VALUES (HOM);
+  INSERT INTO HOMBRES (nombre) select cv_genero from ejemplo;
 END;
 /
 
