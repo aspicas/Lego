@@ -1,4 +1,5 @@
 --Poner ruta del dir. Scripts en Toaspicasols->Preferences->Database->Worksheet
+alter session set nls_date_format='yyyy-mm-dd hh24:mi:ss';
 @"DROP\DROP Index.sql";
 @"DROP\DROP Constraints CH Y UN.sql";
 @"DROP\DROP Constraints FK.sql";
@@ -27,13 +28,13 @@
 @"TRIGGERS\triggers_HORARIO_TIENDA.sql";
 /*@"trigger maxima compra online .sql";*/
 
-@"Metricas\metricas.sql";
-
 @"procedimientosyfunciones.sql";
 
 @"INSERT\insert_pais.sql";
 @"INSERT\insert_estadociudad.sql";
-@"inserts_v2.sql";
+@"INSERTS_v2.sql";
+
+@"Metricas\metricas.sql";
 /*
 @"INSERT\insert_clasificacion.sql";
 @"INSERT\inserts Cliente padre.sql";

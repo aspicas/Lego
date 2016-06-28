@@ -1,4 +1,4 @@
-CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
+--CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS 'C:\Users\Carlos Velasco\Desktop\Base\Lego\images';
 --CREATE OR REPLACE DIRECTORY DIR_BINARIOS AS '/home/aspicas/Lego/images';
 /
 

@@ -123,6 +123,14 @@ BEGIN
 END;
 /
 
+create or replace function calcular_edad(d_fecha in date) return number is
+n_retorno number := 0;
+begin
+  select trunc((sysdate - to_date(d_fecha,'dd/mm/rrrr'))/365,0) into n_retorno from dual;
+  return n_retorno;
+end;
+/
+
 /*METRICAS*/
 create or replace FUNCTION FAB_ESNULO 
   (NOMBRE IN FABRICA_E.FABR_NOMBRE%TYPE)
