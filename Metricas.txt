@@ -6,7 +6,7 @@
 
 3 Generar temas preferidos por género.
 
-4 Generar top 2 de los temas preferidos por país.
+4* Generar top 2 de los temas preferidos por país.
 
 5 Producto preferido por rango de edades.(valoracion ultimos tres años (2013-2015))
 

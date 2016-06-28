@@ -71,8 +71,6 @@ BEGIN
 END;
 /
 
-EXEC P_pedidosantes5dias;
-
 /*envian tarde*/
 /*extraccion*/
 create MATERIALIZED view MV_ENVIOTARDE as
@@ -106,9 +104,6 @@ BEGIN
   CLOSE PED;  
 END;
 /
-
-EXEC P_ENVIOTARDE;
-
 
 /*----- Métrica 4 -----*/
 /* Generar top 2 de los temas preferidos por país. */
@@ -144,6 +139,3 @@ BEGIN
   END LOOP;
 END;
 /
-
-EXEC P_TOP2TEMAS;
-
