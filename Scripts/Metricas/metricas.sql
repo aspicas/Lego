@@ -4,6 +4,14 @@
 /*==============================================================*/
 
 
+DROP SEQUENCE SQ_FABRICA_E;
+DROP SEQUENCE SQ_CLIENTE_T;
+
+DROP MATERIALIZED VIEW MV_PEDIDOSANTES5DIAS;
+DROP MATERIALIZED VIEW MV_ENVIOTARDE;
+DROP MATERIALIZED VIEW MV_TOUR;
+
+
 alter table EFICIENCIA
    drop constraint FK_EFICIENC_RELATIONS_TIEMPO_E;
 
@@ -50,11 +58,11 @@ drop table PAIS_P cascade constraints;
 
 drop index RELATIONSHIP_10_FK;
 
-drop index _______FK;
+drop index PREF_TIEM_MES_FK;
 
-drop index _____FK;
+drop index PREF_CLIE_ID_FK;
 
-drop index ____FK;
+drop index PR;
 
 drop table PREFERENCIA cascade constraints;
 
@@ -76,9 +84,9 @@ drop index RELATIONSHIP_6_FK;
 
 drop table TOUR cascade constraints;
 
-drop index ___FK;
+drop index VENTA_TIEN_ID_FK;
 
-drop index __FK;
+drop index VENTA_TIEM_ANO_FK;
 
 drop table VENTA cascade constraints;
 
@@ -170,24 +178,29 @@ create table PREFERENCIA
    constraint PK_PREFERENCIA primary key (PAIS_ID, CLIE_ID, TIEM_MES, RANG_ID)
 );
 
+
+CREATE SEQUENCE SQ_FABRICA_E INCREMENT BY 1 START WITH 1;
+CREATE SEQUENCE SQ_CLIENTE_T INCREMENT BY 1 START WITH 1;
+
+
 /*==============================================================*/
-/* Index: ____FK                                                */
+/* Index: PR                                                */
 /*==============================================================*/
-create index ____FK on PREFERENCIA (
+create index PR on PREFERENCIA (
    PAIS_ID ASC
 );
 
 /*==============================================================*/
-/* Index: _____FK                                               */
+/* Index: PREF_CLIE_ID_FK                                               */
 /*==============================================================*/
-create index _____FK on PREFERENCIA (
+create index PREF_CLIE_ID_FK on PREFERENCIA (
    CLIE_ID ASC
 );
 
 /*==============================================================*/
-/* Index: _______FK                                             */
+/* Index: PREF_TIEM_MES_FK                                             */
 /*==============================================================*/
-create index _______FK on PREFERENCIA (
+create index PREF_TIEM_MES_FK on PREFERENCIA (
    TIEM_MES ASC
 );
 
@@ -299,16 +312,16 @@ create table VENTA
 );
 
 /*==============================================================*/
-/* Index: __FK                                                  */
+/* Index: VENTA_TIEM_ANO_FK                                                  */
 /*==============================================================*/
-create index __FK on VENTA (
+create index VENTA_TIEM_ANO_FK on VENTA (
    TIEM_ANO ASC
 );
 
 /*==============================================================*/
-/* Index: ___FK                                                 */
+/* Index: VENTA_TIEN_ID_FK                                                 */
 /*==============================================================*/
-create index ___FK on VENTA (
+create index VENTA_TIEN_ID_FK on VENTA (
    TIEN_ID ASC
 );
 

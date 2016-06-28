@@ -27,6 +27,8 @@
 @"TRIGGERS\triggers_HORARIO_TIENDA.sql";
 /*@"trigger maxima compra online .sql";*/
 
+@"Metricas\metricas.sql";
+
 @"procedimientosyfunciones.sql";
 
 @"INSERT\insert_pais.sql";

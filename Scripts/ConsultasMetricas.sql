@@ -12,7 +12,7 @@ WHERE ec.EC_ID = t.TI_FK_CIUDAD AND ft.FT_FK_TIENDA = t.TI_ID AND EXTRACT (YEAR 
 GROUP BY t.TI_ID, ec.EC_NOMBRE
 ORDER BY SUM(ft.FT_MONTO_USD)*1.1012 DESC;
 
-/*-----	Métrica 2	-----*/
+/*-----	Métrica 4	-----*/
 /* Generar top 2 de los temas preferidos por país. */
 SELECT cl.CL_NOMBRE "Tema", COUNT(dF.DF_ID) "Unidades vendidas"
 FROM CLASIFICACION cl, PRODUCTO pr, PAIS pa, DETALLE_PEDIDO dp, DETALLE_FACTURA df, FACTURA_TIENDA ft, TIENDA ti, ESTADO_CIUDAD ec
