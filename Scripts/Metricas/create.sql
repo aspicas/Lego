@@ -143,7 +143,7 @@ create table TOUR
 (
    TIEM_ANO             NUMBER(4)            not null,
    CLIE_ID              NUMBER(2)            not null,
-   TOUR_PORCENTAJE_VISITANTES NUMBER(3,2),
+   TOUR_PORCENTAJE_VISITANTES NUMBER(4,2),
    constraint PK_TOUR primary key (TIEM_ANO, CLIE_ID)
 );
 
@@ -232,3 +232,4 @@ create index FK5 on VENTA (
 );
 
 CREATE SEQUENCE SQ_FABRICA_E INCREMENT BY 1 START WITH 1;
+CREATE SEQUENCE SQ_CLIENTE_T INCREMENT BY 1 START WITH 1;
