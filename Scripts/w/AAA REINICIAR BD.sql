@@ -27,11 +27,11 @@
 @"TRIGGERS\triggers_HORARIO_TIENDA.sql";
 /*@"trigger maxima compra online .sql";*/
 
-@"Scripts\procedimientosyfunciones.sql";
+@"procedimientosyfunciones.sql";
 
 @"INSERT\insert_pais.sql";
 @"INSERT\insert_estadociudad.sql";
-@"inserts.sql";
+@"inserts_v2.sql";
 /*
 @"INSERT\insert_clasificacion.sql";
 @"INSERT\inserts Cliente padre.sql";
