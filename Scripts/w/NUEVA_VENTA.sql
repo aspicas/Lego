@@ -4,7 +4,7 @@ CREATE OR REPLACE PACKAGE NUEVA_VENTA AS
 	PROCEDURE REALIZAR_VENTA(id_tienda IN NUMBER,id_cliente IN NUMBER,arr_prod IN ARR_NUMBER, arr_cant IN ARR_NUMBER);
 END;
 /
-CREATE OR REPLACE PACKAGE BODY NUEVA_VENTA AS
+create or replace PACKAGE BODY NUEVA_VENTA AS
 	FUNCTION PRODUCTO_DISPONIBLE(numero_p NUMBER, id_t NUMBER) RETURN NUMBER IS
 		p_inv NUMBER := 0;    
 	BEGIN
@@ -53,7 +53,7 @@ CREATE OR REPLACE PACKAGE BODY NUEVA_VENTA AS
                     INSERT INTO DETALLE_FACTURA VALUES(id_det_fac,id_fac_ti,id_cliente,id_dp_p,id_dp);
                     UPDATE FACTURA_TIENDA SET FT_MONTO_USD = FT_MONTO_USD + (SELECT p.PR_PRECIO_USD FROM PRODUCTO p WHERE p.PR_CODIGO=arr_prod(i)) WHERE FT_CODIGO = id_fac_ti;          
                   END LOOP;
-                  UPDATE DETALLE_PEDIDO SET DP_CANTIDAD = DP_CANTIDAD - num_vend WHERE DP_ID = id_dp AND DP_FK_PEDIDO = id_dp_p;
+                  --UPDATE DETALLE_PEDIDO SET DP_CANTIDAD = DP_CANTIDAD - num_vend WHERE DP_ID = id_dp AND DP_FK_PEDIDO = id_dp_p;
                   num_vend:=0;
                 ELSE
                   FOR j in 1 .. cant_actual LOOP
@@ -63,16 +63,17 @@ CREATE OR REPLACE PACKAGE BODY NUEVA_VENTA AS
                     UPDATE FACTURA_TIENDA SET FT_MONTO_USD = FT_MONTO_USD + (SELECT p.PR_PRECIO_USD FROM PRODUCTO p WHERE p.PR_CODIGO=arr_prod(i)) WHERE FT_CODIGO = id_fac_ti;          
                     num_vend := num_vend-1;
                   END LOOP; 
-                  UPDATE DETALLE_PEDIDO SET DP_CANTIDAD = DP_CANTIDAD - cant_actual WHERE DP_ID = id_dp AND DP_FK_PEDIDO = id_dp_p;
+                  --UPDATE DETALLE_PEDIDO SET DP_CANTIDAD = DP_CANTIDAD - cant_actual WHERE DP_ID = id_dp AND DP_FK_PEDIDO = id_dp_p;
                 END IF;
                 EXIT WHEN num_vend=0;
               END LOOP;
 						ELSE
-							EXECUTE IMMEDIATE 'ALTER SEQUENCE SQ_FACTURA_TIENDA_ID INCREMENT BY -1';
-							DELETE FROM FACTURA_TIENDA WHERE FT_CODIGO = id_fac_ti;
+							/*EXECUTE IMMEDIATE 'ALTER SEQUENCE SQ_FACTURA_TIENDA_ID INCREMENT BY -1';
+              DELETE FROM FACTURA_TIENDA WHERE FT_CODIGO = id_fac_ti;
 							id_det_fac := SQ_DETALLE_FACTURA_ID.NEXTVAL;
 							EXECUTE IMMEDIATE 'ALTER SEQUENCE SQ_FACTURA_TIENDA_ID INCREMENT BY 1';
-							RAISE_APPLICATION_ERROR(-20014,'No hay suficientes unidades del producto ' || arr_prod(i) || ' en inventario.');
+							RAISE_APPLICATION_ERROR(-20014,'No hay suficientes unidades del producto ' || arr_prod(i) || ' en inventario.');*/
+              NULL;
 						END IF;
 					END LOOP;
 				ELSE
