@@ -18,6 +18,16 @@ BEGIN
     enabled         => TRUE);
 END;
 /
+BEGIN
+  DBMS_SCHEDULER.create_job (
+    job_name        => 'EFICI_ACTU',
+    job_type        => 'PLSQL_BLOCK',
+    job_action      => 'ACT_PREFERENCIA ; END;',
+    start_date      => SYSDATE+1,
+    repeat_interval => 'freq=yearly;',
+    enabled         => TRUE);
+END;
+/
 
 SELECT * FROM DBA_SCHEDULER_JOBS;
 
