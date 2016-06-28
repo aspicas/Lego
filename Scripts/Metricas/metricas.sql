@@ -6,10 +6,12 @@
 
 DROP SEQUENCE SQ_FABRICA_E;
 DROP SEQUENCE SQ_CLIENTE_T;
+DROP SEQUENCE SQ_PAIS_P;
 
 DROP MATERIALIZED VIEW MV_PEDIDOSANTES5DIAS;
 DROP MATERIALIZED VIEW MV_ENVIOTARDE;
 DROP MATERIALIZED VIEW MV_TOUR;
+DROP MATERIALIZED VIEW MV_TOP2TEMAS;
 
 
 alter table EFICIENCIA
@@ -168,19 +170,19 @@ create table PAIS_P
 /*==============================================================*/
 create table PREFERENCIA 
 (
-   PAIS_ID              NUMBER(10)           not null,
-   CLIE_ID              NUMBER(2)            not null,
-   TIEM_MES             NUMBER(4)            not null,
-   RANG_ID              NUMBER(10)           not null,
+   PAIS_ID              NUMBER(10),
+   CLIE_ID              NUMBER(2) ,
+   TIEM_MES             NUMBER(4) ,
+   RANG_ID              NUMBER(10),
    TEMAPREFERIDO_G      CHAR(50),
-   TOP2_TEMAPREFERIDO   CHAR(200),
-   DISTTEMAPAIS         CHAR(10),
-   constraint PK_PREFERENCIA primary key (PAIS_ID, CLIE_ID, TIEM_MES, RANG_ID)
+   TOP2_TEMAPREFERIDO   CHAR(1000),
+   DISTTEMAPAIS         CHAR(10)
 );
 
 
 CREATE SEQUENCE SQ_FABRICA_E INCREMENT BY 1 START WITH 1;
 CREATE SEQUENCE SQ_CLIENTE_T INCREMENT BY 1 START WITH 1;
+CREATE SEQUENCE SQ_PAIS_P INCREMENT BY 1 START WITH 1;
 
 
 /*==============================================================*/
