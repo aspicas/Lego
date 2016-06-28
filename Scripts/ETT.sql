@@ -48,8 +48,6 @@ BEGIN
 END;
 /
 
-EXEC P_TOUR;
-
 /*metrica 7*/
 /*pedidos enviados antes de los 5 dias*/
 /*extraccion*/
