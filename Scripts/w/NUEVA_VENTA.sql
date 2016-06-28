@@ -1,7 +1,7 @@
 CREATE OR REPLACE PACKAGE NUEVA_VENTA AS
 	TYPE ARR_NUMBER IS TABLE OF NUMBER INDEX BY BINARY_INTEGER;
 	FUNCTION PRODUCTO_DISPONIBLE(numero_p NUMBER, id_t NUMBER) RETURN NUMBER;
-	PROCEDURE REALIZAR_VENTA(id_tienda IN NUMBER,id_cliente IN NUMBER,arr_prod IN ARR_NUMBER, arr_cant IN ARR_NUMBER);
+	PROCEDURE REALIZAR_VENTA(id_tienda IN NUMBER,id_cliente IN NUMBER,arr_prod IN ARR_NUMBER, arr_cant IN ARR_NUMBER, fe_ve IN DATE);
 END;
 /
 create or replace PACKAGE BODY NUEVA_VENTA AS
@@ -12,7 +12,7 @@ create or replace PACKAGE BODY NUEVA_VENTA AS
       WHERE dp.DP_CANTIDAD >0 AND dp.DP_FK_PRODUCTO = numero_p AND dp.DP_FK_PEDIDO = p.PD_ORDEN AND p.PD_FK_TIENDA = id_t;
 		RETURN p_inv;
 	END;
-	PROCEDURE REALIZAR_VENTA(id_tienda IN NUMBER,id_cliente IN NUMBER,arr_prod IN ARR_NUMBER, arr_cant IN ARR_NUMBER) IS
+	PROCEDURE REALIZAR_VENTA(id_tienda IN NUMBER,id_cliente IN NUMBER,arr_prod IN ARR_NUMBER, arr_cant IN ARR_NUMBER, fe_ve IN DATE) IS
 		fec date;
 		id_det_fac NUMBER;
 		id_fac_ti NUMBER;
@@ -36,7 +36,7 @@ create or replace PACKAGE BODY NUEVA_VENTA AS
 				SELECT COUNT(*) INTO ex_ti FROM TIENDA WHERE TI_ID = id_tienda;
 				IF ex_ti>0 THEN
 					id_fac_ti := SQ_FACTURA_TIENDA_ID.NEXTVAL;
-					INSERT INTO FACTURA_TIENDA VALUES(id_tienda,id_cliente,id_fac_ti,(SELECT SYSDATE FROM DUAL),0);
+					INSERT INTO FACTURA_TIENDA VALUES(id_tienda,id_cliente,id_fac_ti,fe_ve,0);
 					FOR i in 1 .. arr_prod.COUNT LOOP
 						pro_dis := producto_disponible(arr_prod(i),id_tienda);
 						IF pro_dis >= arr_cant(i) THEN
