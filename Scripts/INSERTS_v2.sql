@@ -3013,3 +3013,35 @@ EXEC VALORAR_TIENDA(8,TO_DATE('27/02/2014','dd/mm/rrrr'),3,2,'I','ES BUENO',8);
 EXEC VALORAR_TIENDA(9,TO_DATE('10/04/2014','dd/mm/rrrr'),4,3,'D','ES FACIL',9);
 EXEC VALORAR_TIENDA(10,TO_DATE('27/08/2013','dd/mm/rrrr'),5,4,'F',NULL,10);
 */
+
+/*TOPE*/
+insert into tope values ('11/05/2016',1);
+insert into tope values ('25/05/2015',2);
+insert into tope values ('08/06/2015',3);
+insert into tope values ('22/06/2016',4);
+insert into tope values ('11/05/2016',5);
+insert into tope values ('25/05/2015',6);
+insert into tope values ('08/06/2015',7);
+insert into tope values ('22/06/2016',8);
+insert into tope values ('11/05/2016',9);
+insert into tope values ('25/05/2015',10);
+insert into tope values ('08/06/2015',11);
+insert into tope values ('22/06/2016',12);
+insert into tope values ('11/05/2016',13);
+insert into tope values ('25/05/2015',14);
+insert into tope values ('08/06/2015',15);
+insert into tope values ('22/06/2016',16);
+insert into tope values ('11/05/2016',17);
+insert into tope values ('25/05/2015',18);
+insert into tope values ('08/06/2015',19);
+insert into tope values ('22/06/2016',20);
+insert into tope values ('11/05/2016',21);
+insert into tope values ('25/05/2015',22);
+insert into tope values ('08/06/2015',23);
+insert into tope values ('22/06/2016',24);
+insert into tope values ('11/05/2016',25);
+insert into tope values ('25/05/2015',26);
+insert into tope values ('08/06/2015',27);
+insert into tope values ('22/06/2016',28);
+insert into tope values ('11/05/2016',29);
+insert into tope values ('25/05/2015',30);
