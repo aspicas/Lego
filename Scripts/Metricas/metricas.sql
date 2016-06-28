@@ -280,7 +280,7 @@ create table TOUR
 (
    TIEM_ANO             NUMBER(4)            not null,
    CLIE_ID              NUMBER(2)            not null,
-   TOUR_PORCENTAJE_VISITANTES NUMBER(3,2),
+   TOUR_PORCENTAJE_VISITANTES NUMBER(10,2),
    constraint PK_TOUR primary key (TIEM_ANO, CLIE_ID)
 );
 
