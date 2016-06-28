@@ -127,14 +127,17 @@ ORDER BY COUNT(dF.DF_ID) DESC;
 CREATE OR REPLACE PROCEDURE P_TOP2TEMAS AS
 pa_cnt NUMBER;
 pa_crs PAIS_P%ROWTYPE;
+pai_id PAIS.PA_ID%TYPE;
 BEGIN
   FOR pa_crs IN (SELECT NomTema, PaisCrs, nacio, Vtas FROM MV_TOP2TEMAS) LOOP
-    IF EXISTE_PAIS(pa_crs.PaisCrs) = 0 THEN
+    pai_id := EXISTE_PAIS(pa_crs.PaisCrs);
+    SYS.DBMS_OUTPUT.PUT_LINE(pai_id);
+    IF pai_id = 0 THEN
       pa_cnt:= SQ_PAIS_P.NEXTVAL;
       INSERT INTO PAIS_P VALUES (pa_cnt,pa_crs.PaisCrs,pa_crs.nacio,SYSDATE);
       INSERT INTO PREFERENCIA(PAIS_ID, top2_temapreferido) VALUES (pa_cnt,pa_crs.NomTema||' ('||pa_crs.Vtas||' ventas)');
     ELSE
-      UPDATE PREFERENCIA pre SET pre.top2_temapreferido = pre.top2_temapreferido||' -dfg '||pa_crs.NomTema||' ('||pa_crs.Vtas||' ventas)' WHERE PAIS_ID = (SELECT pp.PAIS_ID FROM PAIS_P pp WHERE pp.PAIS_NOMBRE = pa_crs.PaisCrs);
+      UPDATE PREFERENCIA pre SET pre.top2_temapreferido = pre.top2_temapreferido||' - '||pa_crs.NomTema||' ('||pa_crs.Vtas||' ventas)' WHERE PAIS_ID = pai_id;
     END IF;
   END LOOP;
 END;
