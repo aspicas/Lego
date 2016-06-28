@@ -45,14 +45,13 @@ GROUP by to_char(fe_fecha,'rrrr'), pa_nacionalidad
 
 /*Metrica 7*/
 /*pedidos enviados antes de los 5 dias*/
-select count(pd_orden) NroPedidos, fa_nombre fabrica, to_date(pd_fecha_completacion,'dd/mm/rrrr') fecha
+select count(pd_orden) NroPedidos, fa_nombre fabrica, to_CHAR(pd_fecha_completacion,'rrrr') fecha
 from pedido, fabrica 
 where fa_id = pd_fk_tienda and pd_fecha_completacion <= pd_fec_objetivo
-group by fa_nombre, to_date(pd_fecha_completacion,'dd/mm/rrrr')
+group by fa_nombre, to_CHAR(pd_fecha_completacion,'rrrr')
 ;
 /*envian tarde*/
-select count(pd_orden) NroPedidos, fa_nombre fabrica, to_date(pd_fecha_completacion,'dd/mm/rrrr') fecha
+select count(pd_orden) NroPedidos, fa_nombre fabrica, to_char(pd_fecha_completacion,'rrrr') fecha
 from pedido, fabrica 
 where fa_id = pd_fk_tienda and pd_fecha_completacion >= pd_fec_objetivo
-group by fa_nombre, to_date(pd_fecha_completacion,'dd/mm/rrrr')
-;
+group by fa_nombre, to_char(pd_fecha_completacion,'rrrr');
