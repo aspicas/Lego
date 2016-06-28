@@ -3,7 +3,6 @@
 /* Created on:     6/26/2016 4:47:00 PM                         */
 /*==============================================================*/
 
-
 DROP SEQUENCE SQ_FABRICA_E;
 DROP SEQUENCE SQ_CLIENTE_T;
 DROP SEQUENCE SQ_PAIS_P;

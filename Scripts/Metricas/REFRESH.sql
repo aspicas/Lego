@@ -20,7 +20,7 @@ END;
 /
 BEGIN
   DBMS_SCHEDULER.create_job (
-    job_name        => 'EFICI_ACTU',
+    job_name        => 'PREFE_ACTU',
     job_type        => 'PLSQL_BLOCK',
     job_action      => 'ACT_PREFERENCIA ; END;',
     start_date      => SYSDATE+1,
@@ -29,7 +29,7 @@ BEGIN
 END;
 /
 
-SELECT * FROM DBA_SCHEDULER_JOBS;
+--SELECT * FROM DBA_SCHEDULER_JOBS;
 
 
 CREATE OR REPLACE PROCEDURE ACT_TOUR IS
