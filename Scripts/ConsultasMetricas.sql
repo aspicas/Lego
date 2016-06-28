@@ -32,7 +32,7 @@ WHERE cl.CL_ID = pr.PR_FK_CLASIFICACION
 GROUP BY cl.CL_NOMBRE
 ORDER BY COUNT(dF.DF_ID) DESC;
 
-/*Metrica 6*/
+/*Listo -- Metrica 6*/
 /*% de visitantes por nacionalidad de los ultimos 4 anos*/
 select to_char(fe_fecha,'rrrr') fecha, pa_nacionalidad nacionalidad,
 round(((select count(pa_nacionalidad) from fechas, cliente_visitante, pais, tope 
@@ -40,10 +40,9 @@ where pa_id = cv_fk_nacionalidad and fe_fecha = tope_fecha and  cv_id = tope_cli
 (select count(pa_nacionalidad) from fechas, cliente_visitante, pais, tope where pa_id = cv_fk_nacionalidad and fe_fecha = tope_fecha and  cv_id = tope_cliente))*100,2) porc
 from fechas, cliente_visitante, pais p, tope
 where pa_id = cv_fk_nacionalidad and fe_fecha = tope_fecha and  cv_id = tope_cliente
-GROUP by to_char(fe_fecha,'rrrr'), pa_nacionalidad
-;
+GROUP by to_char(fe_fecha,'rrrr'), pa_nacionalidad;
 
-/*Metrica 7*/
+/*Listo -- Metrica 7*/
 /*pedidos enviados antes de los 5 dias*/
 select count(pd_orden) NroPedidos, fa_nombre fabrica, to_CHAR(pd_fecha_completacion,'rrrr') fecha
 from pedido, fabrica 
