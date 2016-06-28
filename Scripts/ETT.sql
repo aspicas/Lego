@@ -1,15 +1,3 @@
-BEGIN
-  DBMS_SCHEDULER.create_job (
-    job_name        => 'ACTUALIZAR1',
-    job_type        => 'PLSQL_BLOCK',
-    job_action      => 'DBMS_SNAPSHOT.REFRESH(MV_PEDIDOSANTES5DIAS); END;',
-    start_date      => SYSDATE+1,
-    repeat_interval => 'freq=yearly;',
-    enabled         => TRUE);
-END;
-/
-SELECT * FROM DBA_SCHEDULER_JOBS;
-
 /*Metrica 6*/
 /*% de visitantes por nacionalidad de los ultimos 4 anos*/
 /*extraccion*/
